@@ -1,0 +1,35 @@
+
+import java.util.Scanner;
+
+public class Cojita_Stefan_Activitat_3_9 {
+
+	public static void main(String[] args) {
+		
+		int x; // Declaramos 'x' que será el número que ha introducido el usuario. 
+		int y = (int)(Math.random() * 100 + 1); // Declaramos 'y' que será el número aleatorio generado. El programa lo elegirá del 1 al 100.
+		String z; // Declaramos 'z' que verificará si el número que introducirá el usuario es correcto. 
+		Scanner sc = new Scanner(System.in); // Creamos una entrada de datos.
+		
+		// System.out.println(y); // Mostramos el número aleatorio generado. Esto solo está para hacer pruebas. Lo comentamos obviamente para que el usuario no sepa el número que se generó en cuestión. 
+		
+		System.out.println("Bienvenido. ¡Jugaremos a un juego! Hay un número secreto del 1 al 100 y tienes 4 intentos para adivinarlo. "); // Damos el mensaje de bienvenida al usuario, explicando como funciona el juego.
+		System.out.println("Primer intento. Introduce el número: "); // Indicamos al usuario que es su primer intento y le pedimos que introduzca el número.
+		x = sc.nextInt(); // Guardamos el número introducido por el usuario.
+		
+		z = (x == y) ? "" : "Número incorrecto. Segundo intento. Introduce el número: "; // Verificamos si el número que introdució el usuario es correcto. En caso de que si, saltará directamente al final y nos indicará que lo hemos adivinado correctamente. En caso contrario, el programa nos indicará que hemos fallado y nos recordará los intentos que llevamos.
+		System.out.println(z); // Mostramos la respuesta del programa.
+		x = (x == y) ? x : sc.nextInt(); // Verificamos si el número es correcto, si no lo es, guardamos el nuevo número introducido por el usuario.
+		
+		z = (x == y) ? "" : "Número incorrecto. Tercer intento. Introduce el número: "; // Verificamos si el número que introdució el usuario es correcto. En caso de que si, saltará directamente al final y nos indicará que lo hemos adivinado correctamente. En caso contrario, el programa nos indicará que hemos fallado y nos recordará los intentos que llevamos.
+		System.out.println(z); // Mostramos la respuesta del programa.
+		x = (x == y) ? x : sc.nextInt(); // Verificamos si el número es correcto, si no lo es, guardamos el nuevo número introducido por el usuario.
+		
+		z = (x == y) ? "" : "Número incorrecto. Último intento. Introduce el número: "; // Verificamos si el número que introdució el usuario es correcto. En caso de que si, saltará directamente al final y nos indicará que lo hemos adivinado correctamente. En caso contrario, el programa nos indicará que hemos fallado y nos recordará los intentos que llevamos.
+		System.out.println(z);
+		x = (x == y) ? x : sc.nextInt(); // Verificamos si el número es correcto, si no lo es, guardamos el nuevo número introducido por el usuario.
+		
+		z = (x == y) ? "Felicidades. Has ganado." : "Número incorrecto. Ya has hecho todos los intentos. Game Over. "; // Verificamos si el número que introdució el usuario es correcto. En caso de que si, nos indicará que hemos ganado. Si no, nos indicará que hemos perdido porque hemos agotado todos los intentos.
+		System.out.println(z); // Mostramos la respuesta del programa.
+		
+	}
+}

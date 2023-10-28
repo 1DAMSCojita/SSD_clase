@@ -1,0 +1,18 @@
+
+import java.util.Scanner; // Importamos la libreria para el scanner.
+
+public class Cojita_Stefan_Activitat_3_6 {
+
+	public static void main(String[] args) {
+		int x; // Declaramos la variable x.
+		Scanner sc = new Scanner(System.in); // Creamos una entrada de datos.
+		
+		System.out.println("Escribe un numero para calcular su valor absoluto: "); // Pedimos al usuario que introduzca el número en el que quiera saber el valor absoluto.
+		x = sc.nextInt(); // Guardamos el número introducido por el usuario.
+		
+		x = (x >= 0) ? x : -x; // Hacemos el cálculo para obtener el valor absoluto. Miramos si x es igual o mayor a 0, en su caso se mostrará el número. Si es negativo, pasará a ser positivo.
+		
+		System.out.println("El resultado es: " + x ); // Imprimimos el resultado por consola.
+	
+	}
+}

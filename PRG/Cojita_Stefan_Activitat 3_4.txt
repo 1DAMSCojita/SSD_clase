@@ -1,0 +1,29 @@
+
+import java.util.Scanner;
+
+public class Cojita_Stefan_Activitat_3_4 {
+
+	public static void main(String[] args) {
+		
+		int primer_trimestre; // Declaramos la variable primer_trimestre.
+		int segon_trimestre; // Declaramos la variable segon_trimestre.
+		int tercer_trimestre; // Declaramos la variable tercer_trimestre.
+		Scanner sc = new Scanner(System.in); // Creamos una entrada de datos.
+		
+		System.out.println("Nota del primer trimestre: "); // Preguntamos la nota del primer trimestre.
+		primer_trimestre = sc.nextInt(); // Guardamos el valor introducido por el usuario en la nota del primer trimestre.
+		
+		System.out.println("Nota del segundo trimestre: "); // Preguntamos la nota del segundo trimestre. 
+		segon_trimestre = sc.nextInt(); // Guardamos el valor introducido por el usuario en la nota del segundo trimestre.
+		
+		System.out.println("Nota del tercer trimestre: "); // Preguntamos la nota del tercer trimestre.
+		tercer_trimestre = sc.nextInt(); // Guardamos el valor introducido por el usuario en la nota del tercer trimestre.
+		
+		int mitjana_enter = ((primer_trimestre + segon_trimestre + tercer_trimestre) / 3); // Creamos una nueva variable que servirá para hacer directamente la media del número entero. Sumamos las tres notas y la dividimos entre tres para obtenerla.
+		double mitjana_decimal = ((primer_trimestre + segon_trimestre + tercer_trimestre) / 3.0); // Creamos una nueva variable que servirá para hacer directamentela media del número decimal. Sumamos las tres notas y la dividimos entre tres para obtenerla. En este caso, introduciremos el número "3.0", ya que aunque hayamos declarado la variable como un double no funcionará (o al menos no me funciona, lo introduce como "4.0" como por ejemplo, en vez de "4.6666...7".)
+		
+		System.out.println("Nota entera: " + mitjana_enter); // Imprimimos la nota entera por consola.
+		System.out.println("Boletín de calificación: " + mitjana_decimal); // Imprimimos la nota que se mostrará en el boletín (y en decimal) por consola.
+		
+	}
+}

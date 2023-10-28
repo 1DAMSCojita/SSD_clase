@@ -1,0 +1,42 @@
+
+import java.util.Scanner; // Importamos la librería para usar el escáner.
+
+public class Cojita_Stefan_Activitat_3_7 {
+
+	public static void main(String[] args) {
+		
+		boolean enchufada;
+		boolean fundida; 
+		boolean espatllat; 
+		boolean resultat; 
+		String resposta;
+		// ↑ Declaramos las variables ↑
+		Scanner sc = new Scanner(System.in); // Creamos una entrada de datos.
+		
+		System.out.println("La lámpara no funciona. ¿Está enchufada? -> true (si) - false (no)"); // Preguntamos al usuario si la lámpara está enchufada.
+		enchufada = sc.nextBoolean(); // Guardamos la respuesta del usuario. 
+		resposta = (enchufada == true) ? "" : "Enchufamos la lámpara. ¿Está funcionando? "; // Preguntamos al usuario si la lámpara funciona después de ser enchufada.
+		System.out.println(resposta); // Guardamos la respuesta del usuario.
+		resultat = (enchufada == true) ? false : sc.nextBoolean(); // Si la lámpara está enchufada, pide si está funcionando y guarda la respuesta en la variable 'resultat'. En caso contrario, establece la variable como false y continua el camino.
+		
+		resposta = (resultat == false) ? "La bombilla... ¿Está fundida? " : ""; // Preguntamos al usuario si la bombilla está fundida después de que el resultado anterior fuera false. 
+		System.out.println(resposta); // Guardamos la respuesta del usuario. 
+		fundida = (resultat == false) ? sc.nextBoolean() : false; // Si resultat sigue siendo false, guardamos la respuesta en 'fundida'. Si no, guardamos 'fundida' como false.  
+		resposta = (fundida == true) ? "Cambiamos la bombilla. ¿Funciona ahora? " : ""; // Le indicamos al usuario que hemos cambiado la bombilla en caso de que esté fundida. 
+		System.out.println(resposta); // Guardamos la respuesta del usuario.
+		resultat = (resultat == false) ? (fundida == true) ? sc.nextBoolean() : false : true; // Si resultat es false, verifica si está fundida, y si lo está, pregunta si funciona. Si es true, lo guardamos como false sin preguntar. 
+		
+		resposta = (resultat == false) ? "El interruptor... ¿Está estropeado? " : "" ; // Preguntamos al usuario si el interruptor está estropeado después de que el resultado anterior fuera false.
+		System.out.println(resposta); // Guardamos la respuesta del usuario.
+		espatllat = (resultat == false) ? sc.nextBoolean() : true; // Si resultat es false, verifica si el interruptor está estropeado, y si lo está, pregunta si funciona. En caso de que sea true, establece la variable 'espatllat' en true sin preguntar.
+		
+		resposta = (resultat == false) ? (espatllat == true) ? "Cambiamos el interruptor. ¿Funciona? " : "" : ""; // Indicamos al usuario que cambiamos el interruptor si está estropeado. Preguntamos si funciona.
+		System.out.println(resposta); // Guardamos la respuesta del usuario.
+		resultat = (resultat == false) ? (espatllat == true) ? sc.nextBoolean() : false : true; // Si resultat es false y el interruptor está estropeado, pregunta si funciona. Si es true, establece 'resultat' en false sin preguntar.
+ 		
+		resposta = (resultat == true) ? "Problema resuelto. Fin. " : "Compra otra lámpara. ";  // Final. Si el resultado es positivo. Signfica que el problema está resuelto. Por lo que, mostrará que se acabó. En caso contrario, nos dirá como última opción al ver que nada funciona con que compremos otra lámpara nueva.
+		
+		System.out.println(resposta); // Imprimimos el resultado por consola.
+		
+	}
+}

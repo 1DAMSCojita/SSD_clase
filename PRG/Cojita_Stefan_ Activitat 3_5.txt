@@ -1,0 +1,37 @@
+
+import java.util.Scanner;
+
+public class Cojita_Stefan_Activitat_3_5 {
+
+	public static void main(String[] args) {
+		
+		double metres_curt = 0.0;
+		double metres_llarg= 0.0;
+		double zona_jardi= 0.0;
+		double zona_edifici= 0.0;
+		double area = 0.0;
+		double preu_jardi = 0.0;
+		double preu_edifici = 0.0;
+		double preu_total = 0.0; // Declaramos todas las variables que vamos a usar.
+		Scanner sc= new Scanner(System.in); // Creamos una entrada de datos.
+		
+		System.out.println("Introduce la longitud de metros del lado corto: "); // Pedimos al usuario el número de metros del lado corto.
+		metres_curt = sc.nextDouble(); // Guardamos el número que el usuario ha introducido.
+		
+		System.out.println("Introduce la longitud de metros del lado largo: "); // Pedimos al usuario el número de metros del lado largo.
+		metres_llarg = sc.nextDouble(); // Volvemos a guardar el número que el usuario ha introducido.
+		
+		area = metres_curt * metres_llarg; // Calculamos el área.
+		
+		zona_jardi = area * 20 / 100; // Calculamos el área de la zona ajardinada, la cuál es el 20% del área total.
+		zona_edifici = area - zona_jardi; // Calculamos el área  de la zona edificada, restando el área por la de la zona ajardinada.
+		
+		preu_jardi = zona_jardi * 55; // Calculamos el precio de la zona ajardinada multiplicando el área de la zona por el precio por metro cuadrado.
+		preu_edifici = zona_edifici * 100; // Calculamos el precio de la zona edificada multiplicando el área de la zona por el precio por metro cuadrado.
+		preu_total = preu_jardi + zona_edifici; // Obtenemos el precio total sumando el precio de la zona ajardinada con la de la zona edificable.
+		preu_total = (area > 150)? preu_total * 1.1 : preu_total; // Aplicamos un aumento del 10% al precio total SI el área de la zona edificable es mayor que 150 metros cuadrados usando un operador ternario.
+		
+		System.out.println("El precio de la zona ajardinada es:  " + preu_jardi + '\n' + "El precio de la zona edificable es: " + preu_edifici + '\n' + "Precio total: " + preu_total);	// Imprimimos todos los resultados por consola.
+
+	}
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title> Exercicis Formularis IV - Exercici 2 </title>
+
+    </head>
+    <body>
+        <form>
+            <fieldset>
+            <legend> Indique sus preferencias por favor </legend>
+            <label for="date" name="fecha"> Elija una fecha: </label>
+            <input type="date" name="fecha">
+            <br/>
+            <label for="select-file" name="archivos"> Elija un fichero: </label> 
+            <input type="file" name="archivos">
+            <br/>
+            <input type="radio" name="procesador" value="procesadoramd">
+            <label for="procesador"> AMD </label>
+            <input type="radio" name="procesador" value="procesadorintel_i5">
+            <label for="procesador"> Intel i5 </label>
+            <input type="radio" name="procesador" value="procesadorintel_i7">
+            <label for="procesador"> Intel i7 </label>
+            </fieldset>
+            <fieldset>
+            <legend> Indique sus preferencias por favor </legend>
+            <input type="radio" name="asignatura" value="asignaturamatematicas">
+            <label for="procesador"> Matemáticas </label>
+            <input type="radio" name="asignatura" value="asignaturahistoria">
+            <label for="procesador"> Historia </label>
+            <input type="radio" name="asignatura" value="asignaturageografia">
+            <label for="procesador"> Geografía </label>
+            <input type="radio" name="asignatura" value="asignaturalengua">
+            <label for="procesador"> Lengua </label>
+            <br/>
+            <label for="nombre"> Nombre </label>
+            <input type="text" name="nombre">
+            <br/>
+            <label for="apellidos"> Apellidos </label>
+            <input type="text" name="apellidos">
+            <br/>
+            <label for="dirección"> Direccion </label>
+            <input type="text" name="dirección">
+            <br/>
+            <br/>
+            <label for="color"> Elija un color: </label>
+            <input type="color" name="color">
+            <br/>
+            <textarea name="cuadro" rows="6" cols="50" placeholder="Utilice este cuadro para escribir "></textarea>
+            <br/>
+            <label for="date" name="fecha"> Elija una fecha: </label>
+            <input type="date" name="fecha">
+            <br/>
+            <select name="idioma">
+                <option value="ingles"> Inglés </option>
+                <option value="aleman"> Alemán </option>
+                <option value="frances"> Francés </option>
+            </select>
+            <br/>
+            <label for="hora"> Elija una hora: </label>
+            <input type="time" name="hora">
+            <br/>
+            <label for="select-file" name="archivos"> Elija un fichero: </label> 
+            <input type="file" name="archivos">
+            <br/>
+            <input type="checkbox" name="sexo">
+            <label for="sexo" value="sexomujer"> Mujer </label>
+            <input type="checkbox" name="sexo">
+            <label for="sexo" value="sexohombre"> Hombre </label>
+            </fieldset>
+        </form>
+    </body>
+</html>

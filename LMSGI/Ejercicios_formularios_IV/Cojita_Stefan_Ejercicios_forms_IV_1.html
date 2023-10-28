@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title> Exercicis Formularis IV - Exercici 1 </title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+            <legend> Rellenar </legend>
+            <input type="radio" name="idioma" value="idiomaingles">
+            <label for="idiomaingles"> Inglés </label>
+            <br/>
+            <input type="radio" name="idioma" value="idiomaaleman">
+            <label for="idiomaaleman"> Alemán </label>
+            <br/>
+            <input type="radio" name="idioma" value="idiomafrances">
+            <label for="idiomafrances"> Francés </label>
+            <br/>
+            <br/>
+            <select name="conector">
+                <option value="usb"> USB </option>
+                <option value="pararelo"> Pararelo </option>
+                <option value="ps2"> PS2 </option>
+            </select>
+            <br/>
+            <label for="nombre"> Nombre </label>
+            <input type="text" name="nombre">
+            <br/>
+            <label for="apellidos"> Apellidos </label>
+            <input type="text" name="apellidos">
+            </fieldset>
+            <fieldset>
+            <legend> Indique sus preferencias por favor </legend>
+            <select name="sexo" size="4">
+                <option value="hombre"> Hombre </option>
+                <option value="mujer"> Mujer </option>
+            </select>
+            <br/>
+            <input type="checkbox" name="sexo">
+            <label for="sexo" value="mujer"> Mujer </label>
+            <br/>
+            <input type="checkbox" name="sexo">
+            <label for="sexo" value="hombre"> Hombre </label>
+            <br/>
+            <br/>
+            <label for="date" name="fecha"> Elija una fecha: </label>
+            <input type="date" name="fecha">
+            </fieldset>
+        </form>
+    </body>
+</html>

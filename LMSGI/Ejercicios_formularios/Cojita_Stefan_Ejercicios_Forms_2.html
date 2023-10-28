@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title> Formulario de registro - Mi web </title>
+    </head>
+    <body>
+        <h1> Formulario de registro </h1>
+        <form action="" method="GET">
+            <label for="name"> Nombre: </label>
+            <input type="text" id="name" maxlength="50"/>
+            <br/>
+            <br/>
+            <label for="surname"> Apellidos: </label>
+            <input type="text" id="surname" maxlength="50"/>
+            <br/>
+            <br/>
+            <label for="sexo"> Sexo: </label>
+            <input type="radio" id="hombre" name="sexo">
+            <label for="hombre"> hombre </label>
+            <input type="radio" id="mujer" name="sexo">
+            <label for="mujer"> mujer </label>
+            <br/>
+            <br/>
+            <label for="email"> Correo: </label>
+            <input type="text" id="email">
+            <br/>
+            <br/>
+            <label for="población"> Población: </label>
+            <select>
+                <option value="Alicante"> Alicante </option>
+                <option value="Madrid"> Madrid </option>
+                <option value="Sevila"> Sevilla </option>
+                <option value="Valencia"> Valencia </option>
+            </select>
+            <br/>
+            <br/>
+            <label for="descripcion"> Descripción: </label>
+            <textarea name="textarea" rows="10" cols="50"></textarea>
+            <br/>
+            <br/>
+            <input type="checkbox" id="desear_notificaciones" checked="checked">
+            <label for="desear_notificaciones"> Deseo recibir información sobre novedades y ofertas </label>
+            <br/>
+            <br/>
+            <input type="checkbox" id="declarar_leido">
+            <label for="declarar_leido"> Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos </label>
+            <br/>
+            <br/>
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>

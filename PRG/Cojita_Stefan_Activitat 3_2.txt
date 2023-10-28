@@ -1,0 +1,14 @@
+
+public class Cojita_Stefan_Activitat_3_2 {
+
+    public static void main(String[] args) {
+    	
+        boolean esCapital = false; // Declaramos la variable esCapital (en este caso le ponemos false)
+        int nombreDeCiutadans = 650000; // Declaramos la variable nombredeCiutadans y le ponemos el número para hacer pruebas.
+        double impostPerCiutada = 900000000; // Declaramos la variable impostPerCiutada y le ponemos el medio mensual que paga un ciutadano. Lo que queramos para hacer pruebas. 
+
+        boolean metropolis = (esCapital && nombreDeCiutadans > 100000) || (!esCapital && nombreDeCiutadans > 200000 && impostPerCiutada > 720000000); // Evaluamos si la ciudad es una metrópolis, lo será si cumple con una de estas condiciones: 1. Es una capital con más de 100,000 ciutadanos o 2. No es una capital, pero tiene más de 200.000 ciutadanos y un impuesto mayor a 720,000,000.
+
+        System.out.println(metropolis); // Imprimimos el resultado por consola.
+    }
+}

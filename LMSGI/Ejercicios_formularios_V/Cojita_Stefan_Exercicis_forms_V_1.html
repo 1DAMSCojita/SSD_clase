@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title> Ejercicios Formularios V - Ejercicio 1 </title>
+	</head>
+	<body>
+		<form>
+			<fieldset>
+				<legend> Completar </legend>
+				<label for="color"> Elija un color: </label>
+				<input type="color" id="color" name="name">
+				<br/>
+				<label for="nombre"> Nombre </label>
+				<input type="text" name="nombre">
+				<br/>
+				<label for="apellidos"> Apellidos </label>
+				<input type="text" name="apellidos">
+				<br/>
+				<label for="tel"> Teléfono: </label>
+				<input type="tel" id="tel" name="name">
+				<br/>
+				<br/>
+				<input type="checkbox" name="asignatura" value="asignaturalengua">
+				<label for="asignatura"> Lengua </label>
+				<input type="checkbox" name="asignatura" value="asignaturamatematicas">
+				<label for="asignatura"> Matemáticas </label>
+				<input type="checkbox" name="asignatura" value="asignaturahistoria">
+				<label for="asignatura"> Historia </label>
+				<input type="checkbox" name="asignatura" value="asignaturageografia">
+				<label for="asignatura"> Geografía </label>
+				<br/>
+				<label for="archivo"> Elija un archivo: </label>
+				<input type="file" name="archivo">
+				<br/>
+				<textarea cols="59" rows="5" placeholder="Por favor, escriba aqui"></textarea>
+				<br/>
+				<input type="radio" name="formato" value="formatojpg">
+				<label for="formato"> JPG </label>
+				<input type="radio" name="formato" value="formatopng">
+				<label for="formato"> PNG </label>
+			</fieldset>
+			<fieldset>
+				<legend> Completar </legend>
+				<label for="nombre"> Nombre </label>
+				<input type="text" name="nombre">
+				<br/>
+				<br/>
+				<label for="apellidos"> Apellidos </label>
+				<input type="text" name="apellidos">
+				<br/>
+				<br/>
+				<label for="direccion"> Dirección </label>
+				<input type="text" name="direccion">
+				<br/>
+				<br/>
+				<label for="fecha"> Elija una fecha: </label>
+				<input type="date" name="fecha">
+				<br/>
+				<select name="conector" size="4">
+					<option value="USB"> USB </option>
+					<option value="Paralelo"> Paralelo </option>
+					<option value="PS2"> PS2 </option>
+				</select>
+				<br/>
+				<br/>
+				<label for="fitcheros"> Elija un fichero: </label>
+				<input type="file" name="fitcheros">
+			</fieldset>
+		</form>
+	</body>
+</html>

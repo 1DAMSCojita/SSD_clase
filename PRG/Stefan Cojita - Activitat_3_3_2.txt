@@ -1,0 +1,23 @@
+
+import java.util.Scanner;
+
+public class Cojita_Stefan_Activitat_3_3_2 {
+
+	public static void main(String[] args) {
+		
+		double metres; // Declaramos la variable metres y le damos el valor de los metros que queramos pasar en centímetros y/o kilómetros.
+		double centimetres; // Declaramos la variable centimetres.
+		double kilometres; // Declaramos la variable kilometres.
+		
+		System.out.println("Introduce los metros que quieras pasar: "); // Pedimos al usuario que introduzca el número de metros que quiera pasar.
+		Scanner sc = new Scanner(System.in); // Creamos una entrada de datos.
+		
+		metres = sc.nextDouble(); // Guardamos el nombre de la variable metres.
+		
+		centimetres = (metres * 100); // Hacemos el cálculo para pasar de metros a centímetros. Multiplicamos metres x 100.
+		kilometres = (metres / 1000); // Hacemos el cálculo para pasar de metros a kilómetros. Dividimos metres / 1000.
+		
+		System.out.println(metres + " metros son: " + centimetres + " en centímetros y " + kilometres + " en kilómetros. "); // Imprimimos el resultado por consola.
+		
+	}
+}

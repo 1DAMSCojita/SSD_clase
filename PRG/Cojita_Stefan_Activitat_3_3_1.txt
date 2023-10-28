@@ -1,0 +1,17 @@
+
+	public class Cojita_Stefan_Activitat_3_3_1 {
+
+	public static void main(String[] args) {
+		
+		double Fahrenheit = 212; // Declaramos la variable Fahrenheit y le ponemos de valor lo que queramos transformar en centígrados.
+		double Celsius = 0; // Declaramos la variable Celsius.
+		
+		Celsius = ((Fahrenheit - 32) * 5 / 9); // Hacemos el cálculo para pasar de fahrenheit a celsius. 
+		
+		System.out.println(Fahrenheit + " son: " + Celsius + " en centígrados. "); // Imprimimos el resultado por consola.
+	
+	}
+}
+
+
+

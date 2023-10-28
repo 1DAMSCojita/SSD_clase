@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title> Ejercicios Formularios V - Ejercicio 2 </title>
+	</head>
+	<body>
+		<form>
+			<fieldset>
+				<legend> Preferencias </legend>
+				<label for="fecha"> Elija una fecha: </label>
+				<input type="date" name="fecha">
+				<br/>
+				<label for="hora"> Elija la hora: </label>
+				<input type="time" name="hora">
+				<br/>
+				<label for="archivo"> Elija un archivo: </label>
+				<input type="file" name="archivo">
+				<br/>
+				<select name="lenguaje" size="4">
+					<option value="python"> Python </option>
+					<option value="html"> HTML </option>
+					<option value="visual_basic"> Visual Basic </option>
+					<option value="java"> Java </option>
+				</select>
+				<br/>
+				<label for="color"> Elija un color: </label>
+				<input type="color" id="color" name="name">
+				<br/>
+				<input type="checkbox" name="hardware" value="hardwaremonitorled">
+				<label for="hardware"> Monitor LED </label>
+				<br/>
+				<input type="checkbox" name="hardware" value="hardwaressd">
+				<label for="hardware"> SSD </label>
+				<br/>
+				<br/>
+				<textarea cols="48" rows="5" placeholder="Inserte aquí el texto"></textarea>
+				<br/>
+				<label for="instituto"> Instituto </label>
+				<input type="text" name="nombre">
+				<br/>
+				<label for="estudios"> Estudios elegidos </label>
+				<input type="text" name="estudios">
+				<br/>
+				<label for="nombre"> Nombre </label>
+				<input type="text" name="nombre">
+				<br/>
+				<label for="apellidos"> Apellidos </label>
+				<input type="text" name="apellidos">
+				<br/>
+				<label for="email"> Email </label>
+				<input type="email" name="email">
+				<br/>
+				<br/>
+				<input type="radio" name="conector" value="conectorusb">
+				<label for="conector"> USB </label>
+				<br/>
+				<input type="radio" name="conector" value="conectorparalelo">
+				<label for="conector"> Paralelo </label>
+				<br/>
+				<input type="radio" name="conector" value="conectorps2">
+				<label for="conector"> PS2 </label>	
+			</fieldset>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,26 @@
+
+import java.util.Scanner;
+
+public class Cojita_Stefan_Activitat_3_8 {
+
+	public static void main(String[] args) {
+		
+		int x; // Declaramos la variable x que es el número introducido por el usuario.
+		int y; // Declaramos la variable y que servirá para ajustar el número que introduzca el usuario a un múltiplo de 7.
+		int z; // Declaramos la variable z que guardará la diferencia entre x & y.
+		int resultat_final; // Declaramos la variable resultat_final.
+		Scanner sc = new Scanner(System.in); // Creamos una entrada de datos.
+		
+		System.out.println("Introduce un número y te diré lo que le falta para que sea múltiple de 7: "); // Pedimos al usuario que introduzca el número.
+		x = sc.nextInt(); // Guardamos el número introducido por el usuario. 
+		
+		y = x + (7 - (x % 7)); // Restamos el residuo de la división entre x y 7 a 7, lo sumamos con x posteriormente y lo guardamos en la variable y.
+		
+		z = y - x; // Calculamos la diferencia entre x & y que será guardado en z.
+		
+		resultat_final = (z == 7) ?  z * 0 : z; // Si z es igual a 7, el resultado es 0. De lo contrario, será el mismo número. Luego lo guardamos en la variable de resultat_final.
+		
+		System.out.println(resultat_final); // Imprimimos el resultado por consola.
+		
+	}
+}
