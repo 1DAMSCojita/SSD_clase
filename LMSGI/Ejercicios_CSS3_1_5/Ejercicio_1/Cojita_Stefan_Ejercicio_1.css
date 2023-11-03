@@ -1,0 +1,35 @@
+
+body {
+    background-color: #CFC;
+}
+
+p, ul {
+    color: #00f;
+    font-family: Georgia, Cambria, serif;
+    size: 16px;
+}
+
+h1 {
+    color: #F00;
+    font-family: Verdana, Calibri, sans-serif;
+    size: 32px;
+}
+
+h2 {
+    color: #A00;
+    font-family: Verdana, Calibri, sans-serif;
+    size: 24px;
+}
+
+span {
+    color: #060;
+}
+
+strong {
+    size: 20px;
+}
+
+em {
+    color: #FFF;
+    background-color: #000;
+}
