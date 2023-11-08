@@ -1,0 +1,18 @@
+
+h1 {
+    border: 2px solid #00F;
+}
+
+h2 {
+    border: 2px solid #AAA;
+}
+
+.listas {
+    border: 2px solid #0F0;
+}
+
+#primera_lista {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 15px;
+}
