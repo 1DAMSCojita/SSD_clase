@@ -1,6 +1,6 @@
 
 body {
-    width: 960px;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -10,12 +10,12 @@ h1 {
 
 .datos_libro {
     float: left;
-    width: 260px;
+    width: 25%;
 }
 
 .principal {
     float: right;
-    width: 700px;
+    width: 75%;
 }
 
 .lista_1 {
@@ -28,14 +28,17 @@ h1 {
     float: left;
     width: 33%;
     list-style-type: none;
+    margin-right: 2px;
 }
 
 .lista_3 {
     float: left;
     width: 33%;
     list-style: none;
+    margin-right: 2px;
 }
 
 .lista {
     padding: 0;
+    margin-right: 2px;
 }
