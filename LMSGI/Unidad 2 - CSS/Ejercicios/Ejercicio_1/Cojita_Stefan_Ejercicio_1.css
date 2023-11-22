@@ -1,0 +1,33 @@
+
+.primera_superior_izq {
+	display: inline-block;
+	width: 33%;
+}
+
+.primera_superior_der {
+	display: inline-block;
+	width: 66%;
+}
+
+.centro_izq {
+	display: inline-block;
+	width: 25%;
+}
+
+.centro_central {
+	display: inline-block;
+	width: 50%;
+}
+
+.centro_der {
+	display: inline-block;
+	width: 25%;
+}
+
+.parte_abajo {
+	position: fixed;
+	width: 100%;
+	background-color: brown;
+	bottom: 0;
+}
+
