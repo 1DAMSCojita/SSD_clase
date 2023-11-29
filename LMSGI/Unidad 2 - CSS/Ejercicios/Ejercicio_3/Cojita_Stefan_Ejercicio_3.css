@@ -1,0 +1,21 @@
+
+.contenedor_izquierdo {
+    width: 20%;
+    display: inline-block;
+    position: sticky;
+    border-style: solid;
+
+}
+
+.contenedor_derecho {
+    display: inline-block;
+    width: 74%;
+    border-style: solid;
+
+}
+
+img {
+    border-style: solid;
+    width: 40%;
+    position: relative;
+}

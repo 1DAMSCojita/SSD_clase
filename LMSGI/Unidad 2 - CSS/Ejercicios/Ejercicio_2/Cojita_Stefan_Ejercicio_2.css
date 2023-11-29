@@ -1,0 +1,42 @@
+
+.barra_de_enlaces {
+    width: 25%;
+    float: left;
+    background-color: red;
+}
+
+.contenedor_derecha {
+    position: relative;
+    right: 1px;
+    width: 75%;
+    float: right;
+    background-color: aliceblue;
+}
+
+.lemas {
+    margin: 1%;
+    background-color: green;
+}
+
+.contenido {
+    margin: 1%;
+    width: 50%;
+    display: inline-block;
+    background-color: orange;
+}
+
+.publicidad {
+    box-sizing: border-box;
+    width: 40%;
+    display: inline-block;
+    background-color: blueviolet;
+}
+
+.zona_inferior {
+    width: 50%;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-color: burlywood;
+    text-align: right;
+}
