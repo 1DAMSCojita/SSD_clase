@@ -1,14 +1,20 @@
 
-.contenedor_izquierdo {
-    width: 20%;
-    display: inline-block;
-    position: sticky;
-    border-style: solid;
+body {
+    background-image: url("https://img.freepik.com/foto-gratis/carton-blanco-arrugado_95678-119.jpg");
+} 
 
+.contenedor_izquierdo {
+    position: sticky;
+    top: 40%;
+    float: left;
+    width: 24%;
+    border-style: solid;
 }
 
 .contenedor_derecho {
     display: inline-block;
+    position: relative;
+    left: 10px;
     width: 74%;
     border-style: solid;
 
@@ -18,4 +24,5 @@ img {
     border-style: solid;
     width: 40%;
     position: relative;
+    left: 10%;
 }

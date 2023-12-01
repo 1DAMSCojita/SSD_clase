@@ -1,0 +1,21 @@
+
+.contenedor_izquierdo {
+    position: sticky;
+    top: 0;
+    width: 30%;
+    float: left;
+}
+
+.publicidad_extra {
+    display: inline-block;
+    width: 18%;
+    margin: 0%;
+    border: 0%;
+    position: fixed;
+    left: 11%;
+}
+
+.contenedor_derecho {
+    display: inline-block;
+    width: 50%;
+}

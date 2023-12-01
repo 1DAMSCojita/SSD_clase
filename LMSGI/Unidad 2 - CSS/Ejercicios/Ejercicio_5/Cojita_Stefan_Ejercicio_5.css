@@ -1,0 +1,12 @@
+
+.contenedor_izquierdo {
+    position: sticky;
+    top: 0;
+    float: left;
+    width: 30%;
+}
+
+.contenedor_derecho {
+    display: inline-block;
+    width: 70%;
+}

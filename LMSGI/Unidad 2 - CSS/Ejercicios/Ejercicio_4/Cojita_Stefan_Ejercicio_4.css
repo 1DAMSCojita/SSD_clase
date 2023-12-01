@@ -1,0 +1,37 @@
+
+body {
+    background-color: grey;
+}
+
+.titulo {
+    background-color: #f8e494;
+    text-align: center;
+    border-style: solid;
+    font-size: 180%;
+}
+
+.titulo > strong {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.titulo > i {
+    font-family: "Segoe Script";
+}
+
+.contenedor_izquierdo {
+    border-style: solid;
+    border-width: 1px;
+    background-color: #e0c45c;
+    width: 60%;
+    padding: 1%;
+}
+
+.contenedor_derecho {
+    border-style: solid;
+    border-width: 1px;
+    width: 13%;
+    background-color: #e0c45c;
+    position: fixed;
+    left: 86%;
+    top: 6.9em;
+}
