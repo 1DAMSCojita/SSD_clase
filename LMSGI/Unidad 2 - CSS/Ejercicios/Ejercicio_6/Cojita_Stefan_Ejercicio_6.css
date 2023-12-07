@@ -13,6 +13,8 @@
     border: 0%;
     position: fixed;
     left: 11%;
+    border-style: solid;
+    border-width: 2px;
 }
 
 .contenedor_derecho {
