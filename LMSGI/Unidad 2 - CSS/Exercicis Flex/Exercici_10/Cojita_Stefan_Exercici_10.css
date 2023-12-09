@@ -1,0 +1,37 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vmin;
+    font-family: sans-serif;
+}
+
+.titulo {
+    padding: 20px;
+    background: #D08700;
+    height: 24px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+div {
+    text-align: center;
+}
+
+.principal {
+    display: flex;
+    height: 100%;
+}
+
+.lateral {
+    flex: 1 1 0;
+    padding: 24px;
+    background: #4D4F52;
+    color: white;
+}
+
+.contenedor_central {
+    flex: 2 1 0;
+    padding: 24px;
+}

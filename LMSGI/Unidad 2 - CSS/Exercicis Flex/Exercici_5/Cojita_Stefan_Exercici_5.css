@@ -1,0 +1,22 @@
+
+.principal {
+    display: flex;
+    min-height: 100vh;
+    font-family: sans-serif;
+    gap: 2px;
+}
+
+.principal .primer_contenedor, .principal .segundo_contenedor {
+    padding: 12px 24px;
+    height: 100vh;
+}
+
+.principal .primer_contenedor {
+    flex: 1;
+    background: rgb(133, 215, 239);
+}
+
+.principal .segundo_contenedor {
+    flex: 4;
+    background: rgb(193, 219, 210);
+}

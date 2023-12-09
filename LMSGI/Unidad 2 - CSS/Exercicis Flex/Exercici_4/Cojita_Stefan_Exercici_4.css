@@ -1,0 +1,13 @@
+
+.unico_contenedor {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    gap: 2px;
+    background: rgba(193, 219, 210, 1.00);
+    padding: 0;
+    list-style: none;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+}

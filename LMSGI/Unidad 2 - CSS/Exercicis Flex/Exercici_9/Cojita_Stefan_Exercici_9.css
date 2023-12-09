@@ -1,0 +1,27 @@
+
+body {
+    display: flex;
+    box-sizing: border-box;
+    padding: 20px;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.contenedor_izquierdo {
+    flex: 2;
+    padding: 12px;
+    background: rgba(14, 124, 116, 1.00);
+    color: white;
+}
+
+.contenedor_derecho {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.contenedor {
+    flex: 1 1 100%;
+    padding: 24px;
+    border: 1px solid lightgray;
+}

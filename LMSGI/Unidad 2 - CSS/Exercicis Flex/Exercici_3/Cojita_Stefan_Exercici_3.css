@@ -1,0 +1,14 @@
+
+ul {
+    display: flex;
+    justify-content: start;
+    gap: 2px;
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    flex: 1 1 0;
+    font-family: sans-serif;
+    background: rgba(123, 198, 199, 0.8);
+}

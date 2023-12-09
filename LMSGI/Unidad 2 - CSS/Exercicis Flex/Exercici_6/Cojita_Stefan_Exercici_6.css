@@ -1,0 +1,45 @@
+
+.principal {
+    display: flex;
+    gap: 2px;
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+.principal .barra_lateral_izq, .principal .contenido {
+    padding: 12px 24px;
+    height: 100vh;
+}
+
+.principal .barra_lateral_izq {
+    flex: 1;
+    background: rgb(133, 215, 239);
+}
+
+.principal .contenido {
+    flex: 8;
+    background: rgb(193, 219, 210);
+}
+
+ul {
+    display: flex;
+    gap: 2px;
+    justify-content: start;
+    padding: 0;
+    flex-direction: column;
+    flex-basis: 100%;
+    list-style: none;
+}
+
+ul li {
+    border-bottom: 1px solid black;
+}
+
+ul a, ul a:link {
+    display: block;
+    width: 100%;
+    padding: 8px 12px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+}
