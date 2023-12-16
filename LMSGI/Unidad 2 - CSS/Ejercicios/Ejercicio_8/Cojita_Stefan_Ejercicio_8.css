@@ -1,0 +1,34 @@
+
+.parte_de_arriba {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.contenedor_derecho {
+    float: left;
+	width: 20%;
+	text-align: center;
+}
+
+.publicidad {
+    float: left;
+	width: 20%;
+	text-align: center;
+}
+
+.contenedor_izquierdo {
+    float: left;
+	width: 60%;
+}
+
+.pie_de_pagina {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+a {
+    display: block;
+    margin: 100px;
+}

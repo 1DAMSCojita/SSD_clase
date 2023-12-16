@@ -1,0 +1,60 @@
+
+body {
+    background-color: #75c1c4;
+    margin: 2%;
+}
+
+header {
+    width: 50%;
+    border-style: solid;
+    margin-left: auto;
+}
+
+#navegacion {
+    float: left;
+    width: 15%;
+    background-color: rgb(231, 212, 126);
+}
+
+#contenido {
+    width: 80%;
+    float: right;
+    background-color: rgb(112, 207, 24);
+}
+
+#caja1 {
+    background-color: rgb(105, 156, 214);
+}
+
+#caja2 {
+    float: left; 
+	width: 49%;
+    background-color: rgb(230, 50, 230);
+}
+
+#caja3 {
+    float: left; 
+	width: 24%;
+    margin-left: 1%;
+	margin-right: 1%;
+    background-color: rgb(231, 212, 126);
+}
+
+#caja4 {
+    float: left; 
+	width: 24%;
+    background-color: pink;
+}
+
+#publicidad {
+    float: right;
+	width: 33%; 
+	clear: both;
+    background-color: skyblue;
+}
+
+#copyright {
+    float: left; 
+	width: 66%;
+    background-color: rgb(167, 49, 167);
+}

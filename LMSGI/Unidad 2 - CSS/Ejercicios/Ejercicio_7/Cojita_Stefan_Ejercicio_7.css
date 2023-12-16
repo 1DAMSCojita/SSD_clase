@@ -1,0 +1,32 @@
+
+.cabecera {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.cabecera a:hover {
+    color:red;
+}
+
+.publicidad {
+	position: relative;
+	left: 15%;
+	top: 20px;
+	width: 30%;
+}
+
+.contenido {
+	position: relative;
+	left: 50%;
+	bottom: 410px;
+	width: 70%;	
+}
+
+.pie_de_pagina {
+	display: block;
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	bottom: 0px;
+}
