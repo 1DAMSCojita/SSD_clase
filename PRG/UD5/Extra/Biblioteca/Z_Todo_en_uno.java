@@ -124,7 +124,8 @@ public class Z_Todo_en_uno {
             }
         }
     }
-
+    
+    /* 
     // Clase principal que contiene el método main
     public class Test {
         public static void main(String[] args) {
@@ -147,6 +148,8 @@ public class Z_Todo_en_uno {
             // Mostrar el catálogo y la lista de usuarios en la biblioteca
             biblioteca.mostrarCatalogo();
             biblioteca.mostrarUsuarios();
-    }
+        }
+    }    
+    */
 }
-}
+
