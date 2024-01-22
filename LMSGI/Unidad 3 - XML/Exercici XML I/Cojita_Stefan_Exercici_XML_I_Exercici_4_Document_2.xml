@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<libros>
+<libro id="quijote">
+<titulo>El Quijote</titulo>
+<autor nombre="cervantes"></autor> <!-- El atributo 'nombre' se repetía dos veces y no tenía comillas. La etiqueta <autor> no estaba cerrada.-->
+<descripcion>Es el mejor libro de cervantes.</descripcion> <!--'mejor' estaba mal escrito. Con una etiqueta abierta causando un error.-->
+</libro> <!--</libro> no estaba bien cerrado.-->
+</libros> <!--La 'l' estaba en mayúscula.-->

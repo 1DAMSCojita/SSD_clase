@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<encargo>
+    <tractor>
+        <componente>
+            <nombre_fabricante> Álvaro Herrero Martínez </nombre_fabricante>
+            <fecha_entrega> 
+                <dia> 12 </dia>
+                <mes> 06 </mes>
+                <anyo> 2017 </anyo>
+            </fecha_entrega>
+            <fragil> Si </fragil>
+            <peso unidad="kg"> 35 </peso>
+            <numero_serie> ABC51123 </numero_serie>
+        </componente>
+        <componente>
+            <nombre_fabricante> Martín Silva </nombre_fabricante>
+            <fecha_entrega> 
+                <dia> 08 </dia>
+                <mes> 12 </mes>
+                <anyo> 2019 </anyo>
+            </fecha_entrega>
+            <fragil> No </fragil>
+            <peso unidad="g"> 3.236.234 </peso>
+            <numero_serie> DAS47823 </numero_serie>
+        </componente>
+    </tractor>
+</encargo>

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<cds_en_oferta>
+    <registro>
+        <titulo> Still got the blues </titulo>
+        <artista> Gary Moore </artista>
+        <pais> UK </pais>
+        <disco> Virgin records </disco>
+        <precio> 10.20 </precio>
+        <fecha_publicacion> 1990 </fecha_publicacion>
+    </registro>
+    <registro>
+        <titulo> One night only </titulo>
+        <artista> Bee Gees </artista>
+        <pais> UK </pais>
+        <disco> Polydor </disco>
+        <precio> 10.90 </precio>
+        <fecha_publicacion> 1998 </fecha_publicacion>
+    </registro>
+    <registro>
+        <titulo> When a man loves a woman </titulo>
+        <artista> Percy Sledge </artista>
+        <pais> USA </pais>
+        <disco> Atlantic </disco>
+        <precio> 8.70 </precio>
+        <fecha_publicacion> 1987 </fecha_publicacion>
+    </registro>
+    <registro>
+        <titulo> Big Willie Style </titulo>
+        <artista> Will Smith </artista>
+        <pais> USA </pais>
+        <disco> Columbia </disco>
+        <precio> 9.90 </precio>
+        <fecha_publicacion> 1997 </fecha_publicacion>
+    </registro>
+    <registro>
+        <titulo> La canción de Juan Perro </titulo>
+        <artista> Radio Futura </artista>
+        <pais> España </pais>
+        <disco> Sony Music-Ariola </disco>
+        <precio> 9.90 </precio>
+        <fecha_publicacion> 1987 </fecha_publicacion>
+    </registro>
+    <registro>
+        <titulo> The dock of the bay </titulo>
+        <artista> Otis Redding </artista>
+        <pais> USA </pais>
+        <disco> Atlantic </disco>
+        <precio> 7.90 </precio>
+        <fecha_publicacion> 1987 </fecha_publicacion>
+    </registro>
+</cds_en_oferta>

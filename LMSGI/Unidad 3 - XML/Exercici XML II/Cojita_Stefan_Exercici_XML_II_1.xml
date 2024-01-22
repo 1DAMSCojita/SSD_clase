@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<archivo>
+    <venta>
+        <titulo> LA TINTA: MÁS ALLÁ DE LA MAGIA </titulo>
+        <ventas> 1 </ventas>
+        <entregado> Si </entregado>
+        <importe moneda="€"> 14,99 </importe>
+    </venta>
+    <venta>
+        <titulo> BIENVENIDO A ARDIS </titulo>
+        <ventas> 1 </ventas>
+        <entregado> Si </entregado>
+        <importe moneda="€"> 17,99 </importe>
+    </venta>
+    <compra>
+        <titulo> CONSUELOS DE ZARAJÓN </titulo>
+        <proveedor> Ricardo Corn </proveedor>
+        <fecha>  
+            <dia> 23 </dia>
+            <mes> 09 </mes>
+            <anyo> 2005 </anyo>
+        </fecha>
+    </compra>
+    <compra>
+        <titulo> REFLEJO.42 </titulo>
+        <proveedor> Letrame </proveedor>
+        <fecha>
+            <dia> 01 </dia>
+            <mes> 06 </mes>
+            <anyo> 2022 </anyo>
+        </fecha>
+    </compra>
+</archivo>
