@@ -1,6 +1,6 @@
 package Activitat_6_6;
 
-public abstract class ArtistaCirco {
+abstract class ArtistaCirco {
     
     // Declaración de variables.
     private String nombre;
@@ -20,7 +20,7 @@ public abstract class ArtistaCirco {
     // Sobreescribimos el método 'toString()' para mostrar información sobre el artista.
     @Override
     public String toString() {
-        return String.format("El artista se llama " + nombre + ", tiene" + edad + " años y su actuación será " + tipoActuacion);
+        return String.format("El artista se llama " + nombre + ", tiene " + edad + " años y su actuación será " + tipoActuacion);
     }
 
     // Sobreescribimos el método 'equals (Object o)' para comparar artistas por el nombre y edad.
