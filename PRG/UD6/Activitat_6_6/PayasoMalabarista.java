@@ -6,8 +6,8 @@ public class PayasoMalabarista extends Malabarista {
     String tipoPayaso;
 
     // Declaración de constructor. Inicializamos los atributos.
-    PayasoMalabarista(String nombre, int edad, TipoActuacion tipoActuacion, String tipoPayaso) {
-        super(nombre, edad, tipoActuacion, 3);  // Usamos 'super' para coger los atributos de la clase padre. Tenemos que agregar un número al final para hacer referencia a la variable de 'numPelotas' de la clase Malabarista ya que es la que estamos heredando.
+    PayasoMalabarista(String nombre, int edad, TipoActuacion tipoActuacion, int numPelotas, String tipoPayaso) {
+        super(nombre, edad, tipoActuacion, numPelotas);  // Usamos 'super' para coger los atributos de la clase padre. Tenemos que agregar un número al final para hacer referencia a la variable de 'numPelotas' de la clase Malabarista ya que es la que estamos heredando.
         this.tipoPayaso = tipoPayaso;
     }
 
@@ -19,6 +19,7 @@ public class PayasoMalabarista extends Malabarista {
     }
 
     // Sobreescribimos el método 'toString()' para incluir información específica del payaso.
+    @Override
     public String toString() {
         return super.toString() + String.format(" El payaso es " + tipoPayaso);
     }
