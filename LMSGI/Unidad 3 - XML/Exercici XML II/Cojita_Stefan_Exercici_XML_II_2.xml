@@ -11,6 +11,7 @@
             <fragil> Si </fragil>
             <peso unidad="kg"> 35 </peso>
             <numero_serie> ABC51123 </numero_serie>
+            <kmsmaximos> 21534 </kmsmaximos>
         </componente>
         <componente>
             <nombre_fabricante> Martín Silva </nombre_fabricante>
