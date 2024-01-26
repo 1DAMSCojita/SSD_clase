@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<numeros>
+    <primero letrauno="u" letrados="n" letratres="o">1</primero> <!-- El nombre de las etiqueta tenía era un numero. Tampoco estaba bien cerrada. -->
+    <segundo letrauno="d" letrados="o" letratres="s">22</segundo> <!-- El nombre de las etiqueta tenía era un numero. Tampoco estaba bien cerrada. -->
+    <tercero letrauno="s" letrados="e" letratres="i" letracuatro="s">666666</tercero> <!-- El nombre de las etiqueta tenía era un numero. Tampoco estaba bien cerrada. -->
+</numeros>

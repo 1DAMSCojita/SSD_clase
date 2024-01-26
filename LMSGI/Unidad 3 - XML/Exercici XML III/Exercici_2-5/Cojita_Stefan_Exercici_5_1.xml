@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- El '?xml' estaba mal escrito, la x estaba en mayúscula. Luego, en el atributo de version el 1.0 estaba con una coma, finalmente, el UTF-8 estaba sin guión. -->
+<geometria> <!-- Faltaba añadir una etiqueta que sea la "padre" de las otras de 'triangulo' para que vayan relacionadas en algo. -->
+    <triangulo base="7" altura="5"> </triangulo> <!-- Falta cerrar la etiqueta 'triangulo' -->
+    <triangulo base="2" altura="6"> </triangulo> <!-- Falta cerrar la etiqueta 'triangulo' -->
+    <triangulo base="3" altura="3"> </triangulo> <!-- Falta cerrar la etiqueta 'triangulo' -->
+</geometria>
