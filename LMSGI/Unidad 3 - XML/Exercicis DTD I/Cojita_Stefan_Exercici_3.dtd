@@ -1,0 +1,14 @@
+<!ELEMENT requisitos (entrega)>
+<!ELEMENT entrega (lote+)>
+<!ELEMENT lote (pale+)>
+<!ELEMENT pale (numero_de_cajas, contenido, peso, forma_manipular)>
+<!ELEMENT numero_de_cajas (#PCDATA)>
+<!ELEMENT contenido (#PCDATA)>
+<!ELEMENT peso (#PCDATA)>
+<!ELEMENT forma_manipular (#PCDATA)>
+<!ELEMENT contenido (nombre_componente, procedencia*, numero_serie, peso_individual, unidad_peso?)>
+<!ELEMENT nombre_componente (#PCDATA)>
+<!ELEMENT procedencia (#PCDATA)>
+<!ELEMENT numero_serie (#PCDATA)>
+<!ELEMENT peso_individual (#PCDATA)>
+<!ELEMENT unidad_peso (#PCDATA)>

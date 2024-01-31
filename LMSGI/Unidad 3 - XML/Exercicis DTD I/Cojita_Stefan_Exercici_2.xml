@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE programa SYSTEM "./Cojita_Stefan_Exercici_2.dtd">
+<programa>
+    <pedido>
+        <numero_serie> 567-453-AA-121-AA </numero_serie>
+        <cantidad> 2 </cantidad>
+    </pedido>
+    <pedido>
+        <numero_serie> 123-212-BB-142-BB </numero_serie>
+        <cantidad> 1 </cantidad>
+        <peso> 5 </peso>
+    </pedido>
+</programa>

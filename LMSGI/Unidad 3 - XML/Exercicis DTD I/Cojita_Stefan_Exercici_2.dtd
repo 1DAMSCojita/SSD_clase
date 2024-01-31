@@ -1,0 +1,5 @@
+<!ELEMENT programa (pedido*)>
+<!ELEMENT pedido (numero_serie, cantidad, peso?)>
+<!ELEMENT numero_serie (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT peso (#PCDATA)>

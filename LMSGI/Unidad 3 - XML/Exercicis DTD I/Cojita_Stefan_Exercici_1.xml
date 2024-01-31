@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listaventas>
+    <venta>
+        <importe> 39.99 </importe>
+        <comprador> Rodrigo Pineda </comprador>
+        <vendedor> Pablo Villanueva </vendedor>
+        <fecha> 31-01-2024 </fecha>
+        <codigo_factura> 55-AA-18-FE-AA </codigo_factura>
+    </venta>
+        <importe> 79.99 </importe>
+        <comprador> Carlos Uñedo </comprador>
+        <vendedor> Pedro Vanos </vendedor>
+        <fecha> 01-02-2024 </fecha>
+        <codigo_factura> 66-BB-21-EF-BB </codigo_factura>
+    </venta>
+</listaventas>
