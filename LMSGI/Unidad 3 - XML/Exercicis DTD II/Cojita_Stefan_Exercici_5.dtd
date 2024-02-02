@@ -1,0 +1,27 @@
+<!ELEMENT listado (futuros+, divisas+, bonos+, letras+)>
+<!ELEMENT futuros (producto, mercado?, (madrid|ny|frankurt|tokyo))>
+<!ELEMENT divisas (nombre, tipocambio+, (madrid|ny|frankurt|tokyo))>
+<!ELEMENT bonos ((madrid|ny|frankurt|tokyo), vdeseado, vaminimo, vmaximo)>
+<!ELEMENT letras (tipointeres, (espana|eeuu|alemania|japon))>
+<!ELEMENT producto (#PCDATA)>
+<!ELEMENT mercado (#PCDATA)>
+<!ELEMENT madrid EMPTY>
+<!ELEMENT ny EMPTY>
+<!ELEMENT frankurt EMPTY>
+<!ELEMENT tokyo EMPTY>
+<!ELEMENT espana EMPTY>
+<!ELEMENT eeuu EMPTY>
+<!ELEMENT alemania EMPTY>
+<!ELEMENT japon EMPTY>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT tipocambio (#PCDATA)>
+<!ELEMENT vdeseado (#PCDATA)>
+<!ELEMENT vaminimo (#PCDATA)>
+<!ELEMENT vmaximo (#PCDATA)>
+<!ELEMENT tipointeres (#PCDATA)>
+<!ATTLIST futuros precio CDATA #REQUIRED>
+<!ATTLIST divisas precio CDATA #REQUIRED>
+<!ATTLIST bonos precio CDATA #REQUIRED>
+<!ATTLIST letras precio CDATA #REQUIRED>
+<!ATTLIST divisas estable (si|no) #IMPLIED>
+<!ATTLIST bonos estable (si|no) #IMPLIED>

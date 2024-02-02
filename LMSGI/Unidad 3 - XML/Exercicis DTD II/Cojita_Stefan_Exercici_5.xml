@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listado SYSTEM "./Cojita_Stefan_Exercici_5.dtd">
+<listado>
+    <futuros precio="45">
+        <producto> Sopa de pollo </producto>
+        <mercado> Raizu </mercado>
+        <tokyo></tokyo>
+    </futuros>
+    <divisas precio="55" estable="si">
+        <nombre> Nassambund </nombre>
+        <tipocambio> cc </tipocambio>
+        <ny></ny>
+    </divisas>
+    <bonos precio="200" estable="no">
+        <frankurt></frankurt>
+        <vdeseado> 25 </vdeseado>
+        <vaminimo> 2 </vaminimo>
+        <vmaximo> 27 </vmaximo>
+    </bonos>
+    <letras precio="142">
+        <tipointeres> Compuesto </tipointeres>
+        <espana></espana>
+    </letras>
+</listado>
