@@ -3,6 +3,7 @@ package el_mejor_programa_del_siglo;
 public class Test {
     public static void main(String[] args) {
         
+        /* 
         Juls[] juls = {
             new Juls("Julardo", "Alaior"),
             new Juls("Julingo", "Alaior"),
@@ -12,7 +13,7 @@ public class Test {
 
         Pals[] pals = {
             new Pals("Palstacii", "Realidad Alterna"),
-            new Pals("Palard", "Realidad Alterna"),
+            new Pals("Nuls", "Realidad Alterna"),
             new Pals("Palurd", "Realidad Alterna"),
             new Pals("Palito", "Realidad Alterna")
         };
@@ -24,11 +25,12 @@ public class Test {
         for (Pals p : pals) {
             System.out.println(p);
         }
-        
-        Juls j = new Juls("Jul", "Apinga");
-        
-        j.accion();
-        
+        */
+
+        Pals p = new Pals("Palstacii", "Realidad Alterna");
+
+        System.out.println(p.toString());
+        p.accion();
 
     }
 }

@@ -10,14 +10,14 @@ public class Juls implements Julen {
         if (tipoNombre.startsWith("Ju")) {
             this.tipoNombre = tipoNombre;
         } else {
-            System.out.println("Por favor. Proporcione un tipo de Juls correcto. En el objeto Juls los nombres deben empezar con el prefijo Ju.");
+            System.exit(0);
         }
         this.residencia = residencia;
     }
 
     @Override
     public void accion() {
-        int numd = (int)(Math.random() * 6);
+        int numd = (int)(Math.random() * 5) + 1;
         if (numd == 1) {
             System.out.println(tipoNombre + " te julea.");
         } else if (numd == 2) {
@@ -33,7 +33,7 @@ public class Juls implements Julen {
 
     @Override
     public void jugarJuego() {
-        int numd = (int)(Math.random() * 7);
+        int numd = (int)(Math.random() * 6) + 1;
         if (numd == 1) {
             System.out.println(tipoNombre + " juega a Risk of Rain 2.");
         } else if (numd == 2) {
