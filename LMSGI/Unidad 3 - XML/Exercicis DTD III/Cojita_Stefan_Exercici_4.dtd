@@ -1,0 +1,6 @@
+<!-- Este DTD estaba correcto en si pero el elemento 'titulo' no estaba presente en el XML. Generando un error por ello. -->
+<!ELEMENT receta (titulo, ingredientes, procedimiento)>
+<!ELEMENT titulo (#PCDATA)> <!-- Definimos el tipo de datos para el elemento 'titulo'. -->
+<!ELEMENT ingredientes (#PCDATA)> <!-- Definimos el tipo de datos para el elemento 'ingredientes'. -->
+<!ELEMENT procedimiento (#PCDATA)> <!-- Definimos el tipo de datos para el elemento 'procedimiento'. -->
+    

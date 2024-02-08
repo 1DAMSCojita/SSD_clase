@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aviso SYSTEM "Cojita_Stefan_Exercici_6.dtd">
+<!-- En el XML proporcionado del ejercicio la etiqueta raíz 'aviso' estaba vacía. Lo cuál genera un error. -->
+<aviso>
+    <titulo> ... </titulo>
+    <parrafo> ... </parrafo>
+    <grafico> ... </grafico>
+    <grafico> ... </grafico>
+    <grafico> ... </grafico>
+</aviso>

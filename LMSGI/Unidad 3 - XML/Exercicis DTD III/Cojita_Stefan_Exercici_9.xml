@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aviso SYSTEM "Cojita_Stefan_Exercici_9.dtd">
+<!-- El XML dado por el enunciado está correcto. -->
+<aviso>
+    <titulo> ... </titulo>
+    <parrafo> ... </parrafo>
+    <grafico> ... </grafico>
+    <grafico> ... </grafico>
+    <grafico> ... </grafico>
+</aviso>

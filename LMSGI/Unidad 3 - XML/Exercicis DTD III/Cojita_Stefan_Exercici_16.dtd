@@ -1,0 +1,8 @@
+<!ELEMENT informe (cabecera, datos)>
+<!ELEMENT cabecera (descripcion, fecha)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT datos (region+)>
+<!ELEMENT region (nombre, trimestre*)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT trimestre (#PCDATA)>

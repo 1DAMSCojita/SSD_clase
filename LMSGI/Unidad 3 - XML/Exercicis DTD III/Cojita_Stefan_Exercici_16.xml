@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE informe SYSTEM "Cojita_Stefan_Exercici_16.dtd">
+<informe>
+    <cabecera>
+        <descripcion> Informe regional de ventas </descripcion>
+        <fecha> 30/12/2009 </fecha>
+    </cabecera>
+    <datos>
+        <region>
+            <nombre> Norte </nombre>
+            <trimestre> 1 </trimestre>
+            <trimestre> 2 </trimestre>
+            <trimestre> 3 </trimestre>
+            <trimestre> 4 </trimestre>
+        </region>
+        <region>
+            <nombre> Centro </nombre>
+            <trimestre> 1 </trimestre>
+            <trimestre> 2 </trimestre>
+            <trimestre> 3 </trimestre>
+            <trimestre> 4 </trimestre>
+        </region>
+        <region>
+            <nombre> Sur </nombre>
+            <trimestre> 1 </trimestre>
+            <trimestre> 2 </trimestre>
+            <trimestre> 3 </trimestre>
+            <trimestre> 4 </trimestre>
+        </region>
+    </datos>
+</informe>

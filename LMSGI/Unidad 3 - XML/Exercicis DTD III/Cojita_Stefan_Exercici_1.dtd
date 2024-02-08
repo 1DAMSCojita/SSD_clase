@@ -1,0 +1,5 @@
+<!-- Los elementos 'titulo', 'ingredientes', 'procedimiento' no estaban definidos. -->
+<!ELEMENT receta (titulo, ingredientes, procedimiento)>
+<!ELEMENT titulo (#PCDATA)> <!-- Definimos el tipo de datos para el elemento 'titulo'. -->
+<!ELEMENT ingredientes (#PCDATA)> <!-- Definimos el tipo de datos para el elemento 'ingredientes'. -->
+<!ELEMENT procedimiento (#PCDATA)> <!-- Definimos el tipo de datos para el elemento 'procedimiento'. -->

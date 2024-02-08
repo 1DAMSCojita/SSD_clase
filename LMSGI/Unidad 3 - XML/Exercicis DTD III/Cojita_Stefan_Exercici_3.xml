@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE receta SYSTEM "Cojita_Stefan_Exercici_3.dtd">
+<receta>
+    <!-- Removemos la etiqueta 'parrafo' que se presentaba en el ejercicio ya que no es una etiqueta válida que describa algún dato relevante para un XML. -->
+    <titulo> Receta de Ensalada César </titulo> <!-- Agregamos datos reales para el elemento 'titulo'. -->
+    <ingredientes> Lechuga romana, pollo a la parrilla... </ingredientes>
+    <procedimiento> Mezclar la lechuga romana con el pollo a la parrilla, el queso parmesano rallado y el pan tostado en cubos. Aliñar con el aderezo César y servir. </procedimiento> <!-- Agregamos datos reales para el elemento 'procedimiento'. -->
+</receta>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE receta SYSTEM "Cojita_Stefan_Exercici_2.dtd">
+<receta>
+    <titulo> Receta de Pollo al Curry </titulo> <!-- Agregamos datos reales para el elemento titulo -->
+    <ingredientes> Pollo, caldo de pollo, pimienta... </ingredientes>
+    <procedimiento> Cortar la pechuga de pollo en trozos y salpimentar. En una sartén, sofreír la cebolla, el ajo y el jengibre picados hasta que estén dorados. Añadir el curry en polvo y saltear por unos minutos. Agregar la leche de coco y los trozos de pollo. Cocinar a fuego lento hasta que el pollo esté cocido. Servir caliente con arroz blanco. </procedimiento> <!-- Agregamos datos reales para el elemento procedimiento -->
+</receta>

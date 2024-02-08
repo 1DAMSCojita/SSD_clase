@@ -1,0 +1,5 @@
+<!-- Este DTD estaba incorrecto ya que no definia la etiqueta de 'parrafo' que proporcinaba el XML, que tampoco estaría correcto porque <parrafo> no es un dato muy "descriptivo" en un documento XML. -->
+<!ELEMENT receta (titulo, ingredientes, procedimiento)>
+<!ELEMENT titulo (#PCDATA)> <!-- Definimos el tipo de datos para el elemento 'titulo'. -->
+<!ELEMENT ingredientes (#PCDATA)> <!-- Definimos el tipo de datos para el elemento 'ingredientes'. -->
+<!ELEMENT procedimiento (#PCDATA)> <!-- Definimos el tipo de datos para el elemento 'procedimiento'. -->

@@ -1,0 +1,7 @@
+<!ELEMENT listacurso (curso+)>
+<!ELEMENT curso (alumno+)>
+<!ELEMENT alumno (DNI, nombre, apellido?, asignaturas)>
+<!ELEMENT asignaturas (asignatura+)>
+<!ELEMENT asignatura (nombre, profesor, atributo)>
+<!ELEMENT profesor (NRP, nombre, apellido?)>
+<!ATTLIST asignatura codigo CDATA #REQUIRED>

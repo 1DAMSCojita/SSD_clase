@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aviso SYSTEM "Cojita_Stefan_Exercici_8.dtd">
+<!-- El XML dado por el enunciado estaba incorrecto ya que la etiqueta raíz 'aviso' solo contenía un elemento 'titulo', generando el error. -->
+<aviso>
+    <titulo> ... </titulo>
+    <parrafo> ... </parrafo>
+    <grafico> ... </grafico>
+    <grafico> ... </grafico>
+    <grafico> ... </grafico>
+</aviso>

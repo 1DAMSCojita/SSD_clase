@@ -1,0 +1,5 @@
+<!-- Este DTD estaba incompleto ya que no definia cada elemento. -->
+<!ELEMENT aviso (titulo?, (parrafo+, grafico*))> <!-- El asterisco en el ejercicio se añadió en vez del "+" y declarado fuera del paréntesis.-->
+<!ELEMENT titulo (#PCDATA)> <!-- Añadimos la definición de 'titulo' como contenido de texto (#PCDATA) -->
+<!ELEMENT parrafo (#PCDATA)> <!-- Añadimos la definición de 'parrafo' como contenido de texto (#PCDATA) -->
+<!ELEMENT grafico (#PCDATA)> <!-- Añadimos la definición de 'grafico' como contenido de texto (#PCDATA) -->
