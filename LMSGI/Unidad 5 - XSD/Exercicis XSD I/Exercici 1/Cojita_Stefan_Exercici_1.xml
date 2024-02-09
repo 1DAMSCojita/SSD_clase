@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exercici1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Cojita_Stefan_Exercici_1.xsd">
+<ciudad>Roma</ciudad>
+<fechadenacimiento>1996-12-18</fechadenacimiento>
+<hora>18:29:45</hora>
+<nota>7.5</nota>
+<apto>true</apto>
+</exercici1>

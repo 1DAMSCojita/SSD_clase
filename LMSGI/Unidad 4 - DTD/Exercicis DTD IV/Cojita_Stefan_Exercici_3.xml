@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concesionario SYSTEM "Cojita_Stefan_Exercici_3.dtd">
+<concesionario>
+    <modelo referencia= "n556">
+        <descripcion>No disponible</descripcion>
+        <motor>
+            <referencia_modelo_relacionado />
+            <tipo_motor>1.998cc 16v</tipo_motor>
+            <potencia>128 CV</potencia>
+        </motor>
+        <consumo>
+            <velocidad>11</velocidad>
+            <valor>100 km</valor>
+        </consumo>
+        <consumo>
+            <velocidad>120</velocidad>
+            <valor>10 km</valor>
+        </consumo>
+    </modelo>
+    <modelo referencia="n555">
+        <descripcion>No disponible</descripcion>
+        <motor>
+            <referencia_modelo_relacionado>444, 556</referencia_modelo_relacionado>
+            <tipo_motor>2.000cc 16v</tipo_motor>
+            <potencia>128 CV</potencia>
+        </motor>
+        <modelos_relacionados>444 556</modelos_relacionados>
+    </modelo>
+    <modelo referencia="n557">
+        <descripcion>No disponible</descripcion>
+    </modelo>
+
+    <modelo referencia="n154">
+        <descripcion>No disponible</descripcion>
+        <modelos_relacionados>555 154</modelos_relacionados>
+    </modelo>
+    <modelo referencia="n444">
+        <descripcion>Este modelo tiene un motor 2.000cc 16v de cuatro cilindros con 128 CV. Dispone
+            de cambio manual. El consumo medio de este monovolumen es 11 a los 100 km. El precio
+            base es de 2.500.000.</descripcion>
+        <motor>
+            <referencia_modelo_relacionado>555</referencia_modelo_relacionado>
+            <tipo_motor>2.000cc 16v</tipo_motor>
+            <potencia>128 CV</potencia>
+        </motor>
+        <consumo>
+            <velocidad>11</velocidad>
+            <valor>100 km</valor>
+        </consumo>
+        <modelos_relacionados>555 154</modelos_relacionados>
+    </modelo>
+</concesionario>

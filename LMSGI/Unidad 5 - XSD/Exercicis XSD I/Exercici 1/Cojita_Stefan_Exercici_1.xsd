@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="exercici1">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="ciudad" type="xs:string" default="mao"/>
+            <xs:element name="fechadenacimiento" type="xs:date"/>
+            <xs:element name="hora" type="xs:time"/>
+            <xs:element name="nota" type="xs:decimal"/>
+            <xs:element name="apto" type="xs:boolean"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+</xs:schema>

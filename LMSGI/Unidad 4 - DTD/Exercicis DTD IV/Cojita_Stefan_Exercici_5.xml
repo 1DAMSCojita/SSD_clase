@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE videoclub SYSTEM "Cojita_Stefan_Exercici_5.dtd">
+<videoclub>
+    <factura>
+        <cliente>
+            <nombre> Stefan </nombre>
+            <apellidos> Cojita </apellidos>
+            <dni> Y4480231P </dni>
+            <telefono> 123456789 </telefono>
+            <idCliente> 5 </idCliente>
+        </cliente>
+        <datos_factura>
+            <resguardo>
+                <formaPago> Tarjeta de crédito </formaPago>
+                <importeTotal> 11.99 </importeTotal>
+            </resguardo>
+            <alquileres>
+                <fechaDevolucion> 2024-04-10 </fechaDevolucion>
+                <pelicula>
+                    <titulo> American Pysco Zu </titulo>
+                    <genero> Acción </genero>
+                    <duracion> 140 </duracion>
+                    <actores>
+                        <actor1> Patricio </actor1>
+                        <actor2> Gustavo </actor2>
+                        <actor3> Felipe </actor3>
+                    </actores>
+                    <idPelicula> 001 </idPelicula>
+                    <valoracion> 9.1 </valoracion>
+                    <caratula> c0360.jpg </caratula>
+                </pelicula>
+            </alquileres>
+        </datos_factura>
+    </factura>
+    <factura>
+        <cliente>
+            <nombre> David </nombre>
+            <apellidos> Gomila </apellidos>
+            <dni> 231322328S </dni>
+            <telefono> 987654321 </telefono>
+            <idCliente> 2 </idCliente>
+        </cliente>
+        <datos_factura>
+            <resguardo>
+                <formaPago> Efectivo </formaPago>
+                <importeTotal> 17.99 </importeTotal>
+            </resguardo>
+            <alquileres>
+                <fechaDevolucion> 2024-03-06 </fechaDevolucion>
+                <pelicula>
+                    <titulo> La Pusitania </titulo>
+                    <genero> Acción </genero>
+                    <duracion> 180 </duracion>
+                    <actores>
+                        <actor1> Zero </actor1>
+                        <actor2> Victor </actor2>
+                        <actor3> Luis </actor3>
+                    </actores>
+                    <idPelicula> 002 </idPelicula>
+                    <valoracion> 8.7 </valoracion>
+                    <caratula> c1201.jpg </caratula>
+                </pelicula>
+            </alquileres>
+        </datos_factura>
+    </factura>
+</videoclub>
