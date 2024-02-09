@@ -3,6 +3,7 @@
 <!ELEMENT descripcion (#PCDATA)>
 <!ELEMENT fecha (#PCDATA)>
 <!ELEMENT datos (region+)>
-<!ELEMENT region (nombre, trimestre*)>
+<!ELEMENT region (nombre, trimestre*, libros_vendidos*)>
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT trimestre (#PCDATA)>
+<!ELEMENT libros_vendidos (#PCDATA)>

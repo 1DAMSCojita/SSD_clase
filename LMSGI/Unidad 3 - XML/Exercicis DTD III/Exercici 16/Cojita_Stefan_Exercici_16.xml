@@ -12,6 +12,10 @@
             <trimestre> 2 </trimestre>
             <trimestre> 3 </trimestre>
             <trimestre> 4 </trimestre>
+            <libros_vendidos> 24000 </libros_vendidos>
+            <libros_vendidos> 38600 </libros_vendidos>
+            <libros_vendidos> NO_INFO </libros_vendidos>
+            <libros_vendidos> NO_INFO </libros_vendidos>
         </region>
         <region>
             <nombre> Centro </nombre>
@@ -19,6 +23,10 @@
             <trimestre> 2 </trimestre>
             <trimestre> 3 </trimestre>
             <trimestre> 4 </trimestre>
+            <libros_vendidos> NO_INFO </libros_vendidos>
+            <libros_vendidos> 16080 </libros_vendidos>
+            <libros_vendidos> 25000 </libros_vendidos>
+            <libros_vendidos> 29000 </libros_vendidos>
         </region>
         <region>
             <nombre> Sur </nombre>
@@ -26,6 +34,10 @@
             <trimestre> 2 </trimestre>
             <trimestre> 3 </trimestre>
             <trimestre> 4 </trimestre>
+            <libros_vendidos> 27000 </libros_vendidos>
+            <libros_vendidos> 31400 </libros_vendidos>
+            <libros_vendidos> 40100 </libros_vendidos>
+            <libros_vendidos> 30000 </libros_vendidos>
         </region>
     </datos>
 </informe>
