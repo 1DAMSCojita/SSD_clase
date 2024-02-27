@@ -1,8 +1,7 @@
 package intro.binarios;
 
-import java.io.FileInputStream;
 import java.io.*;
-import java.io.ObjectInputStream;
+import java.util.Arrays;
 
 public class TestLectura {
     public static void main(String[] args) {
@@ -11,12 +10,15 @@ public class TestLectura {
 
             int[] t = new int[10];
 
+             
             for (int i = 0; i < t.length; i++) {
-                t[i] = flujoEntrada.readInt();
+                t[i] = (int) flujoEntrada.readObject();
             }
+            
+            System.out.println(Arrays.toString(t));
 
-        } catch (IOException e) {
-            System.out.println("Error de lectura.\n" + e);
+        } catch (IOException | ClassNotFoundException e) {
+            System.out.println("Error de lectura o conversión.\n" + e.getMessage());
         }
 
     }

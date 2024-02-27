@@ -1,12 +1,7 @@
 package intro.binarios;
 
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.ObjectOutput;
-import java.io.ObjectOutputStream;
+import java.io.*;
 
-@SuppressWarnings("unused")
 public class TestBinarios {
     public static void main(String[] args) {
         
@@ -39,7 +34,7 @@ public class TestBinarios {
             flujosSalida = new ObjectOutputStream(new FileOutputStream("datos.dat"));
 
             for (int n : t) {
-                flujosSalida.writeInt(n);
+                flujosSalida.writeObject(n);
             }
 
         } catch (IOException e) {
@@ -53,6 +48,5 @@ public class TestBinarios {
                 }                
             }
         }
-
     }
 }
