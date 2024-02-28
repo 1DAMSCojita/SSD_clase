@@ -6,17 +6,16 @@
                 <xs:element name="ficha" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="nombre" type="xs:string"/>
-                            <xs:element name="edad">
+                            <xs:element name="nombre" type="xs:string" />
+                            <xs:element name="iniciales">
                                 <xs:simpleType>
-                                    <xs:restriction base="xs:int">
-                                        <xs:maxExclusive value="130"/>
-                                        <xs:minExclusive value="0"/>
+                                    <xs:restriction base="xs:string">
+                                        <xs:pattern value="[A-Z][A-Z][A-Z]" />
                                     </xs:restriction>
                                 </xs:simpleType>
                             </xs:element>
+                            <xs:element name="edad" type="xs:integer" />
                         </xs:sequence>
-                        <xs:attribute name="numero" type="xs:int"/>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>

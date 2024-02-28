@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="vehiculos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="vehiculo" type="tipoDeVehiculo" maxOccurs="unbounded"/>    
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="tipoDeVehiculo">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="barco" />
+            <xs:enumeration value="bicicleta" />
+            <xs:enumeration value="coche" />
+            <xs:enumeration value="tren" />
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

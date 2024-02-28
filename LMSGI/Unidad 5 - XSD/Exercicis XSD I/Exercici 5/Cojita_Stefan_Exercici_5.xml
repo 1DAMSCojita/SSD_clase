@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vehiculos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Cojita_Stefan_Exercici_5.xsd">
+    <vehiculo>barco</vehiculo>
+    <vehiculo>bicicleta</vehiculo>
+    <vehiculo>coche</vehiculo>
+    <vehiculo>tren</vehiculo>
+</vehiculos>
