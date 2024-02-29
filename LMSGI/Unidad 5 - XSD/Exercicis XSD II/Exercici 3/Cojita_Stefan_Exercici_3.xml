@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo_peliculas>
+    <pelicula>
+        <titulo> </titulo>
+        <director> </director>
+        <anio> </anio>
+        <genero> </genero>
+        <sinopsis> </sinopsis>
+    </pelicula>
+    <pelicula>
+        <titulo> </titulo>
+        <director> </director>
+        <anio> </anio>
+        <genero> </genero>
+        <sinopsis> </sinopsis>
+    </pelicula>
+</catalogo_peliculas>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Cojita_Stefan_Exercici_1.xsd">
+    <alumno>
+        <nombre> Stefan </nombre>
+        <avaluación>
+            <nota> 9.50 </nota>
+        </avaluación>
+        <avaluación>
+            <nota> 5.10 </nota>
+        </avaluación>
+        <avaluación>
+            <nota> 6.35 </nota>    
+        </avaluación>
+    </alumno>
+    <alumno>
+        <nombre> Patricio </nombre>
+        <avaluación>
+            <nota> 5.75 </nota>
+        </avaluación>
+        <avaluación>
+            <nota> 7.01 </nota>
+        </avaluación>
+        <avaluación>
+            <nota> 4.40 </nota>    
+        </avaluación>
+    </alumno>
+</notas>
