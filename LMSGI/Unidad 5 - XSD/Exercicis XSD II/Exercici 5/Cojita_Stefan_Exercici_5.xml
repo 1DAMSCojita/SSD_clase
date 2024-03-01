@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<empresa xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Cojita_Stefan_Exercici_5.xsd"> 
+    <empleado> 
+        <nombre id="e1"> María López </nombre>  
+        <fecha_inicio_contrato> 2021-03-15 </fecha_inicio_contrato>  
+        <puesto> Gerente de Ventas </puesto>  
+        <puestos_anteriores> Supervisora de Ventas, Representante de Ventas </puestos_anteriores>  
+        <jefe_directo> e2 </jefe_directo>  
+        <salario> 75000.00 </salario>  
+        <titulos_academicos> Licenciada en Administración de Empresas, Máster en Marketing </titulos_academicos>  
+        <sede>Madrid</sede>  
+        <observaciones>  
+            <meritos> Incremento de ventas del 20% en el último trimestre. </meritos>
+            <desmeritos> Ninguno. </desmeritos>
+        </observaciones>  
+    </empleado>  
+    <empleado>  
+        <nombre id="e2"> Juan García </nombre>  
+        <fecha_inicio_contrato> 2020-05-20 </fecha_inicio_contrato>  
+        <puesto> Director de Operaciones </puesto> 
+        <puestos_anteriores> Gerente de Producción, Supervisor de Línea </puestos_anteriores> 
+        <jefe_directo> e3 </jefe_directo> 
+        <salario> 80000.00 </salario> 
+        <titulos_academicos> Ingeniero Industrial </titulos_academicos> 
+        <sede>Barcelona</sede> 
+        <observaciones> 
+            <meritos> Reducción del 30% en los costos de producción. </meritos>
+            <desmeritos> Ausencias frecuentes. </desmeritos>
+        </observaciones> 
+    </empleado> 
+    <empleado> 
+        <nombre id="e3"> Andrea Martínez </nombre> 
+        <fecha_inicio_contrato> 2019-10-10 </fecha_inicio_contrato> 
+        <puesto> Director de Recursos Humanos </puesto> 
+        <puestos_anteriores> Gerente de Recursos Humanos, Analista de Nóminas </puestos_anteriores> 
+        <jefe_directo> e4 </jefe_directo> 
+        <salario> 70000.00 </salario> 
+        <titulos_academicos> Psicóloga Organizacional, Máster en Recursos Humanos </titulos_academicos> 
+        <sede>Madrid</sede> 
+        <observaciones> 
+            <meritos> Implementación de programas de bienestar laboral. </meritos>
+            <desmeritos> Conflictos internos en el equipo. </desmeritos>
+        </observaciones> 
+    </empleado> 
+    <empleado> 
+        <nombre id="e4"> Pedro Oliveira </nombre> 
+        <fecha_inicio_contrato> 2023-01-05 </fecha_inicio_contrato> 
+        <puesto> Analista de Datos </puesto> 
+        <puestos_anteriores> Analista de Marketing, Asistente de Investigación </puestos_anteriores> 
+        <jefe_directo> e2 </jefe_directo> 
+        <salario> 60000.00 </salario> 
+        <titulos_academicos> Graduado en Estadística, Máster en Ciencia de Datos </titulos_academicos> 
+        <sede>Barcelona</sede> 
+        <observaciones>
+            <meritos> Desarrollo de modelos predictivos. </meritos>
+            <desmeritos> Baja precisión en algunos informes. </desmeritos>
+        </observaciones> 
+    </empleado> 
+    <empleado> 
+        <nombre id="e5"> Laura Fernández </nombre> 
+        <fecha_inicio_contrato> 2022-08-15 </fecha_inicio_contrato> 
+        <puesto> Contadora </puesto> 
+        <puestos_anteriores> Asistente Contable, Auxiliar Administrativa </puestos_anteriores> 
+        <jefe_directo> e3 </jefe_directo> 
+        <salario> 55000.00 </salario> 
+        <titulos_academicos> Contadora Pública </titulos_academicos> 
+        <sede>Valencia</sede> 
+        <observaciones>
+            <meritos> Implementación de procesos de control financiero </meritos>
+            <desmeritos> Error en el balance trimestral.  </desmeritos>
+        </observaciones>
+     </empleado> 
+ </empresa> 

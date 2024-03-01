@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="empresa">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="empleado" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="id" type="xs:ID"/>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="fecha_inicio_contrato" type="xs:date"/>
+                            <xs:element name="puesto" type="xs:string"/>
+                            <xs:element name="puestos_anteriores" type="xs:string"/>
+                            <xs:element name="jefe_directo" type="xs:IDREF"/>
+                            <xs:element name="salario" type="xs:decimal"/>
+                            <xs:element name="titulos_academicos" type="xs:string"/>
+                            <xs:element name="sede">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="Madrid"/>
+                                        <xs:enumeration value="Barcelona"/>
+                                        <xs:enumeration value="Valencia"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="observaciones">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="meritos" type="xs:string"/>
+                                        <xs:element name="desmeritos" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

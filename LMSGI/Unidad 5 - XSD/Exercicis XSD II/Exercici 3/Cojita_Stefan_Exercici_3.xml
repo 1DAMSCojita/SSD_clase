@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<catalogo_peliculas>
+<catalogo_peliculas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Cojita_Stefan_Exercici_3.xsd">
     <pelicula>
-        <titulo> </titulo>
-        <director> </director>
-        <anio> </anio>
-        <genero> </genero>
-        <sinopsis> </sinopsis>
+        <titulo> Rocky </titulo>
+        <director> John G. Avildsen </director>
+        <anio> 1996 </anio>
+        <genero> Drama </genero>
+        <sinopsis> Rocky Balboa es un desconocido boxeador de Philadelphia a quien se le ofrece la posibilidad de alcanzar la fama y ganar el título mundial de los pesos pesados enfrentándose al actual campeón, Apollo Creed. Con una gran fuerza de voluntad, Rocky se prepara concienzudamente para el combate y también para los cambios que acabarán produciéndose en su vida. </sinopsis>
+        <valoracion> 4.8 </valoracion>
     </pelicula>
     <pelicula>
-        <titulo> </titulo>
-        <director> </director>
-        <anio> </anio>
-        <genero> </genero>
-        <sinopsis> </sinopsis>
+        <titulo> Venom </titulo>
+        <director> Ruben Fleischer </director>
+        <anio> 2018 </anio>
+        <genero> Cine de superhéroes y suspenso. </genero>
+        <sinopsis> El periodista Eddie Brock intenta desenmascarar al genio científico Carlton Drake, el célebre fundador de la Fundación Vida. Mientras investiga uno de los experimentos de Drake, Brock establece una simbiosis con un ente alienígena que le ofrece superpoderes, pero el ser se apodera de su personalidad y lo vuelve perverso. </sinopsis>
+        <valoracion> 4.5 </valoracion>
     </pelicula>
-</catalogo_peliculas>
+</catalogo_peliculas> 

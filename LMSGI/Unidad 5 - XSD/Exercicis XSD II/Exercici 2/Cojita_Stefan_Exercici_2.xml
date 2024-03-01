@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<correo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Cojita_Stefan_Exercici_2.xsd">
-    <mensaje>
+<mensaje xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Cojita_Stefan_Exercici_2.xsd">
+    <correo>
         <de> scojita20207@iesjoanramis.org </de>
         <para> joanramis@iesjoanramis.org </para>
         <asunto> Hola </asunto>
         <texto> Buenas </texto>
-    </mensaje>
-</correo>
+    </correo>
+</mensaje>

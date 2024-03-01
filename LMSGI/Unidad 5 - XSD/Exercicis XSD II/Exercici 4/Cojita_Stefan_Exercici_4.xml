@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<subasta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Cojita_Stefan_Exercici_4.xsd">
+    <objeto>
+        <propietario> Pedro Rodríguez </propietario>
+        <precio_salida> 10.42 </precio_salida>
+        <precio_minimo> 3.42 </precio_minimo>
+    </objeto>
+    <objeto>
+        <propietario> Pablo Manrique </propietario>
+        <precio_salida> 95.75 </precio_salida>
+    </objeto>
+</subasta>

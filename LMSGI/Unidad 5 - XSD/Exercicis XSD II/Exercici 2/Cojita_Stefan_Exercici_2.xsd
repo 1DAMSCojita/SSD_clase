@@ -1,19 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <xs:element name="correo">
+    <xs:element name="mensaje">
         <xs:complexType>
-            <xs:sequence>
-                <xs:element name="mensaje" maxOccurs="unbounded">
-                    <xs:complexType>
-                        <xs:sequence>
-                            <xs:element name="de" type="xs:string"/>
-                            <xs:element name="para" type="xs:string"/>
-                            <xs:element name="asunto" type="xs:string"/>
-                            <xs:element name="texto"/>
-                        </xs:sequence>
-                    </xs:complexType>   
-                </xs:element>
-            </xs:sequence>
+            <xs:choice> <!-- Usamos la etiqueta 'xs:choice' para permitir que un elemento contenga ya sea un mensaje de correo electrónico o de sms. -->
+                    <xs:element name="correo">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="de" type="xs:string"/>
+                                <xs:element name="para" type="xs:string"/>
+                                <xs:element name="asunto" type="xs:string"/>
+                                <xs:element name="texto"/>
+                            </xs:sequence>
+                        </xs:complexType>   
+                    </xs:element>
+                    <xs:element name="sms">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="destinatario"/>
+                                <xs:element name="texto">
+                                    <xs:simpleType>
+                                        <xs:restriction base="xs:string">
+                                            <xs:maxLength value="160"/>
+                                        </xs:restriction>
+                                    </xs:simpleType>
+                                </xs:element>
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+            </xs:choice>
         </xs:complexType>    
     </xs:element>
 </xs:schema>

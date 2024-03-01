@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="catalogo_peliculas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="pelicula" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="titulo" type="xs:string"/>
+                            <xs:element name="director" type="xs:string"/>
+                            <xs:element name="anio" type="xs:gYear"/> <!-- Añadimos 'xs:gYear' en el tipo para poder poner el año. -->
+                            <xs:element name="genero" type="xs:string"/>
+                            <xs:element name="sinopsis" type="xs:string"/>
+                            <xs:element name="valoracion">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:double">
+                                        <xs:minExclusive value="0"/>
+                                        <xs:maxExclusive value="6"/>
+                                    </xs:restriction> 
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:sequence>    
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
