@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<conexions_ADSL xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="adsl.xsd">
+    <oferta id="1" nom="Arrakis BT Go">
+          <nom_compania>Arrakis</nom_compania>
+     
+          <velocitat_transferencia unitat="Mbps">
+            <pujada>0</pujada>
+            <baixada>6</baixada>
+          </velocitat_transferencia>
+         
+          <preu moneda="Euro">
+         
+                <alta gratis="Si" permanencia="No"/>
+                    <!--<preu_alta></preu_alta>
+                    <permanencia_alta></permanencia_alta>-->
+                <linea>13.97</linea>
+                <mensual>36.50</mensual>
+                <total_mensual>50.47</total_mensual>
+               
+          </preu>
+ 
+    </oferta>
+ 
+    <oferta id="2" nom="Arrakis eOficina">
+
+          <nom_compania>Arrakis</nom_compania>
+       
+          <velocitat_transferencia unitat="Mbps">
+            <pujada>0</pujada>
+            <baixada>6</baixada>
+          </velocitat_transferencia>
+         
+          <preu moneda="Euro">
+         
+                <alta gratis="Si" permanencia="No"/>
+                      <!--<preu_alta></preu_alta>
+                    <permanencia_alta></permanencia_alta>-->
+                <linea>13.97</linea>
+                <mensual>59.90</mensual>
+                <total_mensual>73.87</total_mensual>
+               
+          </preu>
+ 
+    </oferta>
+   
+    <oferta id="3" nom="ADSL 1 Mega + Llamadas gratis con Línea Jazztel ">
+
+          <nom_compania>Jazztel</nom_compania>
+         
+          <velocitat_transferencia unitat="Mbps">
+            <pujada>0.512</pujada>
+            <baixada>1</baixada>
+          </velocitat_transferencia>
+         
+          <preu moneda="Euro">
+         
+                <alta gratis="Si" permanencia="No"/>
+                    <!--<preu_alta></preu_alta>
+                    <permanencia_alta></permanencia_alta>-->
+                <linea>0</linea>
+                <promocio fins="2014-01-01">
+                <promocio_preu>15.94</promocio_preu>
+                </promocio>
+                <mensual>19.95</mensual>
+                <total_mensual>19.95</total_mensual>
+               
+          </preu>
+ 
+    </oferta>
+   
+   
+    <oferta id="4" nom="Movistar ADSL 10 Mb ">
+
+          <nom_compania>Movistar</nom_compania>
+       
+          <velocitat_transferencia unitat="Mbps">
+            <pujada>6</pujada>
+            <baixada>10</baixada>
+          </velocitat_transferencia>
+         
+          <preu moneda="Euro">
+         
+                <alta gratis="Si" permanencia="Si">
+                    <!--<preu_alta></preu_alta>-->
+                    <permanencia_alta tiempo="meses" quantitat="12"/>
+                </alta>
+                <linea>13.97</linea>
+                <promocio fins="2014-01-01">
+                  <promocio_preu>24.90</promocio_preu>
+                </promocio>
+                <promocio fins="2014-06-01">
+                  <promocio_preu>26.90</promocio_preu>
+                </promocio>
+                <mensual>29.90</mensual>
+                <total_mensual>43.87</total_mensual>
+               
+          </preu>
+ 
+    </oferta>
+   
+    <oferta id="5" nom="Movistar Fibra Óptica 100/10 Mb">
+
+          <nom_compania>Movistar</nom_compania>
+       
+          <velocitat_transferencia unitat="Mbps">
+            <pujada>10</pujada>
+            <baixada>20</baixada>
+          </velocitat_transferencia>
+         
+          <preu moneda="Euro">
+         
+                <alta gratis="Si" permanencia="Si">
+                    <!--<preu_alta></preu_alta>-->
+                    <permanencia_alta tiempo="meses" quantitat="12"/>
+                </alta>
+                <linea>13.97</linea>
+                <promocio>
+                <promocio_preu>39.90</promocio_preu>
+                </promocio>
+                <mensual>39.90</mensual>
+                <total_mensual>53.87</total_mensual>
+               
+          </preu>
+ 
+    </oferta>
+ 
+        <oferta id="6" nom="ASDL Máxima Velocidad">
+
+          <nom_compania>Orange </nom_compania>
+         
+          <velocitat_transferencia unitat="Mbps">
+            <pujada>0.512</pujada>
+            <baixada>6</baixada>
+          </velocitat_transferencia>
+         
+          <preu moneda="Euro">
+         
+                <alta gratis="Si" permanencia="Si">
+                    <!--<preu_alta></preu_alta>-->
+                    <permanencia_alta tiempo="meses" quantitat="18"/>
+                </alta>
+                <linea>13.97</linea>
+                <promocio fins="2014-01-01">
+                <promocio_preu>11.95</promocio_preu>
+                </promocio>
+                <mensual>15.95</mensual>
+                <total_mensual>29.92</total_mensual>
+                <extres>Router Wifi</extres>
+                <extres>Alta gratis online</extres>
+               
+          </preu>
+ 
+    </oferta>
+
+
+</conexions_ADSL>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="conexions_ADSL">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="oferta" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nom_compania" type="xs:string"/>
+                            <xs:element name="velocitat_transferencia">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="pujada" type="xs:decimal"/>
+                                        <xs:element name="baixada" type="xs:decimal"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="unitat" type="xs:string"/>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="preu">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="alta">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="preu_alta" type="xs:decimal" minOccurs="0"/>
+                                                    <xs:element name="permanencia_alta" minOccurs="0">
+                                                        <xs:complexType>
+                                                            <xs:attribute name="tiempo" type="xs:string"/>
+                                                            <xs:attribute name="quantitat" type="xs:int"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute name="gratis" type="xs:string"/>
+                                                <xs:attribute name="permanencia" type="xs:string"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="linea" type="xs:decimal"/>
+                                        <xs:element name="promocio" minOccurs="0" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="promocio_preu" type="xs:decimal"/>
+                                                </xs:sequence>
+                                                <xs:attribute name="fins" type="xs:date"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="mensual" type="xs:decimal"/>
+                                        <xs:element name="total_mensual" type="xs:decimal"/>
+                                        <xs:element name="extres" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="moneda" type="xs:string"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:int"/>
+                        <xs:attribute name="nom" type="xs:string"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>   
+    </xs:element>
+</xs:schema>

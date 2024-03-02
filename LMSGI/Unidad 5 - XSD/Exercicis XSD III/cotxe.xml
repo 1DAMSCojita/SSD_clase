@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<asseguranca_cotxe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cotxe.xsd">
+  <asseguranca id="1" denominacio="AXA AutoFlexible">
+          <asseguradora>AXA</asseguradora>
+          <geocobertura>Europea</geocobertura>
+          <cobrament en="Euro" mensual="Si">
+              <financament>12</financament>
+              <mensualitat>8.41</mensualitat>
+              <mensualitativa>9.91</mensualitativa>
+              <anual>123</anual>
+          </cobrament>
+          <promocions nouclient="No">
+              <descompteonline>10</descompteonline>
+          </promocions>
+    </asseguranca>
+   
+    <asseguranca id="2" denominacio="Fenix Seguros PolizaPlus">
+          <asseguradora>FenixDirecto</asseguradora>
+          <geocobertura>Europea</geocobertura>
+          <cobrament en="Euro" mensual="Si">
+              <financament>12</financament>
+              <mensualitat>12.43</mensualitat>
+              <mensualitativa>14.67</mensualitativa>
+              <anual>182</anual>
+          </cobrament>
+          <promocions nouclient="No">
+              <descompteedat edat="35" import="50"></descompteedat>
+          </promocions>
+    </asseguranca>
+   
+    <asseguranca id="3" denominacio="Balumba SinAsistencia">
+          <asseguradora>Balumba.es</asseguradora>
+              <geocobertura>Espanyola</geocobertura>
+          <cobrament en="Euro" mensual="No">
+              <financament>1</financament>
+              <mensualitat>192</mensualitat>
+              <mensualitativa>192</mensualitativa>
+              <anual>192</anual>
+          </cobrament>
+          <promocions nouclient="Si"></promocions>
+    </asseguranca>
+   
+    <asseguranca id="4" denominacio="FenixDirecto + PackSeguridad">
+          <asseguradora>FenixDirecto</asseguradora>
+          <geocobertura>Europea</geocobertura>
+          <cobrament en="Euro" mensual="Si">
+              <financament>12</financament>
+              <mensualitat>13.25</mensualitat>
+              <mensualitativa>15.64</mensualitativa>
+              <anual>194</anual>
+          </cobrament>
+          <promocions nouclient="No">
+              <descompteonline>15</descompteonline>
+          </promocions>
+    </asseguranca>
+   
+    <asseguranca id="5" denominacio="Pelayo Tarifa Nocturna">
+          <asseguradora>Pelayo</asseguradora>
+              <geocobertura>Espanyola</geocobertura>
+          <cobrament en="Euro" mensual="No">
+              <financament>1</financament>
+              <mensualitat>212</mensualitat>
+              <mensualitativa>212</mensualitativa>
+              <anual>212</anual>
+          </cobrament>
+          <promocions nouclient="Si">
+              <descompteonline>10</descompteonline>
+              <descompteedat edat="40" percentatge="15"></descompteedat>
+          </promocions>
+    </asseguranca>
+   
+    <asseguranca id="6" denominacio="Catalana Occidente">
+          <asseguradora>Catalana Occidente</asseguradora>
+              <geocobertura>Espanyola</geocobertura>
+          <cobrament en="Euro" mensual="Si">
+              <financament>6</financament>
+              <mensualitat>58.63</mensualitat>
+              <mensualitativa>69.53</mensualitativa>
+              <anual>429</anual>
+          </cobrament>
+          <promocions nouclient="Si"></promocions>
+    </asseguranca>
+</asseguranca_cotxe>
