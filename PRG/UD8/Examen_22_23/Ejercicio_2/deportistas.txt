@@ -1,0 +1,4 @@
+Nombre          Edad            Peso            Estatura
+Stefan Cojita   18              59.7            1.64
+Ana             34              51.2            1.83
+           
