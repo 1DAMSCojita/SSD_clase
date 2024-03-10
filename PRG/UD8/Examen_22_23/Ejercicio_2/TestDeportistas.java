@@ -20,6 +20,9 @@ public class TestDeportistas {
             double sumaEdades = 0.0;
             double sumaEstaturas = 0.0;
             double sumaPesos = 0.0;
+            String archivoEdad = "src\\Examen_22_23\\Ejercicio_3\\edades.txt";
+            String archivoPeso = "src\\Examen_22_23\\Ejercicio_3\\pesos.txt";
+            String archivoEstaturas = "src\\Examen_22_23\\Ejercicio_3\\estaturas.txt";
 
             while (sc.hasNext()) {
                 String nombre = "";
@@ -34,6 +37,9 @@ public class TestDeportistas {
                 sumaPesos += peso;
                 estatura = sc.nextDouble();
                 sumaEstaturas += estatura;
+                escribirArchivoEdad(archivoEdad, nombre, edad);
+                escribirArchivoResto(archivoPeso, nombre, peso);
+                escribirArchivoResto(archivoEstaturas, nombre, estatura);
 
                 System.out.println("Nombre: " + nombre + "\tEdad: " + edad + "\tPeso: " + peso + "\tEstatura: " + estatura);
             }
@@ -54,6 +60,32 @@ public class TestDeportistas {
                     System.out.println(e.getMessage());
                 }
             }
+        }
+    }
+
+    public static void leerArchivo(String rutaArchivo){
+        BufferedReader br;
+        try {
+            br = new BufferedReader(new FileReader(rutaArchivo));
+            System.out.println(br);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+
+    }
+    public static void escribirArchivoEdad(String rutaArchivo, String nombre, int edad){
+        try (BufferedWriter br = new BufferedWriter(new FileWriter(rutaArchivo, true))) {
+            br.write(nombre + " " + edad + "\n");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+    
+    public static void escribirArchivoResto(String rutaArchivo, String nombre, double otro){
+        try (BufferedWriter br = new BufferedWriter(new FileWriter(rutaArchivo, true))) {
+            br.write(nombre + " " + otro + "\n");
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 }
