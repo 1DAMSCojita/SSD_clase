@@ -1,4 +1,4 @@
-package intro.binarios;
+package Intro.binarios;
 
 import java.io.*;
 import java.util.Arrays;

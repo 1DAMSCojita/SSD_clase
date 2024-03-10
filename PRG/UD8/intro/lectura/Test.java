@@ -1,4 +1,4 @@
-package intro.lectura;
+package Intro.lectura;
 
 // InputStreamReader
 

@@ -1,6 +1,6 @@
-package intro.teoria;
+package Intro.teoria;
 
-import intro.teoria_dos.ExcepcionDivisionPorCero;
+import Intro.teoria_dos.ExcepcionDivisionPorCero;
 
 public class Division {
     

@@ -1,4 +1,4 @@
-package intro.teoria_tres;
+package Intro.teoria_tres;
 
 import java.util.Arrays;
 import java.util.Scanner;

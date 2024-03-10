@@ -1,4 +1,4 @@
-package intro.flujosSalida;
+package Intro.flujosSalida;
 
 import java.io.*;
 import java.util.Scanner;

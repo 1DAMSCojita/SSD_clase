@@ -1,4 +1,4 @@
-package intro.teoria_dos;
+package Intro.teoria_dos;
 
 public class ExcepcionDivisionPorCero extends Exception {
 

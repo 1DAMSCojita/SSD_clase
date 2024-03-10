@@ -1,4 +1,4 @@
-package intro.ejercicio;
+package Intro.ejercicio;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

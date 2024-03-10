@@ -1,4 +1,4 @@
-package intro.pesao_binario;
+package Intro.pesao_binario;
 
 import java.io.*;
 import java.util.*;
