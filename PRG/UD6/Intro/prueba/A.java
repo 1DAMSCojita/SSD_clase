@@ -1,4 +1,4 @@
-package Intro;
+package Intro.prueba;
 
 public abstract class A {
 

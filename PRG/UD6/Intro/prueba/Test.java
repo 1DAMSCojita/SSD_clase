@@ -1,4 +1,4 @@
-package Intro;
+package Intro.prueba;
 
 public class Test {
     public static void main(String[] args) {
