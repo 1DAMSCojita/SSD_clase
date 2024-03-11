@@ -4,6 +4,9 @@ import java.io.*;
 import java.util.*;
 
 public class TestFusion {
+    /*
+     * El programa funciona pero la ruta del archivo obviamente es incorrecta porque se hizo en una ruta específica previamente.
+     */
     public static void main(String[] args) {
         
         // Definimos los nombres de los ficheros binarios.
@@ -33,8 +36,14 @@ public class TestFusion {
         lista1 = leerFichero(fichero1);
         lista2 = leerFichero(fichero2);
 
+        /*
+         * Aquí se crea un nuevo arreglo lista1 con una longitud igual a la suma de las longitudes de lista1 y lista2. Los elementos de lista1 se copian al nuevo arreglo.
+         */
         lista1 = Arrays.copyOf(lista1, lista1.length + lista2.length);
 
+        /*
+         * Se copian los elementos de lista2 al final de lista1. La copia comienza desde el índice 0 en lista2 y desde el índice lista1.length - lista2.length en lista1.
+         */
         System.arraycopy(lista2, 0, lista1, lista1.length - lista2.length, lista2.length);
 
         Arrays.sort(lista1);
@@ -66,7 +75,7 @@ public class TestFusion {
         Integer[] lista = null;
 
         try (ObjectInputStream ois1 = new ObjectInputStream(new FileInputStream(fichero))) {
-            lista = (Integer[])ois1.readObject();
+            lista = (Integer[])ois1.readObject(); // Convertimos el objeto en un 'Integer[]' para poder leerlo.
         } catch (IOException e) {
             System.out.println("Error de escritura: " + e);
         } catch (ClassNotFoundException e) {
