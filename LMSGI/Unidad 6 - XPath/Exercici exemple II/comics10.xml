@@ -1,0 +1,1203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE comics SYSTEM "comics.dtd">
+<!--<?xml-stylesheet type="application/xml" href="comics.xsl" ?>-->
+<comics>
+<!-- ................. GLENAT ................. -->
+
+<editorial nom="Glenat">
+  <dades-editorial>
+	<nom>Edicions Glenat</nom>
+	<web>http://www.glenat.cat</web>
+  </dades-editorial>
+<!-- ................................... NARUTO .................. -->
+  <comic>
+	<titol>Naruto</titol>
+	<volum>
+		<titol>Volum</titol>
+		<numero>39</numero>
+		<autor>Masashi Kishimoto</autor>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+En Sasuke aconsegueix que en Jûgo, l’original de la “maledicció”, s’uneixi al seu grup. Ara que són quatre, en Sasuke forma un esquadró per tal d’assolir el seu objectiu! Konoha i els “Akatsuki”, que s’ensumen alguna cosa, es posen encara més en guàrdia. En Naruto, que intueix que l’objectiu d’en Sasuke és l’Itachi, es posa en marxa amb un nou equip!!
+		</descripcio>
+		<imatge>naruto39.jpg</imatge>
+
+	</volum>
+	<volum>
+		<titol>Volum</titol>
+		<numero>40</numero>
+		<autor>Masashi Kishimoto</autor>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+L’art és explosió!! En Deidara recorre a la seva tècnica C4 Karura, que s’havia reservat fins ara. Una miríada de bombes de mida ultradiminuta s’abalança sobre en Sasuke, que sembla que ha estat derrotat. Malgrat tot, el sharingan li permet veure-ho tot i anticipar-se!! En Deidara, acorralat, utilitza la seva tècnica definitiva, que executarà a canvi de la seva pròpia vida...!!
+		</descripcio>
+		<imatge>naruto40.jpg</imatge>
+	</volum>
+	<volum>
+		<titol>Volum</titol>
+		<numero>41</numero>
+		<autor>Masashi Kishimoto</autor>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+La Konan i en Pain, el líder dels “Akatsuki”, es posen en marxa per caçar en Jiraiya, que s’ha infiltrat a la vila oculta d’Ame. El misteriós Pain resulta ser algú que en Jiraiya coneix molt bé...! Què va passar entre ells i quin terrible poder posseeix en Pain!?
+		</descripcio>
+		<imatge>naruto41.jpg</imatge>
+	</volum>
+	<volum>
+		<titol>Volum</titol>
+		<numero>42</numero>
+		<autor>Masashi Kishimoto</autor>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+La veritable identitat d’en Pain, considerat tot un déu, es manifesta a través de sis guerrers que controlen el rinnegan. A en Jiraiya li sembla entreveure les faccions d’en Yahiko, un dels seus antics deixebles, en un d’ells. Podrà arribar a la resposta definitiva!? D’altra banda, en Sasuke es retroba finalment amb l’Itachi. 
+		</descripcio>
+		<imatge>naruto42.jpg</imatge>
+	</volum>
+  	<volum>
+  		<titol>Volum</titol>
+  		<numero>43</numero>
+  		<autor>Masashi Kishimoto</autor>
+  		<any>2010</any>
+  		<idioma>català</idioma>
+  		<descripcio>
+  			Naruto és el pitjor estudiant de l’escola de ninges de la seva vila: rebel, indisciplinat i el que treu les notes més baixes; però quan es tracta de lluitar és, sens dubte, el millor guerrer. Posseeix un poder amb el que ningú no sap fins on pot arribar. Un manga divertit i molt espectacular.
+  		</descripcio>
+  		<imatge>naruto43.jpg</imatge>
+  	</volum>
+  	<volum>
+  		<titol>Volum</titol>
+  		<numero>44</numero>
+  		<autor>Masashi Kishimoto</autor>
+  		<any>2010</any>
+  		<idioma>català</idioma>
+  		<descripcio>
+  			Naruto és el pitjor estudiant de l’escola de ninges de la seva vila: rebel, indisciplinat i el que treu les notes més baixes; però quan es tracta de lluitar és, sens dubte, el millor guerrer. Posseeix un poder amb el que ningú no sap fins on pot arribar. Un manga divertit i molt espectacular.
+  		</descripcio>
+  		<imatge>naruto44.jpg</imatge>
+  	</volum>
+  </comic>
+  <comic>
+  	<titol>Inu-Yasha</titol>
+	<volum>
+		<titol>Volum</titol>
+		<numero>47</numero>
+		<autor>Rumiko Takahashi</autor>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+Ha arribat el moment de la confrontació definitiva! La fletxa purificadora, imbuïda amb tot el poder espiritual de la Kikyô, vola ara cap a en Naraku...! La força espiritual de la sacerdotessa impacta violentament contra l’aura del seu malvat enemic! És un combat a mort...
+Com s’acabarà!?
+		</descripcio>
+		<imatge>inuyasha47.jpg</imatge>
+	</volum>
+	<volum>
+		<titol>Volum</titol>
+		<numero>48</numero>
+		<autor>Rumiko Takahashi</autor>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+    L’ombra d’en Naraku amenaça un cop més l’Inu-yasha i companyia! Ara és la Kanna, la mestra del mirall, qui s’ha interposat al seu camí!
+
+    Els protagonistes es troben cara a cara amb tot el poder del mirall de la Kanna!
+		</descripcio>
+		<imatge>inuyasha48.jpg</imatge>
+	</volum>
+	<volum>
+		<titol>Volum</titol>
+		<numero>49</numero>
+		<autor>Rumiko Takahashi</autor>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+Ha arribat el moment de posar punt i final a l’èpic combat contra la Kanna! Com acabarà aquest violent cara a cara!?
+Què els espera després de la batalla!?
+		</descripcio>
+		<imatge>inuyasha49.jpg</imatge>
+	</volum>
+	<volum>
+		<titol>Volum</titol>
+		<numero>50</numero>
+		<autor>Rumiko Takahashi</autor>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+El misteriós dimoni Shishinki apareix davant d’en Sesshômaru per dir-li que coneix el secret de la Tenseiga! Quina terrible veritat descobrirem en el transcurs d’aquesta batalla? 
+		</descripcio>
+		<imatge>inuyasha50.jpg</imatge>
+	</volum>
+	<volum>
+		<titol>Volum</titol>
+		<numero>51</numero>
+		<autor>Rumiko Takahashi</autor>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+Amb l'objectiu d'esbrinar d'una vegada per totes qui és el veritable hereu de la Tessaiga, en Sesshômaru repta l'Inu-Yasha a un combat a mort! Era un enfrontament predestinat entre els dos germans però... com acabarà!?
+		</descripcio>
+		<imatge>inuyasha51.jpg</imatge>
+	</volum>
+  	<volum>
+  		<titol>Volum</titol>
+  		<numero>52</numero>
+  		<autor>Rumiko Takahashi</autor>
+  		<any>2010</any>
+  		<idioma>català</idioma>
+  		<descripcio>
+  			Un poderós enemic, en Magatsuhi, ataca un Sesshômaru desarmat!! Qui és aquest ésser misteriós nascut de l’Esfera...!?
+  		</descripcio>
+  		<imatge>inuyasha52.jpg</imatge>
+  	</volum>  	
+  </comic>
+  <comic>
+  	<titol>Bleach</titol>
+	<volum>
+		<titol>Volum</titol>
+		<numero>28</numero>
+		<autor>Tite Kubo</autor>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+Després de la desaparició de l’Orihime, l’Ichigo, l’Ishida i en Sado entren al Món Buit per buscar-la. Tot fent front als arrancar que troben pel camí, proven d’arribar fins al palau de Las Noches, on es troba l’Aizen. Però abans d’arribar topen amb una curiosa parella de germans i un ésser estrany. I s’hi enganxen com qui no vol la cosa...
+		</descripcio>
+		<imatge>bleach28.jpg</imatge>
+	</volum>
+	<volum>
+		<titol>Volum</titol>
+		<numero>29</numero>
+		<autor>Tite Kubo</autor>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+Una cop a dins del palau de Las Noches, cadascú pren un camí diferent. La Nel i l’Ichigo acaben topant amb en Dordoni, un “privaron espada*” a qui l’Ichigo subestima al principi, abans de patir un dels seus potents atacs en primera persona.
+
+D’altra banda, l’Ishida i en Sado s’enfronten tots dos a adversaris molt poderosos.
+		</descripcio>
+		<imatge>bleach29.jpg</imatge>
+	</volum>
+	<volum>
+		<titol>Volum</titol>
+		<numero>30</numero>
+		<autor>Tite Kubo</autor>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+Un cop a dins del palau de Las Noches, cadascú pren un camí diferent. La Nel i l’Ichigo acaben topant amb en Dordoni, un “privaron espada*” a qui l’Ichigo subestima al principi, abans de patir un dels seus potents atacs en primera persona. D’altra banda, l’Ishida i en Sado s’enfronten tots dos a adversaris molt poderosos.
+		</descripcio>
+		<imatge>bleach30.jpg</imatge>
+	</volum>
+	<volum>
+		<titol>Volum</titol>
+		<numero>31</numero>
+		<autor>Tite Kubo</autor>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+L’Ulquiorra anuncia la mort de la Rukia. Quan l’Ichigo descobreix que també és el responsable d’haver-se endut l’Orihime al Món Buit, el desafia a un altre enfrontament. Però el dolor que li provoca l’impressionant “Cero” de l’Ulquiorra és desesperant. Per això, el pla d’atac pren una nova direcció!
+		</descripcio>
+		<imatge>bleach31.jpg</imatge>
+	</volum>
+	<volum>
+		<titol>Volum</titol>
+		<numero>32</numero>
+		<autor>Tite Kubo</autor>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+L’Ichigo i en Grimmjow s’encaren de nou! L’Orihime i la Nel creuen en la victòria de l’Ichigo i l’observen confiades...
+Però la baralla esdevé un enfrontament èpic que sacseja els fonaments de Las Noches! Què passarà quan l’aspecte
+de l’Ichigo, transformat en hollow per fer front al terrible Gran Rey Cero, atemoreixi l’Orihime?
+		</descripcio>
+		<imatge>bleach32.jpg</imatge>
+	</volum>
+  	<volum>
+  		<titol>Volum</titol>
+  		<numero>33</numero>
+  		<autor>Tite Kubo</autor>
+  		<any>2010</any>
+  		<idioma>català</idioma>
+  		<descripcio>
+  			L’Ishida i el Renji estan atrapats en un estrany parany d’en Szayel Aporro, que juga amb ells com el gat amb la rata. D’altra banda, l’Ichigo s’enfronta a un nou enemic, en Nnoitra, per tal de protegir l’Orihime i la Nel. Però el poder d’en Nnoitra és immens i l’Ichigo se sent aclaparat i impotent... Corre el risc de morir! Una cosa estranya li passa a la Nel just aleshores.
+  		</descripcio>
+  		<imatge>bleach33.jpg</imatge>
+  	</volum>
+  </comic>
+  <comic>
+  	<titol>Love Hina</titol>
+	<volum>
+		<titol>Volum</titol>
+		<numero>11</numero>
+		<autor>Ken Akamatsu</autor>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+En Keitarô marxa a Los Angeles amb el professor Seta per mig any per poder fer el que li agrada. La residència Hinata al complet va a l’aeroport per acomiadar-lo. Sis mesos després, la residència rep una visita misteriosa amb uns plans que agafarà per sorpresa a les noies...
+		</descripcio>
+		<imatge>lovehina11.jpg</imatge>
+	</volum>
+	<volum>
+		<titol>Volum</titol>
+		<numero>12</numero>
+		<autor>Ken Akamatsu</autor>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+En Keitarô acaba de tornar dels Estats Units i, en arribar a la residència, es troba a les noies acompanyades de la Kanako, la seva germana petita. Aquesta farà tots els possibles per a aconseguir l’amor del nostre protagonista, però per a això s’haurà d’enfrontar a la resta de noies, especialment a la Narusegawa...
+		</descripcio>
+		<imatge>lovehina12.jpg</imatge>
+	</volum>
+	<volum>
+		<titol>Volum</titol>
+		<numero>13</numero>
+		<autor>Ken Akamatsu</autor>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+La Motoko s’està preparant pels exàmens d’accés a la Tôdai, però li costa molt concentrar-se veient com festeja la parelleta formada per la Narusegawa i l’Urashima.
+
+Per què serà...?
+		</descripcio>
+		<imatge>lovehina13.jpg</imatge>
+	</volum>
+  	<volum>
+  		<titol>Volum</titol>
+  		<numero>14</numero>
+  		<autor>Ken Akamatsu</autor>
+  		<any>2010</any>
+  		<idioma>català</idioma>
+  		<descripcio>
+  			La sèrie consta de 14 volums i es centra en la història d’en Keitarô Urashima, un tímid estudiant de 19 anys que, havent estat expulsat de casa seva pels seus pares després d’haver suspès dos cops l’examen d’accés a la universitat, decideix allotjar- se a la pensió Hinata que poseeix la seva àvia, per a estudiar amb més tranquilitat, trobant-se però amb la sorpresa de que la pensió, la propietària de la qual s’ha anat de viatge a fer la volta al món, ara s’ha transformat en una residència per a noies, dirigida per la tia d’en Keitarô, la Haruka...
+  		</descripcio>
+  		<imatge>lovehina14.jpg</imatge>
+  	</volum>
+  </comic>	
+  <comic>
+  	<titol>Kimagure Orange Road</titol>
+	<volum>
+		<titol>Volum</titol>
+		<numero>8</numero>
+		<autor>Izumi Matsumoto</autor>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+Les notes de la Hikaru, que ara ja és a tercer de secundària, empitjoren de sobte. És el moment de decidir si vol continuar els estudis i fer batxillerat, i mentre s’ho pensa s’apunta a classes de repàs.
+
+Però és clar, si vol fer batxillerat hauria de ser al mateix institut on estudia ara, per poder estar amb en Kyôsuke... Amb aquest objectiu en ment, la Hikaru decideix fer mans i mànigues per tal de superar aquestes classes
+		</descripcio>
+		<imatge>orange08.jpg</imatge>		
+	</volum>
+	<volum>
+		<titol>Volum</titol>
+		<numero>9</numero>
+		<autor>Izumi Matsumoto</autor>
+		<any>2010</any>
+		<idioma>català</idioma>		<descripcio>
+En Kyôsuke, ferit, és ingressat a l’hospital i amb prou feines es pot moure. En un moment, sucumbeix a la temptació d’usar els poders per acostar-se un objecte... amb tan mala sort que la Hikaru el pesca! En Kyôsuke sap el que això significa: una altra mudança, una altra escola. Ara sí que l’ha feta bona!
+
+Com s’ho farà per esquivar les conseqüències d’aquesta relliscada!?
+		</descripcio>
+		<imatge>orange09.jpg</imatge>
+	</volum>
+  	<volum>
+  		<titol>Volum</titol>
+  		<numero>10</numero>
+  		<autor>Izumi Matsumoto</autor>
+  		<any>2010</any>
+  		<idioma>català</idioma>		
+  		<descripcio>
+  			El dia en que en Kyosuke, el fill gran d’una família amb uns poders molt particulars, es trasllada de ciutat, surt a passejar i queda enlluernat per la Madoka, una noia amb la que coincidirà després a l’institut. En Kyosuke és un jove de caràcter indecís i les circumstàncies el portaran a sortir amb la Hikaru, una amiga de la Madoka. Tanmateix, no trigarà en adonar-se que sempre està pensant en la Madoka i farà tot el possible per apropar-se a ella. El triangle amorós està servit.
+		</descripcio>
+  		<imatge>orange10.jpg</imatge>
+  	</volum>
+  </comic>	
+  <comic>
+  	<titol>Cinturó Negre</titol>
+	<volum>
+		<titol>Volum</titol>
+		<numero>7</numero>
+		<autor>Naoki Urasawa</autor>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+La Ginger assisteix contenta a la cerimònia d’inici de curs a la Universitat Femenina Mitsuba i després, en mig d’una allau d’ofertes d’activitats extraescolars, s’acaba apuntant al club de golf gairebé sense voler.
+A la festa de benvinguda per a les noves membres del club, fa una nova amiga: una noia un xic estranyota que es diu Fujiko Itô...
+		</descripcio>
+		<imatge>cinturonegre07.jpg</imatge>
+	</volum>
+	<volum>
+		<titol>Volum</titol>
+		<numero>8</numero>
+		<autor>Naoki Urasawa</autor>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+Tot i la diferència de pes que les posa en situació de desavantatge respecte les altres rivals, la Ginger i la Sayaka van guanyant els seus respectius combats del campionat nacional del Japó. Això provoca que el president del C.O.I, en Tamaranch, comenci a pensar en la possibilitat d’instaurar la categoria absoluta als Jocs Olímpics...
+		</descripcio>
+		<imatge>cinturonegre08.jpg</imatge>
+	</volum>
+	<volum>
+		<titol>Volum</titol>
+		<numero>9</numero>
+		<autor>Naoki Urasawa</autor>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+Comencen els combats de la categoria absoluta i “sa majestat” Belkens aconsegueix una victòria fàcil a la primera ronda. Ara li toca a la Ginger, però davant seu hi té la Tao, una xinesa de 1,98 m d’alçada i 125 kg de pes.
+
+Podrà la Ginger estar per sobre de les evidents diferències físiques?
+		</descripcio>
+		<imatge>cinturonegre09.jpg</imatge>
+	</volum>
+	<volum>
+		<titol>Volum</titol>
+		<numero>10</numero>
+		<autor>Naoki Urasawa</autor>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>Ja tenim aquí la gran final de la categoria absoluta dels Jocs Olímpics. L’ura nage de la campiona del món, la Teleshikova, deixa inconscient la Ginger! La Teleshikova s’havia estat guardant les tècniques de projecció per a la final precisament amb aquesta intenció...
+		</descripcio>
+		<imatge>cinturonegre10.jpg</imatge>
+	</volum>
+	<volum>
+		<titol>Volum</titol>
+		<numero>11</numero>
+		<autor>Naoki Urasawa</autor>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+En el combat d’exhibició que se celebra durant el casament de l’excampiona del món, la Jodie, la Ginger derrota amb un ippon seoi la Christine Adams, l’esperança del món del judo canadenc. A l’hora de marxar del Canadà, però, li confessa a la Jodie que vol deixar el judo.
+		</descripcio>
+		<imatge>cinturonegre11.jpg</imatge>
+	</volum>
+	<volum>
+		<titol>Volum</titol>
+		<numero>12</numero>
+		<autor>Naoki Urasawa</autor>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+Comença el torneig de judo femení per equips Copa Ajisai. La Fujiko fa un gran paper per a la Universitat Mitsuba. L’equip passa a semifinals havent necessitat només l’ajuda de la Ginger en un sol combat; arriba el moment d’enfrontar-se a la Seishin Jogakukan de la Sayaka.
+		</descripcio>
+		<imatge>cinturonegre12.jpg</imatge>
+	</volum>
+  	<volum>
+  		<titol>Volum</titol>
+  		<numero>13</numero>
+  		<autor>Naoki Urasawa</autor>
+  		<any>2010</any>
+  		<idioma>català</idioma>
+  		<descripcio>
+  			La Ginger derrota les cinc oponents de la Tsukushi i el seu equip es pro- clama campió de la Copa Ajisai. Més tard, la Ginger comença a buscar feina, però per altra banda decideix participar al campionat nacional del Japó per la seva amiga Fujiko.
+  		</descripcio>
+  		<imatge>cinturonegre13.jpg</imatge>
+  	</volum>  	
+  </comic>
+
+  <comic>
+	<titol>Barcelona Low Cost</titol>
+	<dibuix>Martin Tognola</dibuix>
+	<guio>Aníbal Mendoza</guio>
+	<any>2010</any>
+	<idioma>català</idioma>
+	<descripcio>
+En Santi, la Bea i en Durruti són a la trentena, tenen estudis, són enrotllats, gent de món, malgrat que tota la seva preparació no els lliura d’una subsistència low cost. Comparteixen pis al barri del Raval, lluny del decorat de la marca Barcelona i malviuen amb feines informals.
+Els uneix la incertesa i els desorienta la llengua, mentre la ciutat els convida a les seves festes, destil·lant el seu perfum de mar i escopinyes. Benvinguts a aquesta altra Barcelona...
+
+Guanyadora del 3er Premi Josep Coll d’àlbum de còmic convocat per l’Associació Professional d’Il·lustradors de Catalunya (A.P.I.C.). S’ha publicat en dos idiomes, castellà i català
+	</descripcio>
+	<imatge>lowcost.jpg</imatge>
+  </comic>
+  <comic>
+	<titol>Abulio</titol>
+	<autor>Joan Cornellà</autor>
+	<any>2010</any>
+	<idioma>català</idioma>
+	<descripcio>
+L’Abulio no és un paio normal. O sí, sí que ho és, potser és un paio massa normal. Aquesta és la ironia de l’àlbum. I de la vida. Aquest genial relat surrealista en clau d’humor es converteix en un dels tebeos més enginyosos, crítics i divertits del panorama actual.
+
+Guanyadora del 3er Premi Josep Coll d’àlbum de còmic convocat per l’Associació Professional d’Il·lustradors de Catalunya (A.P.I.C.).
+S’ha publicat en dos idiomes, castellà i català
+	</descripcio>
+	<imatge>abulio.jpg</imatge>
+  </comic>
+  <comic>
+	<titol>Sèrie B</titol>
+	<dibuix>Danide</dibuix>
+	<guio>Raúl Deamo</guio>
+	<any>2010</any>
+	<idioma>català</idioma>
+	<descripcio>
+Un funcionari que sempre es desperta en dilluns. Peter Jackson matant guionistes zombi al festival de Sitges. Una empresa de viatges low cost en el temps. Alienígenes d'un planeta glaçat estiuejant a Lloret de Mar. Un pis de l'eixample que cada dia es fa més petit.
+
+Què dimonis és tot això? Tot això i molt més és... Sèrie B.
+	</descripcio>
+	<imatge>serieb.jpg</imatge>
+  </comic>
+
+
+		
+</editorial>	
+
+<!-- ................. NORMA EDITORIAL ................. -->
+
+<editorial nom="Norma">
+  <dades-editorial>
+	<nom>Norma Editorial</nom>
+	<web>http://www.normaeditorial.cat</web>
+  </dades-editorial>
+  <comic>
+	<titol>Eric Castel</titol>
+	<volum>
+		<titol>El secret d'en Toni</titol>
+		<numero>6</numero>
+		<dibuix>Raymond Reding</dibuix>
+		<guio>Françoise Hugues</guio>
+		<guio>Raymond Reding</guio>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+Comença una nova temporada! Nous títols i projectes! En Toni està cada dia més integrat en els alevins del Barça i l'Èric està cada vegada més entusiasmat amb la idea d'escriure un llibre sobre la història del futbol. Esperem que tot això no el distregui de les seves competicions pendents... 
+		</descripcio>
+		<imatge>eric6.jpg</imatge>
+	</volum>
+	<volum>
+		<titol>La nit del Tibidabo</titol>
+		<numero>7</numero>
+		<dibuix>Raymond Reding</dibuix>
+		<guio>Françoise Hugues</guio>
+		<guio>Raymond Reding</guio>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+La competició europea de la C.E.C.A. continua amb l'enfrontament entre el Barça i l'A.S. Mònaco. Una eliminatòria important no només per a l'Eric, sinó també per en Toni, que jugarà amb els alevins del Barça per primera vegada a l'estranger. Però aquesta no serà l'única emoció forta que viurà el jove futbolista... una aventura l'espera en el Subaru de l'Eric!
+		</descripcio>
+		<imatge>eric7.jpg</imatge>
+	</volum>
+	<volum>
+		<titol>La gran decisió</titol>
+		<numero>8</numero>
+		<dibuix>Raymond Reding</dibuix>
+		<guio>Françoise Hugues</guio>
+		<guio>Raymond Reding</guio>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+Hi ha moments en la vida d´un jugador professional de futbol en els que s'han de prendre decisions dures, complicades... d'aquelles que no agraden a tothom. Quan Eric decideix anar-se´n al PSG, la seva vida dóna un bolc. Continuaran sent-li fidels, els Júniors?
+		</descripcio>
+		<imatge>eric8.jpg</imatge>
+	</volum>
+  	<volum>
+  		<titol>Els cinc primers minuts</titol>
+  		<numero>9</numero>
+  		<dibuix>Raymond Reding</dibuix>
+  		<guio>Françoise Hugues</guio>
+  		<guio>Raymond Reding</guio>
+  		<any>2010</any>
+  		<idioma>català</idioma>
+  		<descripcio>
+Sembla que l'Èric s'ha adaptat ràpidament a la vida a la ciutat de Paris. El seu joc està en el seu millor moment, està a punt d'acabar el llibre sobre la història del futbol i ha fet nous amics. Com estaran en Toni i els Júniors?
+  		</descripcio>
+  		<imatge>eric9.jpg</imatge>
+  	</volum>  	
+  </comic>
+  <comic>
+	<titol>Col·lecció Hugo Pratt</titol>
+	<volum>
+		<titol>Corto maltès: Les cèltiques</titol>
+		<numero>2</numero>
+		<autor>Hugo Pratt</autor>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+Reeditem el llargament esperat àlbum de Les cèltiques a tot color. Aquest volum inclou les històries del cicle d'Irlanda i Gran Bretanya: "Concert en do menor per a arpa i nitroglicerina", “Somni d'un matí d'hivern", "Vins de Borgonya i roses de Picardia" i “Teatre de varietats entre Zuydcoote i Bray-Dunes”.
+		</descripcio>
+		<imatge>celtiques.jpg</imatge>
+	</volum>
+	<volum>
+		<titol>Corto maltès: La llacuna dels misteris</titol>
+		<numero>3</numero>
+		<autor>Hugo Pratt</autor>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+Tercer volum de la nova Col·lecció Hugo Pratt que recupera els clàssics de l'autor venecià i titols inèdits en el nostre pais, així com noves versions colorejades.
+
+Després de la llargament esperada reedició de "Les Cèltiques", ara és el torn de la publicació d'un volum inèdit en color com és "La llacuna dels misteris". Recopila les histories: "La llacuna dels bells somnis", "Faules i avis", "L'angel de la finestra d'Orient", i "Sota la bandera de l'or".
+		</descripcio>
+		<imatge>llacuna.jpg</imatge>
+	</volum>
+	<volum>
+		<titol>Sargent Kirk: Primera època</titol>
+		<numero>4</numero>
+		<dibuix>Hugo Pratt</dibuix>
+		<guio>H.G.Oesterheld</guio>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+Poques vegades podem disfrutar d'un equip creatiu tan impressionant com aquest: Hugo Pratt i H.G.Oesterheld. Junts van crear Sargent Kirk i van estar treballant en les seves històries molts anys. Ara, ens complau presentar un volum que recopila totes les tires publicades durant 1953 a la revista Misterix. Acció, aventures, indis, diligències i tot el sabor del bon western.
+		</descripcio>
+		<imatge>sgtkirk1.jpg</imatge>
+	</volum>
+  	<volum>
+  		<titol>Corto maltès: Faula de Venècia</titol>
+  		<numero>5</numero>
+  		<autor>Hugo Pratt</autor>
+  		<any>2010</any>
+  		<idioma>català</idioma>
+  		<descripcio>
+  			A pesar de tot el turisme encara existeix la Venècia secreta. Una ciutat plena de misteris, llegendes i mites. Pratt, venecià de socarrel, retrata aquesta Venècia mentre descriu a la perfecció l'esperit de Corto Maltès: tots dos són reservats, intrigants i fruits d'una mescla de cultures. Tot un homenatge a la ciutat dels canals que s'ha convertir en una de les obres mestres de l'autor italià  			  			
+  		</descripcio>
+  		<imatge>venecia.jpg</imatge>
+  	</volum>
+  </comic>
+  <comic>
+	<titol>Yakari</titol>
+	<volum>
+		<titol>Volum</titol>
+		<numero>1</numero>
+		<dibuix>Derib</dibuix>
+		<guio>Job</guio>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+Yakari és un petit indi sioux que aviat descobrirà que no és un indi normal, perquè… pot parlar amb els animals!
+
+Creat per Job i Derib, Yakari és el còmic ideal per als més petits. Ple d'aventures i diversió, també els ensenyarà a respectar els animals i la naturalesa, i a cuidar del medi ambient.
+		</descripcio>
+		<imatge>yakari1.jpg</imatge>
+	</volum>
+	<volum>
+		<titol>Volum</titol>
+		<numero>2</numero>
+		<dibuix>Derib</dibuix>
+		<guio>Job</guio>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+Yakari és un petit indi sioux que aviat descobrirà que no és un indi normal, ja que... pot parlar amb els animals! En aquest volum Yakari i el seu inseparable cavall, Fill del Tro , coneixeran els seus nous veïns, els castors, i Arc Iris complirà el seu somni de conèixer els óssos polars gràcies al seu tòtem protector Nanabozo . Creat per Job i Derib , Yakar i és el còmic ideal per als més petits. Replet d'aventures i diversió, també els ensenyarà a respectar i cuidar el medi ambient.
+		</descripcio>
+		<imatge>yakari2.jpg</imatge>
+	</volum>  
+	<volum>
+		<titol>Volum</titol>
+		<numero>3</numero>
+		<dibuix>Derib</dibuix>
+		<guio>Job</guio>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+En aquest volum, Yakari i el seu inseparable cavall han d'enfrontar-se al temible ós que està aterrint tota la regió. A més a més, Fill del Tro haurà de superar unes duríssimes proves de les quals només els cavalls més valents salven la vida. Creat per Job  i Derib, Yakari és el còmic ideal per als més petits. Ple d'aventures i diversió, també els ensenyarà a respectar i cuidar el medi ambient.
+Aquest volum conté les següents histories: "Yakari i el Grizzly" i "El secret del fill del tro".
+		</descripcio>
+		<imatge>yakari3.jpg</imatge>
+	</volum>
+  	<volum>
+  		<titol>Volum</titol>
+  		<numero>4</numero>
+  		<dibuix>Derib</dibuix>
+  		<guio>Job</guio>
+  		<any>2010</any>
+  		<idioma>català</idioma>
+  		<descripcio>
+  			Yakari és un petit indi sioux que aviat descobrirà que no és un indi normal, perquè… pot parlar amb els animals!
+  			
+  			Creat per Job i Derib, Yakari és el còmic ideal per als més petits. Ple d'aventures i diversió, també els ensenyarà a respectar els animals i la naturalesa, i a cuidar del medi ambient.  			
+  		</descripcio>
+  		<imatge>yakari4.jpg</imatge>
+  	</volum>  	
+  </comic>
+  <comic>
+	<titol>Ot el Bruixot: Edició 40è aniversari</titol>
+        <volum>
+		<titol>Volum</titol>
+		<numero>2</numero>
+		<autor>Picanyol</autor>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+Celebrem l'aniversari de l'Ot el bruixot amb un llibre recopilatori especial.
+Ja fa més de 40 anys que el fill predilecte d’en Picanyol, l’Ot el Bruixot, ens acompanya cada quinze dies des de les pàgines de Cavall Fort. Des de Norma Editorial volem celebrar aquesta data tan assenyalada amb una edició especial de les millors tires d’aquest personatge que s’ha guanyat un lloc de privilegi en la cultura catalana.
+		</descripcio>
+		<imatge>ot2.jpg</imatge>
+	</volum>
+  </comic>
+  <comic>
+	<titol>Alicia en un món real</titol>
+	<dibuix>Susanna Martin</dibuix>
+	<guio>Isabel Franc</guio>
+	<any>2010</any>
+	<idioma>català</idioma>
+	<descripcio>L'Alicia que us presentem no viu en el País de les Meravelles. Ha passat per una experiència que, lamentablement, és real i comuna per a moltes dones: un càncer de mama. Tanmateix, gràcies al seu esperit lluitador, esvalotat i positiu, ha sabut donar la volta a la situació. Ni el periple de la malaltia ni els tractaments agressius ni l´extirpació d´un pit li han robat el sentit de l'humor. La protagonista d'aquesta història ens explica la seva aventura partint d'un lema molt clar: la vida després del càncer ja mai no és igual... però ve a ser el mateix.
+	</descripcio>
+	<imatge>aliciaen.jpg</imatge>
+  </comic>
+  <comic>
+	<titol>Mouse Guard</titol>
+	<volum>
+		<titol>Hivern 1152</titol>
+		<numero>2</numero>
+		<autor>David Petersen</autor>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+Després de la frustrada revolta de Midnight , ha arribat l´hivern als territoris ratolins. La guàrdia encara s´està recuperant i planeja unir a tots els pobles ratolí per poder sobreviure al dur hivern i tenir un futur pròsper. Per fer-ho, Gwendolyn ha manat a Saxon , Kenzie , Lieam i l´ancià Celanawe a missió diplomàtica. Però el camí en aquesta època és traïdorenc i els nostres herois es veuran separats i perseguits per ferotges criatures dels boscos.
+		</descripcio>
+		<imatge>mouseguard2.jpg</imatge>
+	</volum>
+  </comic>		
+</editorial>
+
+<!-- ................. EDICIONS DE PONENT ................. -->
+
+<editorial nom="dePonent">
+  <dades-editorial>
+	<nom>Edicions de Ponent</nom>
+	<web>http://www.edicionsdeponent.com/</web>
+  </dades-editorial>
+  <comic>
+  	<titol>El quart poder: La imparable ascensió de Bel Ami en la societat barcelonina de 1921</titol>
+	<autor>Lluís Juste de Nin</autor>
+	<any>2010</any>
+	<idioma>català</idioma>
+	<descripcio>
+Adaptació lliure de la novel·la de Guy de Maupassant publicada el 1885, on es relata l’escalada social i professional del seductor Jordi Reig ("Bel Ami"). El món de la premsa, amb els seus clars i foscos, i la nit més canalla de la Barcelona dels anys 20 són el marc d’aquest relat d’ambicions en plena dictadura de Primo de Rivera.
+	</descripcio>
+	<imatge>quartpoder.jpg</imatge>
+  </comic>
+</editorial>
+
+<!-- ................. COMIC BOOKS ................. -->
+
+<editorial nom="ComicBooks">
+  <dades-editorial>
+	<nom>Comic Books / Grup 62 / Planeta</nom>
+	<web>http://www.grup62infantiljuvenil.cat/www/grup62infantiljuvenil/ca/comics.html</web>
+  </dades-editorial>
+  <comic>
+	<titol>Geronimo Stilton</titol>
+        <volum>
+		<titol>La gran era glacial</titol>
+		<numero>4</numero>
+		<autor>Geronimo Stilton</autor>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+El professor Volt és un científic famosíssim que ha projectat, per a la família Stilton, aquesta màquina del temps: la missió d'ells és plantar cara als gats pirates i salvar la història!
+
+En aquesta nova aventura Geronimo viatjarà a una terra rodejada de neu i gel, on hi habiten mamuts, tigres ferotges amb uns enormes queixals i uns primitius molt estranys. Geronimo i els seus amics hauran d'aconseguir sobreviure a la gran era Glacial i salvar la història!
+		</descripcio>
+		<imatge>stilton4.jpg</imatge>
+        </volum>
+  	<volum>
+  		<titol>Rere la pista de Marco Polo</titol>
+  		<numero>5</numero>
+  		<autor>Geronimo Stilton</autor>
+  		<any>2010</any>
+  		<idioma>català</idioma>
+  		<descripcio>
+  			Aquesta nova aventura portarà Geronimo Stilton a l'antiga Xina, a la cort de l'emperador mongol Kubilai Khan. Allí Geronimo trobarà el famós viatger venecià Marco Polo i se les haurà amb els malvats gats pirates! 
+  		</descripcio>
+  		<imatge>stilton5.jpg</imatge>
+  	</volum>
+  </comic>
+  <comic>
+	<titol>Tea Stilton</titol>
+	<volum>
+		<titol>El secret de les balenes</titol>
+		<numero>1</numero>
+		<autor>Tea Stilton</autor>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+Ja coneixes a les Tea Sisters, són cinc estudiants de la Universitat de Ratford i passen moltíssimes aventures juntes!
+
+La Universitat de Ratford està a l'Illa de les Balenes. Les Tea Sisters són trempades, divertides i volen convertir-se en periodistes! Entre les lliçons, les amistats, els amors i les petites enveges, la vida a la universitat és d'allò més emocionant!
+
+És el principi de curs i els estudiants arriben a la Universitat de Ratford. Cada any, en aquest període, les balenes passen a la vora de l'illa, però aquest cop una orca trenca la tranquil·litat.
+		</descripcio>
+		<imatge>teastilton1.jpg</imatge>
+	</volum>
+  </comic>
+  <comic>
+	<titol>La recerca</titol>
+	<dibuix>Eric Heuvel</dibuix>
+	<guio>Ruud van der Rol</guio>
+	<guio>Lies Schippers</guio>
+	<any>2010</any>
+	<idioma>català</idioma>
+	<descripcio>
+L'Esther és una dona jueva que, després de molts anys, visita la granja holandesa on es va haver d'amagar durant la Segona Guerra Mundial quan només era una nena. Allà va patir una experiència espantosa. Els seus pares van morir als camps de concentració d'Auschwitz i sempre s'ha preguntat com debien ser els seus últims dies. En Daniel, el seu nét adolescent, l'ajuda a reconstruir la història.
+	</descripcio>
+	<imatge>recerca.jpg</imatge>
+  </comic>
+  <comic>
+	<titol>Maldat</titol>
+	<autor>Chris Wooding</autor>
+	<any>2010</any>
+	<idioma>català</idioma>
+	<descripcio>
+En Luke és un jove londinenc de 15 anys totalment captivat per el rumor del còmic Maldat. La curiositat pot més que la precaució, així que decideix temptar la sort i invocar a Tall Jack. Ni s’imagina el que pot passar a continuació: s’apaguen els llums, se senten sorolls estranys a dins l’armari. En Tall Jack és davant seu i està disposat a emportar-se en Luke al fosc i obscur món de Malice. A partir d’ara ja no podrà escapar, en Luke serà un nou personatge del còmic. Els seus amics confirmaran que el rumor era cert i l’única alternativa que tindran és intentar accedir al còmic per salvar-lo
+	</descripcio>
+	<imatge>maldat.jpg</imatge>
+  </comic>
+</editorial>
+
+<!-- ................. DOLMEN EDITORIAL ................. -->
+
+<editorial nom="Dolmen">
+  <dades-editorial>
+	<nom>Dolmen Editorial</nom>
+	<web>http://www.dolmeneditorial.com/</web>
+  </dades-editorial>
+  <comic>
+	<titol>Balears Abans i ara</titol>
+	<volum>
+		<titol>Volum</titol>
+		<numero>1</numero>
+		<dibuix>Quim Bou</dibuix>
+		<guio>Diversos</guio>
+		<any>2010</any>
+		<idioma>català</idioma>
+	        <descripcio>
+Obra destinada a repassar en deu volums d'una forma amena, rigorosa i acadèmica la història de les Illes Balears, de la mà de Quim Bou i dels millors historiadors de les Balears que han col·laborat en aquesta obra (Antoni Marimon, Manel Calvo, Bartomeu Salvà ...). Cada volum repassarà un període de la nostra història al llarg de relats en forma de còmic, amb un ampli annex final ple d'informació i imatges, mostrant també reproduccions fidels de com eren edificacions, monuments, etc. comparant-los amb com es conserven en l'actualitat.
+		</descripcio>
+		<imatge>balears1.jpg</imatge>
+	</volum>
+  </comic>	
+</editorial>
+
+<!-- ................. INREVÉS ................. -->
+
+<editorial nom="Inreves">
+  <dades-editorial>
+	<nom>Inrevés Ediciones</nom>
+	<web>http://www.inreves.com/</web>
+  </dades-editorial>
+  <comic>
+	<titol>Les serps cegues</titol>
+	<dibuix>Bartolomé Seguí</dibuix>
+	<guio>Felipe Hernandez Cava</guio>
+	<any>2010</any>
+	<idioma>català</idioma>
+	<descripcio>
+Nova York, 1939, un home acaba d'arribar a la ciutat seguint la pista a Ben Koch que va incomplir un pacte. Però en Ben també està buscant frenèticament a en Curtis Rusciano.
+
+Mentrestant els republicans ja tenen la guerra civil espanyola perduda i no es veuen capaços d'allargar-la fins que esclati la guerra europea.
+
+Tot l'univers dels protagonistes, a pesar de la intensa calor que fa, està basat en ajustar comptes personals.
+	</descripcio>
+	<imatge>serps.jpg</imatge>
+  </comic>
+</editorial>
+
+<!-- ................. ASTIBERRI ................. -->
+<editorial nom="Astiberri">
+  <dades-editorial>
+	<nom>Astiberri Ediciones</nom>
+	<web>http://www.astiberri.com/</web>
+  </dades-editorial>
+  <comic>
+	<titol>El llibre dels conillets suïcides</titol>
+	<volum>
+		<titol>El llibre dels conillets suïcides</titol>
+		<numero>1</numero>
+		<autor>Andy Riley</autor>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+Encara que mai arribem a conèixer-ne els motius, a vegades, els conillets decideixen que estan farts d’aquest món i no volen continuar vivint. El llibre dels conillets suïcides ens mostra més de cent d’aquests éssers petits, peluts i suaus, i les diferents maneres, si l’una estrafolària l’altra encara més, que trien per abandonar-lo. El pervers sentit de l’humor d’Andy Riley provocarà la hilaritat del lector, que no deixarà d’admirar la imaginació d’un artista que no té prejudicis per mostrar el costat fosc d’uns animalets que (gairebé) tothom veu amb simpatia.
+
+S’han venut més de 30.000 exemplars de la saga de Los conejitos suicidas en castellà, que té la continuació en el volum El regreso de los conejitos suicidas (pròximament també en català).
+		</descripcio>
+		<imatge>conilletssuicides.jpg</imatge>
+	</volum>
+  </comic>
+</editorial>
+
+<!-- ................. LA CUPULA ........................ -->
+<editorial nom="LaCupula">
+  <dades-editorial>
+	<nom>Ediciones La Cúpula</nom>
+	<web>http://www.lacupula.com</web>
+  </dades-editorial>
+  <comic>
+	<titol>Comics:Concurs Fundació CPB</titol>
+	<autor>Diversos autors</autor>
+	<any>2010</any>
+	<idioma>català</idioma>
+	<descripcio>
+ Aquest llibre reuneix 141 còmics realitzats per usuaris dels Serveis de Salut Mental de Catalunya, per a la XII edició del Premi a la Creació Artística Agustí Semir-Conxa Millan, convocat l'any 2009 amb el tema "Un dia de la meva vida". 
+	</descripcio>
+	<imatge>cpb.jpg</imatge>
+  </comic>
+  <comic>
+	<titol>Wilson</titol>
+	<autor>Daniel Clowes</autor>
+	<any>2010</any>
+	<idioma>català</idioma>
+	<descripcio>
+Wilson és un misantrop de mitjana edat que per defugir la seva solitud enceta converses unilaterals amb desconeguts en cafeteries o enmig del carrer.
+Wilson és un infeliç ressentit que troba sospitosa l'aparent felicitat de la gent que l'envolta. Wilson és un home odiós amb un gran cor. Un solter trist i solitari. Un pare i marit devot. Un idiota. Un sociòpata. Un fantasma il·lús. Una flor delicada. Wilson és el retrat de la part fosca de l'home contemporani.
+Wilson és la nova novel·la gràfica de Daniel Clowes, un dels autors de còmic més influents del panorama internacional i un renovador del llenguatge del còmic. 
+	</descripcio>
+	<imatge>wilson.jpg</imatge>
+  </comic>
+</editorial>
+
+
+
+<!-- ................. VIRUS EDITORIAL ................. -->
+
+<editorial nom="Virus">
+  <dades-editorial>
+	<nom>Virus Editorial</nom>
+	<web>http://www.viruseditorial.net/</web>
+  </dades-editorial>
+  <comic>
+	<titol>L'onada</titol>
+	<dibuix>Stefani Kampmann</dibuix>
+	<guio>Morton Rhue</guio>
+	<any>2010</any>
+	<idioma>català</idioma>
+	<descripcio>
+En 1967 Ron Jones, un professor de secundària nord-americà va ser incapaç de fer entendre als seus alumnes com va ser possible que el poble alemany es deixés endur per la barbàrie nazi. Els mitjans docents tradicionals no van funcionar i, per solucionar-ho, va idear la realització d'un experiment sociològic. Aquest consistia a simular el naixement d'un moviment autoritari basat en la disciplina al que va anomenar “La Tercera Onada” i al qual va fer participar els alumnes sense explicar-los les seves veritables intencions. Per a la seva pròpia sorpresa, l'assumpte va funcionar terriblement bé, els alumnes es van implicar fins a límits insospitats i les conseqüències se'ls van anar de les mans en tan sols una setmana. Tant els pares com la resta de professors van exhortar Jones a posar-hi fi i aquest ho va fer donant una veritable lliçó que segurament els estudiants no oblidaran mai.
+	</descripcio>
+	<imatge>onada.png</imatge>
+  </comic>
+</editorial>
+
+<!-- ................. SIMBOL EDITORS ................. -->
+
+<editorial nom="Simbol">
+  <dades-editorial>
+	<nom>Símbol editors</nom>
+	<web>http://www.simboleditors.cat/</web>
+  </dades-editorial>
+  <comic>
+	<titol>Tom Sawyer de Mark Twain</titol>
+	<dibuix>Rad Sechrist</dibuix>
+	<guio>Tim Mucci</guio>
+	<any>2010</any>
+	<idioma>català</idioma>
+	<descripcio>
+Com qualsevol altre noi d’una ciutat petita a la vora del Mississippí, en Tom Sawyer només somia en fer campana a l’escola, passar-se el dia pescant, robar fruita dels arbres i buscar tresors. Però la vida al Mississippí no és sempre fàcil, especialment quan en Tom es veu amenaçat pel despietat indi Joe i, encara pitjor, per la llista de feines a fer que li prepara la seva tieta Polly. L’ agudesa d’ esperit i la saviesa única que destil·len els llibres de Mark Twain els han fet uns clàssics, però la seva història més coneguda – i el seu heroi més memorable – és, sens dubte, Tom Sawyer. Ara podeu gaudir d’una adaptació en còmic d’aquesta gran aventura americana.
+        </descripcio>
+	<imatge>tomsawyer.jpg</imatge>
+  </comic>
+  <comic>
+	<titol>Dràcula de Bram Stoker</titol>
+	<dibuix>Ben Caldwell</dibuix>
+	<dibuix>Bill Harriar</dibuix>
+	<guio>Michael Mucci</guio>
+	<any>2010</any>
+	<idioma>català</idioma>
+	<descripcio>
+L'agent immobiliari Jonathan Harker ha anat a Transsilvània per trobar-se amb el seu nou client, l’excèntric compte Dràcula. Però en el castell ruïnós del comte, Harker descobreix un antic mal immortal.... Des de 1895, el Dràcula de Bram Stoker ha emocionat i terroritzat generacions de lectors amb els seus castells gòtics, cementiris il·luminats amb llums de gas i el malvat i macabre comte Dràcula. Ara pots gaudir de l’adaptació en còmic d’aquest clàssic de la literatura de terror.
+	</descripcio>		
+ 	<imatge>dracula.jpg</imatge>
+
+  </comic>
+</editorial>
+
+<!-- ................. BANG EDICIONES ................. -->
+
+<editorial nom="Bang">
+  <dades-editorial>
+	<nom>Bang Ediciones</nom>
+	<web>http://www.bangediciones.com/</web>
+  </dades-editorial>
+  <comic>
+	<titol>El retorn a la terra</titol>
+	<volum>
+		<titol>El diluvi</titol>
+		<numero>4</numero>
+		<dibuix>Manu Larcenet</dibuix>
+		<guio>Jean-Yves Ferri</guio>
+		<any>2010</any>
+		<idioma>català</idioma>
+                <descripcio>Aquesta sèrie explica amb clau d'humor les peripècies d'una parella de la capital decideix canviar el ritme frenètic de la ciutat per la tranquil·litat del camp. El que havien somiat que seria un canvi feliç no és tan senzill com van creure. Ara el repte és adaptar-se al seu nou entorn i al dia a dia del poble amb els seus nous veïns.</descripcio>
+	<imatge>retorn4.png</imatge>
+	</volum>
+  </comic>	
+</editorial>
+
+	<!-- ................. MAMUT COMICS ................. -->
+	
+	<editorial nom="Mamut">
+		<dades-editorial>
+			<nom>Mamut Comics</nom>
+			<web>http://www.mamutcomics.com/</web>
+		</dades-editorial>
+		<comic>
+			<titol>En Rafa i la Zoe</titol>
+			<dibuix>Cristian Turdera</dibuix>
+			<guio>Sergio Kern</guio>
+			<any>2010</any>
+			<idioma>català</idioma>
+			<descripcio>
+				On millor que al parc per fer amics? Rafa i Zoe, amb totes les seves diferències, estan fents l'un per l'altra. Encara no ho saben!  
+			</descripcio>
+			<imatge>rafaizoe.png</imatge>
+		</comic>	
+		<comic>
+			<titol>Miga</titol>
+			<dibuix>Alex Fuentes</dibuix>
+			<guio>Santi Navarro</guio>
+			<any>2010</any>
+			<idioma>català</idioma>
+			<descripcio>
+				La Miga és una noia amb poders sobrenaturals i no ho sap. Com que ignora el seu pasat. Però, com pots imaginar, tot canviarà... Tornarà al seu passat i descobrirà d'on ve i quin és el món que l'envolta
+			</descripcio>
+			<imatge>miga.png</imatge>
+		</comic>
+		<comic>
+			<titol>en Batu</titol>
+			<autor>Tute</autor>
+			<any>2010</any>
+			<idioma>català</idioma>
+			<descripcio>
+					En Batu no para de tenir idees per viure grans aventures. La seva curiositat l'empeny a experimentar d'una forma molt personal tot tipus de coses amb l'ajuda del seu gos
+					Tutum. Però a ell, no li fa molta gràcia
+			</descripcio>
+			<imatge>batu.png</imatge>
+		</comic>	
+		<comic>
+			<titol>en Giotto</titol>
+			<autor>Marco Paschetta / Lucas Blengino</autor>
+			<any>2010</any>
+			<idioma>català</idioma>
+			<descripcio>
+				En Giotto és una papallona. Bé, en realitat és una eruga, però li falta poc. Només li cal construir-se el seu propi capoll però... pesa massa! Què passarà amb en Giotto? Serà una eruga per sempre més?
+			</descripcio>
+			<imatge>giotto.png</imatge>
+		</comic>					
+		<comic>
+			<titol>en Cosmoratolí i la bombeta</titol>
+			<autor>Fermin Solis</autor>
+			<any>2010</any>
+			<idioma>català</idioma>
+			<descripcio>
+				En Cosmorratolí s’ha perdut, però no s’ha perdut en el parc o al centre comercial. S’ha perdut en l’immensitat de l’espai! Sort que compta amb l’ajuda de Bombeta i Caca per trobar el camí a casa.			</descripcio>
+			<imatge>cosmorratoli.png</imatge>
+		</comic>	
+		
+		<comic>
+			<titol>en Dino i en Pau</titol>
+			<autor>Baptiste Amsallem i Loïc Dauvillier</autor>
+			<any>2010</any>
+			<idioma>català</idioma>
+			<descripcio>
+				En Pau adora les relliscades. No és estrany veure aquest petit noi fent servir l’esquena del seu amic Dino com a tobogà. Clar que s’ha de dir que en Dino es un dinosaure verd enorme... En Pau encara no ho sap però descobrirà ràpidament que els grans dinosaures a vegades amaguen grans sorpreses!			</descripcio>
+			<imatge>DinoiPau.png</imatge>
+		</comic>							
+	</editorial>
+
+
+
+<!-- ................. AUTOEDITATS ................. -->
+
+<editorial nom="Autoeditats">
+  <dades-editorial>
+  	<nom>Autoeditats / Entitats / Administracions</nom>
+  </dades-editorial>
+  <comic>
+	<titol>Serralloga Bandera Negra</titol>
+	<autor>Ricard Dilmé</autor>
+	<any>2010</any>
+	<idioma>català</idioma>
+        <descripcio>
+    “Serrallonga bandera negra” dóna continuïtat a les aventures del bandoler i els altres personatges que participaven, en la primera part, en els fets de la Revolta dels Segadors de 1640.
+
+Aquesta segona part, segueix amb la hipòtesi que el bandoler no fou ajusticiat l’any 1634 i el porta a participar de ple en les campanyes militars de la Guerra dels Segadors, des de Roses fins a Blanes, en el període que va de 1640 a 1652.
+	</descripcio>
+	<imatge>serrallonganegra.jpg</imatge>
+  </comic>	
+</editorial>
+
+
+
+<!-- ................. PANINI ................. -->
+
+
+<editorial nom="Panini">
+  <dades-editorial>
+	<nom>Panini</nom>
+	<web>http://www.paninicomics.es/</web>
+  </dades-editorial>
+  <comic>
+	<titol>Herois de la Masia</titol>
+  	<dibuix>Roger Tallada i Sergio Alcalá</dibuix>
+  	<guio>Paco Cavero</guio>
+	<any>2010</any>
+	<idioma>català</idioma>
+        <descripcio>
+Aquest còmic recull les històries de Messi, Iniesta, Xavi, Puyol, Valdés, Bojan, Busquets, Pedro i Piqué, i del seu entrenador i antic ídol, Josep Guardiola. Una història que parla de la grandesa d’un equip i que confirma que els somnis de qualsevol jove aspirant a campió, amb molta tenacitat, es poden fer realitat.
+	</descripcio>
+	<imatge>heroismasia.jpg</imatge>
+  </comic>	
+</editorial>
+
+
+<!-- ................. RANDOM HOUSE MONDADORI ................. -->
+	
+	
+<editorial nom="Mondadori">
+	<dades-editorial>
+		<nom>Random House Mondadori</nom>
+		<web>http://www.randomhousemondadori.es/</web>
+	</dades-editorial>
+	<comic>
+		<titol>Arròs Covat</titol>
+		<volum>
+			<titol>Volum</titol>
+			<numero>1</numero>
+			<autor>Juanjo Sáez</autor>
+			<any>2010</any>
+			<idioma>català</idioma>
+			<descripcio>
+				Tenen trenta anys i són moderns, cosmopolites i multiculturals, immadurs i divertits: així són els protagonistes d'Arròs covat, el nou llibre de Juanjo Sáez.
+				En Xavi és un jove dissenyador, cool i exitós, que viu amb la seva xicota de tota la vida, la Sonia. Ell creu que és feliç i que està completament enamorat de la seva noia, però darrerament no deixa de mirar-ne d'altres, en especial a la Llum, que es converteix en el seu objecte del desitg. La seva amistat amb la Llum provocarà una crisi de parella que el portarà a replantejar-se la seva vida tatn a nivell sentimental com professional. 
+				En Xavi ja ha complert els trenta anys i té una amarga sensació de que se li està covant l'arròs... Serà capaç de superar la crisi i fer-li front?
+				Arròs covat és un relat proper que tracta sobre les contradiccions pròpies de la juventut. Juanjo Sáez fa gala, un cop més, del seu sentit de l'humor i del seu àcid estil per explicar-nos una història que tots hem viscut alguna vegada. O ho farem!
+			</descripcio>
+				<imatge>arroscovat.jpg</imatge>
+			</volum>
+	</comic>	
+</editorial>
+
+<!-- ................. BROMERA ................. -->
+
+<editorial nom="Bromera">
+  <dades-editorial>
+	<nom>Editorial Bromera</nom>
+	<web>http://www.bromera.com/</web>
+  </dades-editorial>
+  <comic>
+	<titol>Petjades</titol>
+	<dibuix>Daniel Olmo</dibuix>
+	<guio>Alfons Olmo</guio>
+	<any>2010</any>
+	<idioma>català</idioma>
+        <descripcio>
+volum de gran format, imprés a color, mostra la visió que té de Raimon la generació que l’ha conegut des de la infantesa. A partir d’un amplíssim treball d’investigació, que ha comptat amb la col·laboració de Xevi Planas –periodista especialitzat en el cantautor de Xàtiva–, recorre deu punts essencials en la seua trajectòria, que l’han portat a transitar per diferents estadis de l’ànima i a protagonitzar fets històrics del segle XX, i mostra la importància que ha tingut, per exemple, per a la difusió de la seua cultura (Ausiàs March, Salvador Espriu, Joan Fuster).
+	</descripcio>
+	<imatge>petjades.jpg</imatge>
+  </comic>	
+</editorial>
+
+<!-- ................. SALAMANDRA ................. -->
+
+<editorial nom="Salamandra">
+  <dades-editorial>
+	<nom>Ediciones Salamandra</nom>
+	<web>http://www.salamandra.info/</web>
+  </dades-editorial>
+  <comic>
+	<titol>El petit princep</titol>
+	<autor>Joann Sfar</autor>
+	<any>2010</any>
+	<idioma>català</idioma>
+        <descripcio>
+L'autor de còmics francès més famós adapta una de les obres més llegides de la literatura occidental. Adaptar al format de novel·la gràfica una de les obres clàssiques de la literatura universal suposa un desafiament a l'abast de pocs. Per això, no és estrany que hagi estat Joann Sfar -un dels autors de còmic més famosos de França- l'autor escollit per adaptar El Petit Príncep a aquest nou llenguatge visual. El resultat és un llibre que manté intactes la màgia i la poesia de l'obra original, subratlla el seu misteri i afegeix un nou protagonista, el mateix Saint-Exupéry, que pren cos per primera vegada en aquesta història plena de bellesa, emoció i malenconia.
+	</descripcio>
+	<imatge>petitprincep.jpg</imatge>
+  </comic>	
+</editorial>
+
+<!-- ................. CRUILLA EDITORIAL ................. -->
+
+<editorial nom="Cruïlla">
+  <dades-editorial>
+	<nom>Editorial Cruïlla</nom>
+	<web>http://www.cruilla.cat/</web>
+  </dades-editorial>
+  <comic>
+	<titol>L'illa del tresor</titol>
+	<dibuix>Frédéric Simon</dibuix>
+	<guio>David Chauvel</guio>
+	<any>2010</any>
+	<idioma>català</idioma>
+	<descripcio>
+La vida d'en Jim Hawkins fa un tomb el dia que un vell pirata colèric s'instal·la a l'Almirall Benbow, l'hostal de la seva família. Fan amistat, però el vell llop de mar mor poc després. Aleshores en Jim descobreix, dins el cofre de mariner, un mapa que condueix a un tresor, el del famós capità Flint. Comença la recerca del tresor.
+	</descripcio>
+	<imatge>illatresor.jpg</imatge>
+  </comic>	
+  <comic>
+  	<titol>El gran àlbum d'en Samsam. Ets fantàstic, Samsam!</titol>
+  	<autor>Serge Blonch</autor>
+  	<any>2010</any>
+  	<idioma>català</idioma>
+  	<descripcio>
+  		Historietes plenes d'humor i d'aventures del petit heroi galàctic: SamSam. 
+  	</descripcio>
+  	<imatge>samsam.jpg</imatge>
+  </comic>	
+</editorial>
+
+<!-- ................. ESTRELLA POLAR ................. -->
+	
+<editorial nom="Estrella">
+	<dades-editorial>
+		<nom>Estrella Polar</nom>
+	</dades-editorial>
+	<comic>
+		<titol>Mentrestant</titol>
+		<dibuix>Young-Ho Kim</dibuix>
+		<guio>Stephenie Meyer</guio>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+			Només una petita decisió i es posa en marxa Mentrestant, la creació increïble i genial de Jason Shiga. Segueix la teva tria pel camí marcat: potser et durà a la felicitat... o, inexorablement, a la fatalitat! Davant una aventura farcida d’invents i descobertes on la salvació del món depèn d’un enginyós sistema de llengüetes que et porten endavant i endarrere, i amunt i avall. Amb cada opció de lectura, un nou relat!
+		</descripcio>
+		<imatge>mentrestant.jpg</imatge>		
+	</comic>		
+</editorial>
+
+<!-- ................. ALFAGUARA ................. -->
+
+<editorial nom="Alfaguara">
+  <dades-editorial>
+	<nom>Alfaguara</nom>
+  </dades-editorial>
+  <comic>
+	<titol>Crepuscle</titol>
+	<volum>
+		<titol>Volum</titol>
+		<numero>1</numero>
+		<dibuix>Young-Ho Kim</dibuix>
+		<guio>Stephenie Meyer</guio>
+		<any>2010</any>
+		<idioma>català</idioma>
+		<descripcio>
+Quan la Isabella Swan es trasllada a la trista ciutat de Forks i coneix el misteriós i atractiu Edward Cullen la seva vida fa un canvi apassionant i alhora aterridor. Amb la seva pell de porcellana, els ulls brillants, la veu subjugadora i els seus dots sobrenaturals, l’Edward és tan irresistible com impenetrable. Fins ara, ell ha aconseguit mantenir amagada la seva autèntica identitat, però la Bella està decidida a descobrir el seu misteriós secret... Aquesta primera entrega de Crepuscle. La novel·la gràfica, magníficament presentada, és una obra fonamental per a la biblioteca de tots els aficionats a la lectura.
+		</descripcio>
+		<imatge>crepuscle.jpg</imatge>
+	</volum>
+  </comic>		
+</editorial>
+	
+	<!-- ................. BARCELONA MULTIMÈDIA ............... -->
+	
+	<editorial nom="BCN">
+		<dades-editorial>
+			<nom>Barcelona Multimèdia</nom>
+			<web></web>
+		</dades-editorial>
+		<comic>
+			<titol>Descobrim Jesús. La llum</titol>
+			<dibuix>Picanyol</dibuix>
+			<guio>Toni Matas</guio>			
+			<any>2010</any>
+			<idioma>català</idioma>
+			<descripcio>
+				Els àlbums il·lustrats d'aquesta col·lecció, han estat pensat per apropar els evangelis al públic de totes les edats, d'una manera amena i entretinguda. Els textos estan basats en la traducción interconfessional de la Bíblia (BCI).			</descripcio>
+			<imatge>descobrim2.jpg</imatge>
+		</comic>	
+	</editorial>			
+	
+
+</comics>

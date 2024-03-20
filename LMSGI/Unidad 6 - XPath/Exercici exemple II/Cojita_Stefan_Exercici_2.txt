@@ -1,0 +1,79 @@
+Sobre els xml's contesta les següents preguntes en XPATH
+DISCOS
+
+1. Tots els títols de discos
+
+	/catalog/cd//title
+
+2. El penúltim títol
+
+	/catalog/cd[position()=last()-1]/title
+
+3. Els discos que costen menys de 9 euros
+
+	/catalog/cd[price <= 9]/title
+
+4. Els discos editats al 1987
+
+	/catalog/cd[year <= 1987]/title
+
+5. Els discos que costen menys de 8 €
+
+	/catalog/cd[price <= 8]/title
+
+6. Els discos que costen 9.90 €
+
+	/catalog/cd[price = 9.90]/title
+
+7. L'artista del cinquè disc de la llista
+
+	/catalog/cd[position()=5]/artist
+
+8. El país de l'últim disc de la llista
+
+	/catalog/cd[position()=last()]/country
+
+UNIVERSITY
+
+9. Títol de les classes que comencen a la 1:10 de la tarda i acaben a les 4h
+
+	/root/course/time[start_time='01:10PM' or end_time='04:00']/../title
+
+10. Els dies que treballa el profe "Wu"
+
+	/root/course[instructor="Wu"]/days
+
+NASA
+
+(opcional) amb extensió TRY XPATH de firefox (RAM killer)
+
+11. Quants conjunts de dades hi ha?
+
+	count(/datasets/dataset)
+
+12. Títol de les observacions que es van fer l'any 1986
+
+	/datasets/dataset/reference/source/other/date[year=1986]/../title
+
+13. Títol dels conjunts de dades que estan calculades respecte a la "Right ascension 1900 (hours)"
+
+	/datasets/dataset/tableHead/fields/field[definition="Right Ascension 1900 (hours)"]/../../../title
+
+COMICS
+
+(opcional) with no-xmlcopyeditor (CPU killer)
+
+14. Quants còmics ha publicat Bang Ediciones?
+
+	count(/comics/editorial/dades-editorial[nom='Bang Ediciones'])
+
+15. Quins són els títols dels còmics que ha publicat en Quim Bou a Dolmen?
+
+	/comics/editorial/dades-editorial[nom='Dolmen Editorial']/../comic/volum[dibuix='Quim Bou']/../titol
+
+16. Quins còmics han publicat més de 2 volums a Norma Editorial?
+
+17. Quin dels còmics de Glénat té més volums?
+18. Quina editorial que no sigui Glenat ha publicat més còmics? 
+19. Quina és la mitjana de còmics publicats per editorial?
+20. Quines editorials només han publicat un còmic que té definit dibuixant i guionista?

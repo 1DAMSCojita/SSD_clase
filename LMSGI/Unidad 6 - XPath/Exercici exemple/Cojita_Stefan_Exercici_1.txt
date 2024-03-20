@@ -1,0 +1,27 @@
+1) Quins són els noms dels professors?
+
+	/persones/professor[assignatura="XML"]/nom
+
+2) Quants alumnes tenim?
+
+	count(/persones/alumne)
+
+3) Quin és el nom del professor d'XML?
+
+	/persones/professor[assignatura='XML']/nom
+
+4) Quines assignatures fan els alumnes que es diuen de cognom "Pi"?
+
+	/persones/alumne[contains(nom, "Pi")]/credits
+
+5) Alumnes que el seu nom comença per "F"?
+
+	/persones/alumne[starts-with(nom, 'F')]/nom
+
+6) Quins alumnes estan matriculats durant l'any 2010?
+
+	/persones/alumne[any='2010']/nom
+
+7) Quins alumnes fan l'assignatura d'XML?
+
+	/persones/alumne/credits[assignatura='XML']/../nom
