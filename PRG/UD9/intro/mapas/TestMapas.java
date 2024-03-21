@@ -13,6 +13,17 @@ public class TestMapas {
         miMapa.put(33, "Ana");
         miMapa.put(12, "Juan");
 
+        // for(Integer clave : miMapa.keySet()) {
+        //     System.out.println( "Clave: " + clave + " Valor: " + miMapa.get(clave));
+        // }
+
+        // entrySet() -> Map.Entry
+        // getValue() getKey()
+
+        for(Map.Entry<Integer, String> elemento : miMapa.entrySet()) {
+            System.out.println("Clave: " + elemento.getKey() + " Valor: " + elemento.getValue());
+        }
+
         // Recorrer valores:
         // for (String valor : miMapa.values()) {
         //     System.out.println(valor);
@@ -24,10 +35,12 @@ public class TestMapas {
         //     System.out.println(valor);
         // }
 
-        Collection<Integer> claves = miMapa.keySet();
-        for (Integer clave : claves) {
-            System.out.println(clave);
-        }
+        // Collection<Integer> claves = miMapa.keySet();
+        // for (Integer clave : claves) {
+        //     System.out.println(clave);
+        // }
+
+
 
     }
 }
