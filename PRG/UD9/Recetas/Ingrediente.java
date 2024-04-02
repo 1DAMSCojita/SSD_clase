@@ -32,7 +32,7 @@ public class Ingrediente {
     // Sobreescribimos el método 'toString()' para mostrar información general del ingrediente.
     @Override
     public String toString() {
-        return "-Nombre del ingrediente: " + nombre + ", precio: " + precio_por_persona;
+        return "-Ingrediente: " + nombre + " | Precio: " + precio_por_persona;
     }
 
 }

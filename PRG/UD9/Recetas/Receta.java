@@ -1,5 +1,6 @@
 package Recetas;
 
+// Importación de librerías.
 import java.util.*;
 
 public class Receta {
