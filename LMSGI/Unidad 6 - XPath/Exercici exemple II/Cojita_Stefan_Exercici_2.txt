@@ -73,7 +73,18 @@ COMICS
 
 16. Quins còmics han publicat més de 2 volums a Norma Editorial?
 
+	/comics/editorial[@nom="Norma"]/comic[count(volum)>2]/titol
+
 17. Quin dels còmics de Glénat té més volums?
-18. Quina editorial que no sigui Glenat ha publicat més còmics? 
+
+	/comics/editorial[@nom="Glenat"]/max(comic/count(volum))
+
+18. Quina editorial que no sigui Glenat ha publicat més còmics?
+
+	/comics/editorial[not(@nom="Glenat")]/max(comic/count(volum))
+
 19. Quina és la mitjana de còmics publicats per editorial?
+
+	/comics/avg(editorial/count(comic))
+
 20. Quines editorials només han publicat un còmic que té definit dibuixant i guionista?

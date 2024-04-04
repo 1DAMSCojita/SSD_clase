@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<planets>
+    <planet id="3">
+        <name>A Place</name>
+        <value>3000</value>
+        <xcood>-125.18</xcood>
+        <ycood>274.88</ycood>
+        <faction>LA</faction>
+        <factionChange id="8">
+            <date>3040-01-01</date>
+            <faction>FC</faction>
+        </factionChange>
+        <factionChange id="12">
+            <date>3057-12-01</date>
+            <faction>ARDC</faction>
+        </factionChange>
+        <factionChange id="16">
+            <date>3067-04-24</date>
+            <faction>LA</faction>
+        </factionChange>
+    </planet>
+    <planet id="21">
+        <name>Abadan</name>
+        <value>3200</value>
+        <xcood>-70.94</xcood>
+        <ycood>-96.76</ycood>
+        <faction>FWL</faction>
+    </planet>
+    <planet id="27">
+        <name>Abagnar</name>
+        <value>2800</value>
+        <xcood>383.64</xcood>
+        <ycood>317.65</ycood>
+        <faction>DC</faction>
+    </planet>
+    <planet id="33">
+        <name>Abbadiyah</name>
+        <value>4300</value>
+        <xcood>-320.78</xcood>
+        <ycood>248.8</ycood>
+        <faction>LA</faction>
+        <factionChange id="38">
+            <date>3040-01-01</date>
+            <faction>FC</faction>
+        </factionChange>
+        <factionChange id="42">
+            <date>3057-09-18</date>
+            <faction>LA</faction>
+        </factionChange>
+    </planet>
+    <planet id="47">
+        <name>Abbeville</name>
+        <value>3300</value>
+        <xcood>611.32</xcood>
+        <ycood>-40.16</ycood>
+        <faction>FS</faction>
+        <factionChange id="52">
+            <date>3040-01-01</date>
+            <faction>FC</faction>
+        </factionChange>
+        <factionChange id="56">
+            <date>3067-01-01</date>
+            <faction>FS</faction>
+        </factionChange>
+    </planet>
+    <planet id="61">
+        <name>Abejorral</name>
+        <value>3900</value>
+        <xcood>-302.01</xcood>
+        <ycood>128.57</ycood>
+        <faction>LA</faction>
+        <factionChange id="66">
+            <date>3040-01-01</date>
+            <faction>FC</faction>
+        </factionChange>
+        <factionChange id="70">
+            <date>3057-09-18</date>
+            <faction>LA</faction>
+        </factionChange>
+    </planet>
+    <planet id="75">
+        <name>Aberystwyth</name>
+        <value>2500</value>
+        <xcood>-434.75</xcood>
+        <ycood>59.2</ycood>
+        <faction>LA</faction>
+        <factionChange id="80">
+            <date>3040-01-01</date>
+            <faction>FC</faction>
+        </factionChange>
+        <factionChange id="84">
+            <date>3057-09-18</date>
+            <faction>LA</faction>
+        </factionChange>
+    </planet>
+    <planet id="89">
+        <name>Abiy Adi</name>
+        <value>4500</value>
+        <xcood>352.6</xcood>
+        <ycood>317.39</ycood>
+        <faction>DC</faction>
+        <spectralClass>G</spectralClass>
+        <subtype>2</subtype>
+        <luminosity>V</luminosity>
+        <sysPos>3</sysPos>
+        <gravity>1.2</gravity>
+        <pressure>3</pressure>
+        <temperature>45</temperature>
+        <climate>4</climate>
+        <percentWater>18</percentWater>
+        <hpg>b</hpg>
+        <lifeform>0</lifeform>
+        <satellite>Amarigna</satellite>
+        <socioIndustrial>C-B-C-C-C</socioIndustrial>
+        <landmass>Tsechi (Tigray)</landmass>
+        <landmass>Simien</landmass>
+        <landmass>Adwa</landmass>
+        <desc>Abiy Adi is a largely desert world in the Pesht Military District. The industy on the
+            planet uses so much of the planet's indigenous water that the locals depend on imported
+            water.</desc>
+    </planet>
+    <planet id="112">
+        <name>Abramkovo</name>
+        <value>3400</value>
+        <xcood>-333.82</xcood>
+        <ycood>-28.95</ycood>
+        <faction>LA</faction>
+        <factionChange id="117">
+            <date>3040-01-01</date>
+            <faction>FC</faction>
+        </factionChange>
+        <factionChange id="121">
+            <date>3057-09-18</date>
+            <faction>LA</faction>
+        </factionChange>
+    </planet>
+</planets>
