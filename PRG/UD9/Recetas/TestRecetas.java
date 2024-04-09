@@ -13,6 +13,7 @@ public class TestRecetas {
 
         // Creación de ArrayList.
         ArrayList<Ingrediente> ingredientes = new ArrayList<>();
+        ArrayList<Receta> recetas = new ArrayList<>();
 
         // Presentación del programa junto al menú.
         System.out.println("\n---------- SISTEMA DE GESTIÓN DE RECETAS CULINARIAS ----------");
@@ -27,8 +28,9 @@ public class TestRecetas {
                 System.out.println("2. Eliminar Ingredientes.");
                 System.out.println("3. Modificar Ingredientes.");
                 System.out.println("4. Crear Receta.");
-                System.out.println("5. Listados.");
-                System.out.println("6. Salir.");
+                System.out.println("5. Mostrar información básica de las Recetas.");
+                System.out.println("6. Listados.");
+                System.out.println("7. Salir.");
                 System.out.println("--------------------------------------------------------------");
                 opcion = sc.nextInt();
                 // Creamos una estructura de control 'switch'.
@@ -60,10 +62,15 @@ public class TestRecetas {
                         break;
                     // Manejamos el caso de 'Crear Receta.'
                     case 4:
-                        // Pendiente por hacer.
+                        crearReceta(ingredientes, recetas);
+                        break;
+                    case 5:
+                        for (Receta receta : recetas) {
+                            System.out.println(receta.toString());
+                        }
                         break;
                     // Manejamos el caso de 'Listados'. Incluye un submenú.
-                    case 5:
+                    case 6:
                         // Presentación del submenú de listados con todas las opciones.
                         System.out.println("---------- HA ENTRADO EN LA OPCIÓN DE LISTADOS ----------");
                         System.out.println("Elija una opción:");
@@ -99,7 +106,7 @@ public class TestRecetas {
                     default:
                         break;
                 }
-            } while (opcion != 5 && opcion != 6);
+            } while (opcion != 6 && opcion != 7);
         } catch (Exception e) {
             System.out.println("> Error genérico: " + e.getMessage());
         } finally {
@@ -217,6 +224,77 @@ public class TestRecetas {
             }
         }
         System.out.println("--------------------------------------------------------------"); // Separador.
+    }
+
+    // Creamos un método para crear la receta.
+    public static void crearReceta(ArrayList<Ingrediente> ingredientes, ArrayList<Receta> recetas) {
+        
+        // Declaración de variables.
+        String nombreReceta;
+        int numComensales;
+
+        // Declaración de ArrayList.
+        ArrayList<Ingrediente> ingredientesReceta = new ArrayList<>();
+
+        if (ingredientes.isEmpty()) {
+            System.out.println("> No hay ningún ingrediente todavía. Prueba a añadir uno.");
+        } else {
+            // Presentación de la opción junto con la petición de datos.
+            System.out.println("---------- HA ENTRADO EN LA OPCIÓN PARA CREAR UNA RECETA ----------");
+            System.out.println("> Introduzca el nombre de la receta: ");
+            sc.nextLine(); // Consumimos el carácter de nueva línea restante en el búfer antes de leer el nombre (para evitar errores).
+            nombreReceta = sc.nextLine();
+            System.out.println("> Introduzca el número de comensales previstos para la receta: ");
+            numComensales = sc.nextInt();
+
+            // Creamos una nueva instancia de Receta.
+            Receta nuevaReceta = new Receta(nombreReceta, ingredientesReceta, numComensales);
+
+            // Agregamos ingredientes a la receta.
+            agregarIngredientesAReceta(nuevaReceta, ingredientesReceta, ingredientes);
+
+            recetas.add(nuevaReceta);
+
+            // Mostramos la receta creada.
+            System.out.println("Receta creada con éxito. ");
+            System.out.println("--------------------------------------------------------------"); // Separador.
+        }
+    }
+
+    // Creamos un método para agregar ingredientes a una receta.
+    public static void agregarIngredientesAReceta(Receta receta, ArrayList<Ingrediente> ingredientesReceta, ArrayList<Ingrediente> ingredientes) {
+
+        // Declaración de variables.
+        String respuesta;
+
+        if (ingredientes.isEmpty()) {
+            System.out.println("> No hay ningún ingrediente todavía. Prueba a añadir uno.");
+        } else {
+            // Presentación de los ingredientes disponibles para que el usuario los elija.
+            System.out.println("Ingredientes disponibles: ");
+            for (Ingrediente ingrediente : ingredientes) {
+                System.out.println(ingrediente.getNombre());
+            }
+
+            // Creamos un bucle 'do-while'.
+            // Pedirá al usuario que seleccione ingredientes para agregar a la receta.
+            // En caso de que se elija la opción 'n'.
+            do {
+                System.out.println("> ¿Desea agregar un ingrediente a la receta? (s/n): ");
+                respuesta = sc.next();
+                if (respuesta.equalsIgnoreCase("s")) {
+                    System.out.println("Ingrese el nombre del ingrediente a agregar: ");
+                    sc.nextLine();
+                    String nombreIngrediente = sc.nextLine();
+                    for (Ingrediente ingrediente : ingredientes) {
+                        if (ingrediente.getNombre().equalsIgnoreCase(nombreIngrediente)) {
+                            ingredientesReceta.add(ingrediente);
+                            break;
+                        }
+                    }    
+                }
+            } while (respuesta.equalsIgnoreCase("s"));
+        }
     }
 
     // Creamos un método para listar los ingredientes por orden alfabético.
