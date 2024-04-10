@@ -1,8 +1,10 @@
 package Recetas;
 
+// Importación de liberías.
+import java.io.*;
 import java.util.*;
 
-public class Receta {
+public class Receta implements Serializable { // Implementamos 'Serializable' en la clase para poder manejar ficheros binarios.
 
     // Declaración de atributos.
     String nombreReceta;

@@ -2,19 +2,40 @@ package Recetas;
 
 // Importación de librerías.
 import java.util.*;
+import java.io.*;
 
 public class TestRecetas {
 
     private static Scanner sc = new Scanner (System.in); // Creamos un escáner privado y estático para poder usarlo en todos los métodos (incluido main).
+    @SuppressWarnings("unchecked")
     public static void main(String[] args) {
         
         // Declaración de variables.
         int opcion;
 
-        // Creación de ArrayList.
+        // Declaración de ArrayLists.
         ArrayList<Ingrediente> ingredientes = new ArrayList<>();
         ArrayList<Receta> recetas = new ArrayList<>();
 
+        // Creamos una estructura 'try-catch'.
+        // Intentará abrir el fichero 'ingredientes.dat' con resources y en caso de que haya un error de entrada o escritura, capturará las excepciones.
+        try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream("D:\\CFGS_DAM\\PRG\\UD9\\Recetas\\ingredientes.dat"))) {
+            ingredientes = (ArrayList<Ingrediente>) ois.readObject(); // Leemos el objeto del ArrayList de ingredientes del fichero creado.
+        } catch (IOException e) {
+            System.out.println("Error de E/S: " + e.getMessage());
+        } catch (ClassNotFoundException e) {
+            System.out.println("No se ha encontrado el fichero o error inesperado: " + e.getMessage());
+        }
+
+        // Creamos una estructura 'try-catch'.
+        // Intentará abrir el fichero 'recetas.dat' con resources y en caso de que haya un error de entrada o escritura, capturará las excepciones.
+        try (ObjectInputStream ois2 = new ObjectInputStream(new FileInputStream("D:\\CFGS_DAM\\PRG\\UD9\\Recetas\\recetas.dat"))) {
+            recetas = (ArrayList<Receta>) ois2.readObject(); // Leemos el objeto del ArrayList de recetas del fichero creado.
+        } catch (IOException e) {
+            System.out.println("Error de E/S: " + e.getMessage());
+        } catch (ClassNotFoundException e) {
+            System.out.println("No se ha encontrado el fichero o error inesperado: " + e.getMessage());
+        }
         // Presentación del programa junto al menú.
         System.out.println("\n---------- SISTEMA DE GESTIÓN DE RECETAS CULINARIAS ----------");
         // Creamos una estructura 'try-catch'.
@@ -76,7 +97,7 @@ public class TestRecetas {
                     // Manejamos el caso de 'Listados'. Incluye un submenú.
                     case 6:
                         // Presentación del submenú de listados con todas las opciones.
-                        System.out.println("---------- HA ENTRADO EN LA OPCIÓN DE LISTADOS ----------");
+                        System.out.println("------------- HA ENTRADO EN LA OPCIÓN DE LISTADOS ------------");
                         System.out.println("Elija una opción:");
                         System.out.println("1. Listado de Ingredientes (por orden alfabético).");
                         System.out.println("2. Listado de Ingredientes (por precio por persona).");
@@ -90,27 +111,50 @@ public class TestRecetas {
                         // Creamos otra estructura de control 'switch' para la opción de "Listados".
                         // Irá manejando y ejecutando cada punto de este submenú. 
                         switch (opcion) {
+                            // Manejamos el caso de 'Listado de Ingredientes (por orden alfabético)'.
                             case 1:
                                 ingredientesOrdenAlfabetico(ingredientes); // Llamamos al método de 'ingredientesOrdenAlfabetico()'
                                 break;
+                            // Manejamos el caso de 'Listado de Ingredientes (por precio por persona)'.
                             case 2:
                                 ingredientesOrdenPrecioPorPersona(ingredientes); // Llamamos al método de 'ingredientesOrdenPrecioPorPersona()'
                                 break;
+                            // Manejamos el caso de 'Listado de Recetas (alfabético)'.
                             case 3:
                                 recetasOrdenAlfabetico(recetas); // Llamamos al método de 'recetasOrdenAlfabetico()'
                                 break;
+                            // Manejamos el caso de 'Listado de Recetas (por número de comensales)'.
                             case 4:
                                 recetasNumeroComensales(recetas); // Llamamos al método de 'recetasNumeroComensales()'
                                 break;
+                            // Manejamos el caso de 'Listado de Recetas (por precio)'.
                             case 5:
                                 recetasPrecio(recetas); // Llamamos al método de 'recetasPrecio()'
                                 break;
+                            // Manejamos el caso de 'Listado de Recetas (por número de ingredientes)'.
                             case 6:
                                 recetasNumeroIngredientes(recetas); // Llamamos al método de 'recetasNumeroIngredientes()'
                                 break;
                             default:
                                 break;
                         }
+                    case 7:
+                        // Creamos una estructura 'try-catch'.
+                        // Intentará escribir (o sobreescribir) el fichero 'ingredientes.dat' con resources y en caso de que haya un error de entrada, capturará las excepciones.
+                        try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("D:\\CFGS_DAM\\PRG\\UD9\\Recetas\\ingredientes.dat"))) {
+                            oos.writeObject(ingredientes); // Escribimos dentro del fichero binario el ArrayList de ingredientes.
+                        } catch (IOException e) {
+                            System.out.println("Error de E/S: " + e.getMessage());
+                        }
+
+                        // Creamos una estructura 'try-catch'.
+                        // Intentará escribir (o sobreescribir) el fichero 'recetas.dat' con resources y en caso de que haya un error de entrada, capturará las excepciones.
+                        try (ObjectOutputStream oos2 = new ObjectOutputStream(new FileOutputStream("D:\\CFGS_DAM\\PRG\\UD9\\Recetas\\recetas.dat"))) {
+                            oos2.writeObject(recetas); // Escribimos dentro del fichero binario el ArrayList de recetas.
+                        } catch (IOException e) {
+                            System.out.println("Error de E/S: " + e.getMessage());
+                        }
+                        break;
                     default:
                         break;
                 }

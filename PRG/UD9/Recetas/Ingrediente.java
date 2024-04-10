@@ -1,6 +1,9 @@
 package Recetas;
 
-public class Ingrediente {
+// Importación de librerías.
+import java.io.*;
+
+public class Ingrediente implements Serializable { // Implementamos 'Serializable' en la clase para poder manejar ficheros binarios.
 
     // Declaración de atributos.
     String nombre;
