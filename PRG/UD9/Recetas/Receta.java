@@ -35,14 +35,8 @@ public class Receta {
         this.numComensales = numComensales;
     }
 
-    // Creamos un método para agregar un ingrediente a la receta.
-    public void agregarIngrediente(Ingrediente ingrediente) {
-        ingredientes.add(ingrediente);
-    }
-
-    // Creamos un método para eliminar un ingrediente de la receta.
-    public void eliminarIngrediente(Ingrediente ingrediente) {
-        ingredientes.remove(ingrediente);
+    public List<Ingrediente> getIngredientes() {
+        return ingredientes;
     }
 
     // Creamos un método para mostrar ingredientes de la receta.

@@ -65,8 +65,12 @@ public class TestRecetas {
                         crearReceta(ingredientes, recetas);
                         break;
                     case 5:
-                        for (Receta receta : recetas) {
-                            System.out.println(receta.toString());
+                        if (recetas.isEmpty()) {
+                            System.out.println("> No hay ninguna receta aún. Prueba a añadir una.");
+                        } else {
+                            for (Receta receta : recetas) {
+                                System.out.println(receta.toString());
+                            }
                         }
                         break;
                     // Manejamos el caso de 'Listados'. Incluye un submenú.
@@ -80,7 +84,7 @@ public class TestRecetas {
                         System.out.println("4. Listado de Recetas (por número de comensales).");
                         System.out.println("5. Listado de Recetas (por precio).");
                         System.out.println("6. Listado de Recetas (por número de ingredientes).");
-                        System.out.println("7. Volver.");
+                        System.out.println("7. Salir.");
                         System.out.println("--------------------------------------------------------------");
                         opcion = sc.nextInt();
                         // Creamos otra estructura de control 'switch' para la opción de "Listados".
@@ -93,12 +97,16 @@ public class TestRecetas {
                                 ingredientesOrdenPrecioPorPersona(ingredientes); // Llamamos al método de 'ingredientesOrdenPrecioPorPersona()'
                                 break;
                             case 3:
+                                recetasOrdenAlfabetico(recetas); // Llamamos al método de 'recetasOrdenAlfabetico()'
                                 break;
                             case 4:
+                                recetasNumeroComensales(recetas); // Llamamos al método de 'recetasNumeroComensales()'
                                 break;
                             case 5:
+                                recetasPrecio(recetas); // Llamamos al método de 'recetasPrecio()'
                                 break;
                             case 6:
+                                recetasNumeroIngredientes(recetas); // Llamamos al método de 'recetasNumeroIngredientes()'
                                 break;
                             default:
                                 break;
@@ -307,7 +315,7 @@ public class TestRecetas {
             System.out.println("> No hay ningún ingrediente todavía. Prueba a añadir uno.");
         } else {
             System.out.println("----- LISTADO DE INGREDIENTES POR ORDEN ALFABÉTICO ------");
-            Collections.sort(ingredientes, Comparator.comparing(Ingrediente::getNombre)); // Ordenamos el nombre del ArrayList de ingredientes usando 'Collections.sort()' y implementamos un comparador de la clase de 'Comparator', usamos los ":" para coger el getter del nombre de la clase 'Ingrediente'. 
+            ingredientes.sort(new ComparaIngredientesAlfabetico()); // Implementamos la clase Comparator que hicimos para comparar ingredientes por orden alfabético.
             // Creamos un bucle 'for-each'.
             // Recorrerá el ArrayList de ingredientes e irá mostrando cada nombre ordenado.
             for (Ingrediente ingrediente : ingredientes) {
@@ -327,12 +335,92 @@ public class TestRecetas {
             System.out.println("> No hay ningún ingrediente todavía. Prueba a añadir uno.");
         } else {
             System.out.println("----- LISTADO DE INGREDIENTES DE PRECIO POR PERSONA ------");
-            Collections.sort(ingredientes, Comparator.comparing(Ingrediente::getPrecio_por_persona)); // Ordenamos el precio por persona del ArrayList de ingredientes usando 'Collections.sort()' y implementamos un comparador de la clase de 'Comparator', usamos los ":" para coger el getter del precio de la clase 'Ingrediente'. 
+            ingredientes.sort(new ComparaIngredientesPrecioPorPersona()); // Implementamos la clase Comparator que hicimos para comparar ingredientes por precio por persona.
             // Creamos un bucle 'for-each'.
             // Recorrerá el ArrayList de ingredientes e irá mostrando cada precio ordenado.
             // Usamos el 'toString()' para mostrar también el nombre así sabremos a que ingrediente va relacionado el precio.
             for (Ingrediente ingrediente : ingredientes) {
                 System.out.println(ingrediente.toString());
+            }
+        }
+        System.out.println("--------------------------------------------------------------"); // Separador.
+    }
+
+    // Creamos un método para listar las recetas por orden alfabético.
+    public static void recetasOrdenAlfabetico(ArrayList<Receta> recetas) {
+
+        // Creamos una estructura de control 'if'.
+        // Si el ArrayList de recetas está vacío, mostrará un mensaje indicándolo.
+        // En caso de que no (es decir, que si que haya), ejecutará el bloque para listar las recetas por orden alfabético.
+        if (recetas.isEmpty()) {
+            System.out.println("> No hay ninguna receta todavía. Prueba a añadir una.");
+        } else {
+            System.out.println("----- LISTADO DE RECETAS POR ORDEN ALFABÉTICO ------");
+            recetas.sort(new ComparaRecetasOrdenAlfabetico()); // Implementamos la clase Comparator que hicimos para comparar recetas por orden alfabético.
+            // Creamos un bucle 'for-each'.
+            // Recorrerá el ArrayList de recetas e irá mostrando cada nombre ordenado.
+            for (Receta receta : recetas) {
+                System.out.println(receta.toString());
+            }
+        }
+        System.out.println("--------------------------------------------------------------"); // Separador.
+    }
+
+    // Creamos un método para listar las recetas por número de comensales.
+    public static void recetasNumeroComensales(ArrayList<Receta> recetas) {
+
+        // Creamos una estructura de control 'if'.
+        // Si el ArrayList de recetas está vacío, mostrará un mensaje indicándolo.
+        // En caso de que no (es decir, que si que haya), ejecutará el bloque para listar las recetas por número de comensales.
+        if (recetas.isEmpty()) {
+            System.out.println("> No hay ninguna receta todavía. Prueba a añadir una.");
+        } else {
+            System.out.println("----- LISTADO DE RECETAS POR NÚMERO DE COMENSALES ------");
+            recetas.sort(new ComparaRecetasNumeroComensales()); // Implementamos la clase Comparator que hicimos para comparar recetas por número de comensales.
+            // Creamos un bucle 'for-each'.
+            // Recorrerá el ArrayList de recetas e irá mostrando cada receeta ordenada por número de comensales.
+            for (Receta receta : recetas) {
+                System.out.println(receta.toString());
+            }
+        }
+        System.out.println("--------------------------------------------------------------"); // Separador.
+    }
+
+    // Creamos un método para listar las recetas por precio total.
+    public static void recetasPrecio(ArrayList<Receta> recetas) {
+
+        // Creamos una estructura de control 'if'.
+        // Si el ArrayList de recetas está vacío, mostrará un mensaje indicándolo.
+        // En caso de que no (es decir, que si que haya), ejecutará el bloque para listar las recetas por precio.
+        if (recetas.isEmpty()) {
+            System.out.println("> No hay ninguna receta todavía. Prueba a añadir una.");
+        } else {
+            System.out.println("----- LISTADO DE RECETAS POR PRECIO TOTAL ------");
+            recetas.sort(new ComparaRecetasPrecio()); // Implementamos la clase Comparator que hicimos para comparar recetas por precio.
+            // Creamos un bucle 'for-each'.
+            // Recorrerá el ArrayList de recetas e irá mostrando cada receeta ordenada por precio.
+            for (Receta receta : recetas) {
+                System.out.println(receta.toString());
+            }
+        }
+        System.out.println("--------------------------------------------------------------"); // Separador.
+    }
+
+    // Creamos un método para listar las recetas por número de ingredientes.
+    public static void recetasNumeroIngredientes(ArrayList<Receta> recetas) {
+
+        // Creamos una estructura de control 'if'.
+        // Si el ArrayList de recetas está vacío, mostrará un mensaje indicándolo.
+        // En caso de que no (es decir, que si que haya), ejecutará el bloque para listar las recetas por precio.
+        if (recetas.isEmpty()) {
+            System.out.println("> No hay ninguna receta todavía. Prueba a añadir una.");
+        } else {
+            System.out.println("----- LISTADO DE RECETAS POR NÚMERO DE INGREDIENTES ------");
+            recetas.sort(new ComparaRecetasNumeroIngredientes()); // Implementamos la clase Comparator que hicimos para comparar recetas por número de ingredientes.
+            // Creamos un bucle 'for-each'.
+            // Recorrerá el ArrayList de recetas e irá mostrando cada receta ordenada por número de ingredientes.
+            for (Receta receta : recetas) {
+                System.out.println(receta.toString());
             }
         }
         System.out.println("--------------------------------------------------------------"); // Separador.
