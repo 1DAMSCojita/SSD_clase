@@ -31,10 +31,11 @@ public class CarreraDeCoches {
     // Creamos un getter que devolverá el nombre del coche ganador de la carrera según su velocidad máxima.
     public String getGanador() {
         if (coches.isEmpty()) {
-            return "No hay coches en la carretera.";
+            return "No hay coches en la carrera.";
         } else {
-            Coche ganador = coches.first();
-            return ganador.nombre;
+            Coche ganador = coches.first(); // Creamos una variable 'ganador' de tipo 'Coche' y agarrará el primer coche.
+            return ganador.nombre; // Devolvemos el coche ganador.
         }
     }
+
 }

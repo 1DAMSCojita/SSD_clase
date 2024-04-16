@@ -26,7 +26,7 @@ public class Coche implements Comparable<Coche> {
         } else if (this.velocidad_maxima > o.velocidad_maxima) {
             return -1;
         } else {
-            return 0;
+            return this.nombre.compareTo(o.nombre); // En caso de que las velocidades máximas sean las mismas, hacemos una comparación de nombres.
         }
     }
 
