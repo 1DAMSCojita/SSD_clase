@@ -17,4 +17,7 @@ public class Gemelo extends Persona {
         return super.toString() + ", " + viaja;
     }
 
+    //
+
 }
+
