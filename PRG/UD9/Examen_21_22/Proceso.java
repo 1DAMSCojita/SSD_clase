@@ -1,4 +1,4 @@
-package Examen_22_23;
+package Examen_21_22;
 
 public class Proceso {
 

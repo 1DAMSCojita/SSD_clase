@@ -1,4 +1,4 @@
-package Activitat_9_11;
+package Superheroes;
 
 // Importación de librerías.
 import java.util.*;
@@ -68,11 +68,11 @@ public class Test {
 
     // Creamos un método que gestionará los ficheros en el Test.
     public static void GestionFicheros(List<Personaje> personajes) {
-        Funciones.escribirPersonajes(personajes, "personajes.txt"); // Llamamos al método de 'escribirPersonajes' de la clase 'Funciones' para escribir los personajes en el fichero.
+        Funciones.escribirPersonajes(personajes, "F:\\CFGS_DAM\\PRG\\UD9\\Superheroes\\personajes.txt"); // Llamamos al método de 'escribirPersonajes' de la clase 'Funciones' para escribir los personajes en el fichero.
         // Creamos una estructura 'try-catch'.
         // Intentará llamar al método de 'leerPersonajes' de la clase 'Funciones', en caso de que no lo consiga, capturará la excepción.
         try {
-            Funciones.leerPersonajes("personajes.txt"); // Leemos los persoajes.
+            Funciones.leerPersonajes("F:\\CFGS_DAM\\PRG\\UD9\\Superheroes\\personajes.txt"); // Leemos los persoajes.
         } catch (Exception e) {
             System.out.println("Error al intentar leer el fichero: " + e.getMessage());
         }

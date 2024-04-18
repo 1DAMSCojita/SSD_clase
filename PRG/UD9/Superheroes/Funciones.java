@@ -1,4 +1,4 @@
-package Activitat_9_11;
+package Superheroes;
 
 // Importación de librerías.
 import java.util.*;

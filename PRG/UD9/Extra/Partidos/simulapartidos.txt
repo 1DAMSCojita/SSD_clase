@@ -1,0 +1,309 @@
+import java.io.*;
+import java.util.*;
+
+// Enum para el estado del partido
+enum EstadoPartido {
+    GANADO, EMPATADO, PERDIDO
+}
+
+// Clase para las estadísticas de jugadores y equipos
+class Estadisticas {
+    private int goles;
+    private int asistencias;
+    private int tarjetasAmarillas;
+    private int tarjetasRojas;
+
+    // Constructor
+    public Estadisticas() {
+        this.goles = 0;
+        this.asistencias = 0;
+        this.tarjetasAmarillas = 0;
+        this.tarjetasRojas = 0;
+    }
+
+    // Métodos para actualizar estadísticas
+    public void agregarGol() {
+        goles++;
+    }
+
+    public void agregarAsistencia() {
+        asistencias++;
+    }
+
+    public void agregarTarjetaAmarilla() {
+        tarjetasAmarillas++;
+    }
+
+    public void agregarTarjetaRoja() {
+        tarjetasRojas++;
+    }
+
+    // Getters
+    public int getGoles() {
+        return goles;
+    }
+
+    public int getAsistencias() {
+        return asistencias;
+    }
+
+    public int getTarjetasAmarillas() {
+        return tarjetasAmarillas;
+    }
+
+    public int getTarjetasRojas() {
+        return tarjetasRojas;
+    }
+}
+
+// Clase Jugador
+class Jugador {
+    private String nombre;
+    private String posicion;
+    private Estadisticas estadisticas;
+
+    // Constructor
+    public Jugador(String nombre, String posicion) {
+        this.nombre = nombre;
+        this.posicion = posicion;
+        this.estadisticas = new Estadisticas();
+    }
+
+    // Getters
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getPosicion() {
+        return posicion;
+    }
+
+    public Estadisticas getEstadisticas() {
+        return estadisticas;
+    }
+}
+
+// Clase Equipo
+class Equipo {
+    private String nombre;
+    private List<Jugador> jugadores;
+    private Estadisticas estadisticas;
+
+    // Constructor
+    public Equipo(String nombre) {
+        this.nombre = nombre;
+        this.jugadores = new ArrayList<>();
+        this.estadisticas = new Estadisticas();
+    }
+
+    // Método para agregar jugador al equipo
+    public void agregarJugador(Jugador jugador) {
+        jugadores.add(jugador);
+    }
+
+    // Getters
+    public String getNombre() {
+        return nombre;
+    }
+
+    public List<Jugador> getJugadores() {
+        return jugadores;
+    }
+
+    public Estadisticas getEstadisticas() {
+        return estadisticas;
+    }
+}
+
+// Clase Resultado
+class Resultado {
+    private int golesLocal;
+    private int golesVisitante;
+    private EstadoPartido estado;
+
+    // Constructor
+    public Resultado(int golesLocal, int golesVisitante) {
+        this.golesLocal = golesLocal;
+        this.golesVisitante = golesVisitante;
+        if (golesLocal > golesVisitante) {
+            estado = EstadoPartido.GANADO;
+        } else if (golesLocal == golesVisitante) {
+            estado = EstadoPartido.EMPATADO;
+        } else {
+            estado = EstadoPartido.PERDIDO;
+        }
+    }
+
+    // Getters
+    public int getGolesLocal() {
+        return golesLocal;
+    }
+
+    public int getGolesVisitante() {
+        return golesVisitante;
+    }
+
+    public EstadoPartido getEstado() {
+        return estado;
+    }
+}
+
+// Clase Partido
+class Partido {
+    private Equipo equipoLocal;
+    private Equipo equipoVisitante;
+    private Resultado resultado;
+    private Date fecha;
+
+    // Constructor
+    public Partido(Equipo equipoLocal, Equipo equipoVisitante, int golesLocal, int golesVisitante) {
+        this.equipoLocal = equipoLocal;
+        this.equipoVisitante = equipoVisitante;
+        this.resultado = new Resultado(golesLocal, golesVisitante);
+        this.fecha = new Date(); // Fecha actual
+    }
+
+    // Getters
+    public Equipo getEquipoLocal() {
+        return equipoLocal;
+    }
+
+    public Equipo getEquipoVisitante() {
+        return equipoVisitante;
+    }
+
+    public Resultado getResultado() {
+        return resultado;
+    }
+
+    public Date getFecha() {
+        return fecha;
+    }
+}
+
+// Clase principal del programa
+public class GestorPartidos {
+    private List<Equipo> equipos;
+    private List<Partido> partidos;
+
+    // Constructor
+    public GestorPartidos() {
+        this.equipos = new ArrayList<>();
+        this.partidos = new ArrayList<>();
+    }
+
+    // Método para agregar equipo
+    public void agregarEquipo(Equipo equipo) {
+        equipos.add(equipo);
+    }
+
+    // Método para agregar partido
+    public void agregarPartido(Partido partido) {
+        partidos.add(partido);
+    }
+
+    // Método para guardar datos en archivo de texto
+    public void guardarDatos(String archivo) {
+        try (PrintWriter writer = new PrintWriter(new FileWriter(archivo))) {
+            // Guardar equipos
+            writer.println("EQUIPOS:");
+            for (Equipo equipo : equipos) {
+                writer.println(equipo.getNombre());
+                for (Jugador jugador : equipo.getJugadores()) {
+                    writer.println(jugador.getNombre() + "," + jugador.getPosicion());
+                }
+                writer.println("---");
+            }
+
+            // Guardar partidos
+            writer.println("PARTIDOS:");
+            for (Partido partido : partidos) {
+                writer.println(partido.getEquipoLocal().getNombre() + "," +
+                        partido.getEquipoVisitante().getNombre() + "," +
+                        partido.getResultado().getGolesLocal() + "," +
+                        partido.getResultado().getGolesVisitante() + "," +
+                        partido.getFecha());
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    // Método para cargar datos desde archivo de texto
+    public void cargarDatos(String archivo) {
+        // Implementación omitida por simplicidad
+    }
+
+    // Otros métodos como generación de estadísticas, clasificaciones, etc.
+    // pueden ser implementados aquí
+}
+import java.io.*;
+import java.text.*;
+import java.util.*;
+
+public class GestorPartidos {
+    private List<Equipo> equipos;
+    private List<Partido> partidos;
+
+    // Constructor y métodos anteriores omitidos para mayor claridad
+
+    // Método para cargar datos desde archivo de texto
+    public void cargarDatos(String archivo) {
+        try (BufferedReader reader = new BufferedReader(new FileReader(archivo))) {
+            String linea;
+            equipos.clear(); // Limpiar lista de equipos
+            partidos.clear(); // Limpiar lista de partidos
+
+            while ((linea = reader.readLine()) != null) {
+                if (linea.equals("EQUIPOS:")) {
+                    cargarEquipos(reader);
+                } else if (linea.equals("PARTIDOS:")) {
+                    cargarPartidos(reader);
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    // Método auxiliar para cargar equipos desde archivo
+    private void cargarEquipos(BufferedReader reader) throws IOException {
+        String linea;
+        while (!(linea = reader.readLine()).equals("---")) {
+            String nombreEquipo = linea;
+            Equipo equipo = new Equipo(nombreEquipo);
+            while (!(linea = reader.readLine()).equals("---")) {
+                String[] datosJugador = linea.split(",");
+                equipo.agregarJugador(new Jugador(datosJugador[0], datosJugador[1]));
+            }
+            equipos.add(equipo);
+        }
+    }
+
+    // Método auxiliar para cargar partidos desde archivo
+    private void cargarPartidos(BufferedReader reader) throws IOException {
+        String linea;
+        SimpleDateFormat dateFormat = new SimpleDateFormat("EEE MMM dd HH:mm:ss zzz yyyy", Locale.ENGLISH);
+        while ((linea = reader.readLine()) != null) {
+            String[] datosPartido = linea.split(",");
+            Equipo equipoLocal = buscarEquipoPorNombre(datosPartido[0]);
+            Equipo equipoVisitante = buscarEquipoPorNombre(datosPartido[1]);
+            int golesLocal = Integer.parseInt(datosPartido[2]);
+            int golesVisitante = Integer.parseInt(datosPartido[3]);
+            Date fecha = dateFormat.parse(datosPartido[4]);
+            Partido partido = new Partido(equipoLocal, equipoVisitante, golesLocal, golesVisitante);
+            partido.setFecha(fecha);
+            partidos.add(partido);
+        }
+    }
+
+    // Método auxiliar para buscar equipo por nombre
+    private Equipo buscarEquipoPorNombre(String nombre) {
+        for (Equipo equipo : equipos) {
+            if (equipo.getNombre().equals(nombre)) {
+                return equipo;
+            }
+        }
+        return null;
+    }
+}
