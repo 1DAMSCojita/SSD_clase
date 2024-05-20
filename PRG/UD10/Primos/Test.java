@@ -1,4 +1,4 @@
-package Activitat_10_5;
+package Primos;
 
 // Importación de librerías.
 import java.util.*;
