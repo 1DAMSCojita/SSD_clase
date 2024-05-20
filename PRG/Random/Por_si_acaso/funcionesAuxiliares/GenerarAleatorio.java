@@ -20,6 +20,12 @@ public class GenerarAleatorio {
         return random;
     }
 
+    // Método que genera un número aleatorio básico entre límite y inicio.
+    @SuppressWarnings("unused")
+    private static int aleatorioEnteroBasico(int limite, int inicio) {
+        return (int)((Math.random() * limite) + inicio);
+    }
+
     // Método que devuelve una lista aleatoria entera con un rango y límite.
     public static List<Integer> listaAleatoriaEnteraConRangoYLimite(List<Integer> listaNumeros) {
 
