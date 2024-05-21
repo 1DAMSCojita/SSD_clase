@@ -1,6 +1,6 @@
 package StarWarsCompleto;
 
-// Importación de liberías
+// Importación de liberías.
 import java.util.*;
 
 public class Jedi extends MisticoDeLaFuerza implements IFuerza, Comparable<Jedi> {

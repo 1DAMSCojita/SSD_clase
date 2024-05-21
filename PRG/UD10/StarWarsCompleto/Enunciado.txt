@@ -108,7 +108,7 @@
      * 10- Listado de Jedis ordenados por fuerza mental (set y predicado)
      * 11- Listado de Sidth ordenado por nivel de midicloriano.
      * 12- Transformar en Sidth a todos los Jedis que tengan una fuerza mental inferior a 6. 
-     * 0- salir
+     * 0- Salir
      * 
      * 
     */
