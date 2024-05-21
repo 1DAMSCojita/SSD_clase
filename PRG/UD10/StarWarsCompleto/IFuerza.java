@@ -6,6 +6,7 @@ import java.util.List;
 
 public interface IFuerza {
 
+    // Añadimos todos los métodos de la interfaz.
     int getNivelMidclorianos();
     void setNivelMidicloriano();
 
@@ -30,6 +31,9 @@ public interface IFuerza {
     void setNombre(boolean esJarJarBinks);
     String generaNombre();
     
+    int getFuerzaMental();
+    void setFuerzaMental();
+
     static int estableceFuerzaMental() {
        return aleatorioEntero(10, 1);
     } 

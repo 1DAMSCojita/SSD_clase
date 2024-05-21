@@ -1,5 +1,5 @@
 package StarWarsCompleto;
 
-public class Sidth {
+public class Sith {
 
 }
