@@ -1,0 +1,30 @@
+
+.contenedor_encabezado {
+    text-align: center;
+    background-color: #66ad6b;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.contenedor_menu {
+    background-color: #e1f305;
+    border-radius: 20px 20px 20px 20px;
+    float: left;
+    width: 200px;
+}
+
+.contenedor_menu ul {
+    padding-left: 10px;
+    list-style-type: none;
+}
+
+.contenedor_ejemplos {
+    background-color: #aed0da;
+    border-radius: 20px 20px 20px 20px;
+    color: white;
+    float: left;
+    width: 300px;
+    margin-left: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}

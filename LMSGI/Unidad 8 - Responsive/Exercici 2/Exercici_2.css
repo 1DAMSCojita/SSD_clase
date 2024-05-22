@@ -1,3 +1,18 @@
+.formacion li {
+    color: blue;
+}
+
+.formacion li strong {
+    color: black;
+}
+
+.experiencia li {
+    color: blue;
+}
+
+.experiencia li strong {
+    color: black;
+}
 
 @media screen and (max-width: 600px) {
 
@@ -30,27 +45,58 @@
 }
 
 @media screen and (min-width: 601px) and (max-width: 1200px) {
+
+    .contenedor_pagina {
+        position: relative;
+        bottom: 30px;
+    }
+
     .datos {
         float: left;
         width: 30%;
     }
-      
-    .contenedor_medio {
+
+    .formacion {
         float: left;
-        width: 50%;
+        width: 70%;
     }
-      
+
     .datos ul {
         list-style-type: none;
         padding: 0;
     }
-      
+
     .datos li + li {
         margin-top: 10px;
     }
-    
+
     .datos li strong {
         display: block;
+    }
+
+}
+
+@media screen and (min-width: 1201px) {
+
+    .contenedor_pagina {
+        position: relative;
+        bottom: 30px;
+    }
+
+    .datos {
+        float: left;
+        width: 30%;
+    }
+
+    .formacion {
+        float: right;
+        width: 70%;
+    }
+
+    .experiencia {
+        position: relative;
+        left: 510px;
+        bottom: 120px;
     }
 
 }
