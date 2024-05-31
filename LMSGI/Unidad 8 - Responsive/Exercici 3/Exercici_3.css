@@ -23,8 +23,108 @@
     color: white;
     float: left;
     width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.contenedor_tutorial {
+    background-color: #aed0da;
+    border-radius: 20px 20px 20px 20px;
+    color: white;
+    float: left;
+    width: 300px;
     margin-left: 0;
     margin-right: 10px;
     margin-bottom: 10px;
     padding: 10px;
+}
+
+.contenedor_herramientas {
+    background-color: #aed0da;
+    border-radius: 20px 20px 20px 20px;
+    color: white;
+    float: left;
+    width: 300px;
+    margin-left: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+footer {
+    background-color: #66ad6b;
+    border-radius: 20px 20px 20px 20px;
+    clear: both;
+    padding-left: 10px;
+}
+
+.lista_ultima {
+    display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .contenedor_tutorial {
+        position: relative;
+        left: 210px;
+    }
+
+    .contenedor_herramientas {
+        position: relative;
+        left: 210px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .contenedor_encabezado {
+        text-align: start;
+        width: 100%;
+    }
+
+    .contenedor_encabezado h2 {
+        display: none;
+    }
+
+    .contenedor_menu {
+        display: none;
+    }
+
+    .lista_ultima {
+        display: inline;
+        background-color: #e1f305;
+        border-radius: 20px 20px 20px 20px;
+        float: left;
+        width: 450px;
+        padding: 2px;
+    }
+
+    .contenedor_ejemplos {
+        position: relative;
+        top: 10px;
+        right: 4px;
+        width: 94%;
+    }
+
+    .contenedor_tutorial {
+        position: relative;
+        top: 3px;
+        right: 4px;
+        left: 10px;
+        width: 94%;
+    }
+
+    .contenedor_herramientas {
+        position: relative;
+        right: 4px;
+        left: 10px;
+        width: 94%;
+    }
+
+
+
 }
