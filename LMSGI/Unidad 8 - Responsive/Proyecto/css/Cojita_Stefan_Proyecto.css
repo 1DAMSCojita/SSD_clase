@@ -1,0 +1,44 @@
+
+body {
+    background-color: rgba(0,0,0,0.7);
+}
+
+.encabezado {
+    color: white;
+    text-align: center;
+}
+
+.menu {
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    float: left
+}
+  
+nav ul {
+    list-style: none;
+    overflow: hidden; 
+}
+  
+nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background: #21cda8;
+}
+

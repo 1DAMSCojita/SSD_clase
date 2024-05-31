@@ -1,0 +1,206 @@
+
+.encabezado {
+    background-color: #66ad6b;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+}
+
+h3, p {
+    margin-left: 10px;
+}
+
+.links_menu {
+    background-color: #e0f304;
+    border-radius: 20px 20px 20px 20px;
+    margin-right: 10px;
+}
+
+.contenedor_ejemplos {
+    background-color: #aed0da;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+    margin-right: 10px;
+}
+
+.contenedor_tutorial {
+    background-color: #aed0da;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+    margin-right: 10px;    
+}
+
+.contenedor_herramientas {
+    background-color: #aed0da;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+}
+
+footer {
+    background-color: #66ad6b;
+    border-radius: 20px 20px 20px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+}
+
+.lista_ultima {
+    background-color: #e0f304;
+    border-radius: 20px 20px 20px 20px;
+    margin-right: 10px;
+}
+
+@media screen and (min-width: 1367px) {
+
+    .links_menu {
+        width: 23%;
+        float: left;
+    }
+
+    .contenedor_ejemplos {
+        float: left;
+        width: 23%;
+    }
+
+    .contenedor_herramientas {
+        float: left;
+        width: 25%;
+    }
+
+    .contenedor_tutorial {
+        float: left;
+        width: 25%;
+    }
+
+    .lista_ultima {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 937px) and (max-width: 1366px) {
+
+    .links_menu {
+        width: 23%;
+        float: left;
+    }
+
+    .contenedor_ejemplos {
+        float: left;
+        width: 23%;
+    }
+
+    .contenedor_herramientas {
+        float: left;
+        width: 25%;
+    }
+
+    .contenedor_tutorial {
+        float: left;
+        width: 25%;
+    }
+
+    .lista_ultima {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 936px) {
+
+    .body {
+        width: 100%;
+        font-size: large;
+    }
+
+    .encabezado {
+        font-size: large;
+    }
+
+    .contenedor_th {
+        width: 35%;
+        float: left;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .links_menu {
+        width: 20%;
+        float: left;
+    }
+
+    .contenedor_ejemplos {
+        width: 40%;
+        float: left;
+    }
+
+    .contenedor_tutorial {
+        margin-bottom: 10px;
+    }
+
+    footer {
+        font-size: large;
+    }
+
+    .lista_ultima {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 600px) {
+
+    .body {
+        width: 100%;
+        font-size: larger;
+    }
+
+    .encabezado {
+        font-size: larger;
+    }
+
+    .contenedor_entero_segundo {
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+    }
+
+    .links_menu {
+        width: 20%;
+        float: left;
+    }
+
+    .contenedor_tutorial {
+        margin-top: 10px;
+    }
+
+    footer {
+        font-size: larger;
+    }
+
+    .lista_ultima {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 481px) {
+
+    .body {
+        font-size: 133.33%;
+    }
+    
+    .links_menu {
+        display: none;
+    }
+
+    .encabezado {
+        text-align: start;
+        font-size: 133.33%;
+    }
+
+    .encabezado h2 {
+        display: none;
+    }
+
+    footer {
+        font-size: 133.33%;
+    }
+
+}
