@@ -1,14 +1,36 @@
 
 body {
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(220, 111, 15, 0.7);
+}
+
+.logo {
+    float: left;
+    width: 10%;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+    border: 1px solid white;
 }
 
 .encabezado {
+    position: relative;
+    top: 25px;
+    right: 4%;
     color: white;
     text-align: center;
 }
 
+hr {
+    position: relative;
+    top: 25px;
+    right: 4%;
+    width: 60%;
+}
+
 .menu {
+    float: left;
     background: rgba(0,0,0,0.7);
     width: 100%;
     display: flex;
@@ -17,7 +39,7 @@ body {
 }
 
 nav {
-    float: left
+    float: left;
 }
   
 nav ul {
@@ -42,3 +64,36 @@ nav ul li:hover {
     background: #21cda8;
 }
 
+.texto_introductorio {
+    float: left;
+    width: 20%;
+    text-align: justify;
+}
+
+.img_texto_introductorio {
+    float: inherit;
+    width: 20%;
+}
+
+.img_texto_introductorio img {
+    width: 100%;
+    height: auto;
+    border: 1px solid white;
+}
+
+.texto_introductorio_dos {
+    float: left;
+    width: 20%;
+    text-align: justify;
+}
+
+.img_texto_introductorio_dos {
+    float: inherit;
+    width: 20%;
+}
+
+.img_texto_introductorio_dos img {
+    width: 100%;
+    height: auto;
+    border: 1px solid white;
+}
