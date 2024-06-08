@@ -64,36 +64,8 @@ nav ul li:hover {
     background: #21cda8;
 }
 
-.texto_introductorio {
-    float: left;
-    width: 20%;
-    text-align: justify;
-}
-
-.img_texto_introductorio {
-    float: inherit;
-    width: 20%;
-}
-
-.img_texto_introductorio img {
-    width: 100%;
-    height: auto;
-    border: 1px solid white;
-}
-
-.texto_introductorio_dos {
-    float: left;
-    width: 20%;
-    text-align: justify;
-}
-
-.img_texto_introductorio_dos {
-    float: inherit;
-    width: 20%;
-}
-
-.img_texto_introductorio_dos img {
-    width: 100%;
-    height: auto;
-    border: 1px solid white;
+footer {
+    position: fixed;
+    bottom: 0;
+    border-radius: 20px 20px 20px 20px;
 }
