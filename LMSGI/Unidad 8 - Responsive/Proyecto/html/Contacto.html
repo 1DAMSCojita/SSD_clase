@@ -8,12 +8,15 @@
         <link rel="stylesheet" type="text/css" href="../css/Contacto.css">
     </head>
     <body>
-        <div class="logo">
-            <a href="./Principal.html"> <img src="../img/logo.jpeg"> </a>
-        </div>
-        <div class="encabezado">
-            <h1> Contacto </h1>
-        </div>
+        <header>
+            <div class="logo">
+                <a href="./Principal.html"> <img src="../img/logo.jpeg"> </a>
+            </div>
+            <div class="encabezado">
+                <h1> Contacto </h1>
+                <h2> Contacta con nosotros para cualquier duda que tengas. </h2>
+            </div>
+        </header>
         <hr/>
         <div class="menu">
             <nav>
@@ -25,6 +28,25 @@
                 </ul>
             </nav>
         </div>
+        <main>
+            <section class="formulario_de_contacto">
+                <h2> Contáctanos </h2>
+                <form action="mailto:scojita20207@iesjoanramis.org" method="post" enctype="text/plain">
+                    <label for="nombre"> Nombre: </label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <label for="email"> Correo Electrónico: </label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="numero"> Número de Teléfono: </label>
+                    <input type="tel" id="numero" name="numero">
+                    <label for="mensaje"> Mensaje: </label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required>Introduce el motivo de la consulta... </textarea>
+                    <div class="botones">
+                        <button type="submit"> Enviar </button>
+                        <button type="reset"> Restablecer </button>
+                    </div>
+                </form>
+            </section>
+        </main>
         <footer>
             <p> Stefan Cojita 1r DAM A </p>
             <i> Proyecto final LMSGI </i>

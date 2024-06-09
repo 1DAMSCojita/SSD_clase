@@ -1,3 +1,4 @@
+
 body {
     background-color: rgba(220, 111, 15, 0.7);
     margin: 0;
@@ -42,6 +43,7 @@ hr {
 }
 
 .menu {
+    font-style: italic;
     background: rgba(0, 0, 0, 0.7);
     display: flex;
     justify-content: center;
