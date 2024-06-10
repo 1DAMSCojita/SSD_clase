@@ -1,9 +1,9 @@
-package intro.bordeLayoutConEventos;
+package intro.cambiodebase;
 
 public class Test {
     public static void main(String[] args) {
-       
-        new Editor();
+
+        Editor.creaFormularioBase();
 
     }
 }

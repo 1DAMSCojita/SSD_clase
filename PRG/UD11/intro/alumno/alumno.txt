@@ -1,0 +1,4 @@
+DNI: Y2448045P
+Nombre: Stefan
+Edad: 19
+Nivel: S

@@ -1,22 +1,31 @@
 package intro.alumno;
 
 import java.awt.*;
+import java.awt.event.*;
+import java.io.*;
 import javax.swing.*;
-
 import intro.layoutFlowLayOut.Funciones;
 
 public class Alumno {
+
+    static JTextField txtDni, txtNombre, txtEdad;
+    static JTextArea txtArea;
+    static JRadioButton rbtNivelB, rbtNivelM, rbtNivelS;
 
     public static void creaFormularioAlumno() {
 
         JPanel pnlPrincipal = new JPanel();
         String caption = "Formulario Alumno";
-        int ancho = 300;
-        int alto = 300;
+        int ancho = 400;
+        int alto = 500;
         JFrame frmPrincipal = Funciones.creaFormulario(caption, ancho, alto);
 
         // Capturamos el panel del formulario principal.
         pnlPrincipal = (JPanel)frmPrincipal.getContentPane();
+
+        // Creamos el menú.
+        JMenuBar mnbMenu = creaMenu();
+        frmPrincipal.setJMenuBar(mnbMenu);
 
         JLabel lblAlumno = new JLabel("Alumno");
         lblAlumno.setFont(new Font("Comic Sans MS", Font.PLAIN, 16));
@@ -31,7 +40,7 @@ public class Alumno {
         // Etiqueta.
         JLabel lblDni = new JLabel("DNI:");
         // Texto.
-        JTextField txtDni = new JTextField(6);
+        txtDni = new JTextField(6);
         // Separador fijo.
         boxDni.add(Box.createHorizontalStrut(5));
         // Añadimos los elementos.
@@ -48,7 +57,7 @@ public class Alumno {
         // Etiqueta
         JLabel lblNombre = new JLabel("Nombre:");
         // Texto
-        JTextField txtNombre = new JTextField(6);
+        txtNombre = new JTextField(6);
         // Separador fijo.
         boxNombre.add(Box.createHorizontalStrut(5));
         // Añadimos los elementos.
@@ -65,7 +74,7 @@ public class Alumno {
         // Etiqueta
         JLabel lblEdad = new JLabel("Edad:");
         // Texto
-        JTextField txtEdad = new JTextField(2);
+        txtEdad = new JTextField(2);
         // Separador fijo.
         boxEdad.add(Box.createHorizontalStrut(5));
         // Añadimos los elementos.
@@ -81,9 +90,9 @@ public class Alumno {
         Box boxNivel = Box.createHorizontalBox();
         // Etiqueta
         JLabel lblNivel = new JLabel("Nivel:");
-        JRadioButton rbtNivelB = new JRadioButton("B", false);
-        JRadioButton rbtNivelM = new JRadioButton("M", false);
-        JRadioButton rbtNivelS = new JRadioButton("S", true);
+        rbtNivelB = new JRadioButton("B", false);
+        rbtNivelM = new JRadioButton("M", false);
+        rbtNivelS = new JRadioButton("S", true);
         // Agrupamos las opciones.
         ButtonGroup btgNivel = new ButtonGroup();
         btgNivel.add(rbtNivelB);
@@ -106,7 +115,9 @@ public class Alumno {
         // Box
         Box boxBotones = Box.createHorizontalBox();
         JButton btnAceptar = new JButton("Aceptar");
+        btnAceptar.addActionListener(new btnAceptarActionListener());
         JButton btnCancelar = new JButton("Cancelar");
+        btnCancelar.addActionListener(new btnCancelarActionListener());
         // Añadimos los elementos.
         boxNivel.add(Box.createHorizontalStrut(5)); // Separador fijo.
         boxBotones.add(btnAceptar);
@@ -116,7 +127,20 @@ public class Alumno {
         JPanel pnlBotones = new JPanel(new FlowLayout(FlowLayout.RIGHT));
         pnlBotones.add(boxBotones);
 
-        // Box principaly separadores pertinentes.
+        // Text Area
+        Box boxArea = Box.createHorizontalBox();
+        txtArea = new JTextArea(10, 30);
+        try (BufferedReader br = new BufferedReader(new FileReader("src\\intro\\alumno\\alumno.txt"))) {
+            txtArea.read(br, null);
+        } catch (Exception e) {
+            System.out.println("Se ha producido un error al leer el fichero: " + e.getMessage());
+        }
+        JScrollPane scrollPane = new JScrollPane(txtArea);
+        boxArea.add(scrollPane);
+        JPanel pnlArea = new JPanel(new FlowLayout(FlowLayout.LEFT));
+        pnlArea.add(boxArea);
+
+        // Box principal y separadores pertinentes.
         // Añadimos los paneles 
         Box boxPrincipal = Box.createVerticalBox();
         boxPrincipal.add(Box.createVerticalStrut(5));
@@ -131,9 +155,62 @@ public class Alumno {
         boxPrincipal.add(pnlNivel);
         boxPrincipal.add(Box.createVerticalStrut(5));
         boxPrincipal.add(pnlBotones);
+        boxPrincipal.add(Box.createVerticalStrut(5));
+        boxPrincipal.add(pnlArea);
 
         pnlPrincipal.add(boxPrincipal);
 
         frmPrincipal.setVisible(true);
     }
+
+    private static JMenuBar creaMenu() {
+        // Creamos el menú:
+        // 1r Items
+        // - Items para ficheros
+        JMenuItem mniLeerFichero = new JMenuItem("Leer Fichero");
+        JMenuItem mniBorrarFichero = new JMenuItem("Borrar Fichero");
+        // 2nda Barra del menú
+        JMenuBar mnbMenu = new JMenuBar();
+        // 3r Menús
+        // - Menú para Ficheros.
+        JMenu mnuFicheros = new JMenu("Ficheros");
+        // 4r Añadir los items a su menú correspondiente.
+        mnuFicheros.add(mniLeerFichero);
+        mnuFicheros.addSeparator();
+        mnuFicheros.add(mniBorrarFichero);
+        // 5nto Añadir los menús a la barra.
+        mnbMenu.add(mnuFicheros);
+        
+        return mnbMenu;
+    }
+
+    private static class btnAceptarActionListener implements ActionListener {
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+
+            String datos = "DNI: " + txtDni.getText() + "\n" +
+                           "Nombre: " + txtNombre.getText() + "\n" +
+                           "Edad: " + txtEdad.getText() + "\n" +
+                           "Nivel: " + (rbtNivelB.isSelected() ? "B" : rbtNivelB.isSelected() ? "M" : "S");
+            try (BufferedWriter bw = new BufferedWriter(new FileWriter("src\\intro\\alumno\\alumno.txt"))) {
+                bw.write(datos);
+            } catch (Exception ex) {
+                System.out.println("Error al escribir en el fichero: " + ex.getMessage());
+            }
+        }
+        
+    }
+
+    private static class btnCancelarActionListener implements ActionListener {
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            txtDni.setText("");
+            txtNombre.setText("");
+            txtEdad.setText("");
+        }
+
+    }
+
 }
